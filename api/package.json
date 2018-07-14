@@ -1,0 +1,32 @@
+{
+  "name": "optiplan",
+  "version": "1.0.0",
+  "description": "UofT Timetable Generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "\"echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tash-had/OptiPlan.git"
+  },
+  "keywords": [
+    "uoft",
+    "timetable"
+  ],
+  "author": "Tash-had, Labib",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.2"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.2.3",
+    "uuid": "^3.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/tash-had/OptiPlan/issues"
+  },
+  "homepage": "https://github.com/tash-had/OptiPlan#readme"
+}
