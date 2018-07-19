@@ -4,8 +4,7 @@ var express = require('express');
 var mongoose = require('mongoose');
 var timetable = require('./models/timetable-model');
 var bodyParser = require('body-parser');
-var routes = require('./routes/timetable-routes');
-
+var routes = require('./routes/optiplan-routes');
 
 var app = express(); 
 var port = process.env.port || 3000; 
