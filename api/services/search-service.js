@@ -21,7 +21,7 @@ module.exports = {
             var course = {
                 course: courseName,
                 courseFullName: courseFullName,
-                // html: courseAsListItem
+                html: courseAsListItem
             };
             matchingCourses.push(course);
         }
