@@ -3,17 +3,19 @@ $(document).ready(function(){
     var course = '';
     $('#courseSearch').keypress(function (e) {
         var regex = new RegExp("^[a-zA-Z0-9]+$");
-        var str = String.fromCharCode(!e.charCode ? e.which : e.charCode);
-        if (regex.test(str)) {
-            var char = String.fromCharCode(e.keyCode);
+        var char = String.fromCharCode(!e.charCode ? e.which : e.charCode);
+        if (e.charCode == 8 || regex.test(char)) {
             console.log(char);
-            course += char;
-            
+            course = this.value+char;
             if (course.length > 2){
-                var URL = 'http://localhost:3000/search-course?searchQuery='+course;
-                httpGetAsync(URL, function(response){
+                var reg2 = new RegExp("^[a-zA-Z]{3}[0-9]{1,3}$");
+                if (reg2.test(course)){
+                    var URL = 'http://localhost:3000/search-course?searchQuery='+course;
+                    httpGetAsync(URL, function(response){
                     console.log(response);
-                });
+                    });
+                }
+
             }
             return true;
         }
@@ -21,7 +23,7 @@ $(document).ready(function(){
         e.preventDefault();
         return false;
     });
-    $("#btn").on('click', function(e){
+    $("#btn").on('click', function(e){ //Submit still doesnt get updated after backspace
         if (course.length > 2){
             console.log(course);
         }
