@@ -13,6 +13,7 @@ $(document).ready(function () {
                     var URL = 'http://localhost:3000/search-course?searchQuery=' + course;
                     httpGetAsync(URL, function (response) {
                         console.log(response);
+                        console.log("hello world");
                     });
                 }
 
