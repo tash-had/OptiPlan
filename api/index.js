@@ -5,6 +5,7 @@ var mongoose = require('mongoose');
 var timetable = require('./models/timetable-model');
 var bodyParser = require('body-parser');
 var routes = require('./routes/optiplan-routes');
+var cors = require('cors');
 
 var app = express(); 
 var port = process.env.port || 3000; 
@@ -14,6 +15,7 @@ mongoose.connect('mongodb://localhost/optiplanDB');
 
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use(bodyParser.json());
+app.use(cors());
 
 routes(app); 
 app.listen(port); 
