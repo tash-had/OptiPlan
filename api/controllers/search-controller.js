@@ -8,4 +8,3 @@ exports.searchCourse = function(req, res){
         res.send(matchingCourses); 
     }); 
 };
-
