@@ -2,14 +2,19 @@
 
 var Client = require('node-rest-client').Client;
 var client = new Client();
+const GRIDDY_BASE = "http://griddy.org/api/";
 
 module.exports = {
-    sendQueryToGriddy: function (query, onRequestCompleted) {
-        client.get("http://griddy.org/api/course?q=" + query, function (data) {
+    ENDPOINTS: {
+        courseSearch: GRIDDY_BASE + "/course?q=",
+        courseDataSearch: GRIDDY_BASE + "/course?id="
+    },
+    sendQueryToGriddy: function (endpoint, params, onRequestCompleted) {
+        client.get(endpoint + params, function (data) {
             onRequestCompleted(data);
         });
     },
-    parseGriddyResponse: function (data) {
+    parseCourseSearchResults: function (data) {
         var resultsArr = data.CodeNameMatches.split("</li>");
         var matchingCourses = []
         for (var i = 0; i < resultsArr.length - 1; i++) { // last element is always ""
@@ -26,5 +31,16 @@ module.exports = {
             matchingCourses.push(course);
         }
         return matchingCourses;
+    },
+    parseCourseData: function (data) {
+        var course = {
+            courseCode: data.Abbr,
+            courseFullName: data.Name,
+            campus: data.Campus,
+            id: data.ID,
+            semester: data.Semester,
+            sections: data.Sections
+        };
+        return course;
     }
-}
+};
