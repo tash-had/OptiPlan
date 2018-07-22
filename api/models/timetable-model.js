@@ -1,12 +1,12 @@
-'use strict'; 
+'use strict';
 
 var mongoose = require('mongoose');
-var Schema = mongoose.Schema; 
+var Schema = mongoose.Schema;
 var uuidv1 = require('uuid/v1');
 
 var TimetableSchema = new Schema({
     name: {
-        type: String, 
+        type: String,
         default: uuidv1()
     },
     created_date: {
@@ -15,7 +15,7 @@ var TimetableSchema = new Schema({
     },
     readonly: {
         type: Boolean,
-        default: false 
+        default: false
     },
     courses: {
         type: Array,

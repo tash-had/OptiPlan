@@ -14,12 +14,12 @@ module.exports = {
         var matchingCourses = []
         for (var i = 0; i < resultsArr.length - 1; i++) { // last element is always ""
             var courseAsListItem = resultsArr[i];
-            var courseName = courseAsListItem.substring(courseAsListItem.indexOf(">") + 1, courseAsListItem.indexOf(":"));
+            var courseCode = courseAsListItem.substring(courseAsListItem.indexOf(">") + 1, courseAsListItem.indexOf(":"));
             var courseFullName = courseAsListItem.substring(courseAsListItem.indexOf(">") + 1);
 
             courseAsListItem = courseAsListItem + "</li>"; // end tag got deleted in the split
             var course = {
-                course: courseName,
+                course: courseCode,
                 courseFullName: courseFullName,
                 html: courseAsListItem
             };
