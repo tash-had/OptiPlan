@@ -1,0 +1,1 @@
+json-server --watch response-mocks-griddy.json --routes griddy-routes.json -c json-server.json

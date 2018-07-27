@@ -1,0 +1,10 @@
+{
+    "/griddy/course?q=CSC1": "/griddy-course-search-csc1",
+    "/griddy/course?q=CSC10": "/griddy-course-search-csc10",
+    "/griddy/course?q=CSC108": "/griddy-course-search-csc108",
+    "/griddy/course?q=CSC16": "/griddy-course-search-csc165",
+    "/griddy/course?q=CSC165": "/griddy-course-search-csc165",
+    
+    "/griddy/course?id=1996": "/griddy-course-csc108",
+    "/griddy/course?id=2007": "/griddy-course-csc165"
+}
