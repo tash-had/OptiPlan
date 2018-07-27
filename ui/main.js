@@ -26,13 +26,13 @@ $(document).ready(function () {
 });
 
 function getCourses(data){
-    var course_array = [];
+    var course_dict = {};
     for (i in data){
-        course_array.push(data[i].course);
+        course_dict[data[i].course] = data[i].id;
         
     }
-    console.log(course_array);
-    displayDropdown(course_array);
+    console.log(course_dict);
+    displayDropdown(course_dict);
     
 }
 

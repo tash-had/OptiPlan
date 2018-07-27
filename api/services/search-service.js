@@ -21,12 +21,14 @@ module.exports = {
             var courseAsListItem = resultsArr[i];
             var courseCode = courseAsListItem.substring(courseAsListItem.indexOf(">") + 1, courseAsListItem.indexOf(":"));
             var courseFullName = courseAsListItem.substring(courseAsListItem.indexOf(">") + 1);
+            var courseID = courseAsListItem.substring(courseAsListItem.indexOf('=') + 1, courseAsListItem.indexOf('class') - 1);
 
             courseAsListItem = courseAsListItem + "</li>"; // end tag got deleted in the split
             var course = {
                 course: courseCode,
                 courseFullName: courseFullName,
-                html: courseAsListItem
+                html: courseAsListItem,
+                id : courseID
             };
             matchingCourses.push(course);
         }
