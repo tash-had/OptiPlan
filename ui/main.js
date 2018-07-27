@@ -40,8 +40,8 @@ function displayDropdown(arr){
     var alreadyFilled = false;
     function initDialog() {
         clearDialog();
-        for (var i = 0; i < arr.length; i++) {
-            $('.dialog').append('<div>' + arr[i] + '</div>');
+        for (var key in arr) {
+            $('.dialog').append('<div>' + key + '</div>');
         }
     }
     function clearDialog() {
@@ -68,9 +68,9 @@ function displayDropdown(arr){
     function match(str) {
         str = str.toLowerCase();
         clearDialog();
-        for (var i = 0; i < arr.length; i++) {
-            if (arr[i].toLowerCase().startsWith(str)) {
-                $('.dialog').append('<div>' + arr[i] + '</div>');
+        for (var key in arr) {
+            if (key.toLowerCase().startsWith(str)) {
+                $('.dialog').append('<div>' + key + '</div>');
             }
         }
     }
