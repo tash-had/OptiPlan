@@ -4,15 +4,25 @@
 <head>
     <title>Hello World </title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 </head>
 
 <body>
-    <div>
-        <input id="courseSearch" type="text" placeholder="Search Course">
-        <button type='submit' id="btn"> Submit</button>
+    <div class="autocomplete">
+            <input id='courseSearch' type="text" placeholder="Choose a course">
+            <span class="close">Cancel</span>
+            <div class="dialog">   
+            </div>
     </div>
-
     <script type="text/javascript" src="main.js"></script>
+
+
 </body>
 
 </html>

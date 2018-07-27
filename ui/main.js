@@ -11,6 +11,7 @@ $(document).ready(function () {
                 if (reg2.test(input)) {
                     var URL = 'http://localhost:3000/search-course?searchQuery=' + input;
                     $.get(URL, function (response) {
+                        console.log(response);
                         getCourses(response);
                     });
                 }
@@ -19,14 +20,8 @@ $(document).ready(function () {
             return true;
         }
 
-        e.preventDefault();
+        e.preventDefault(); 
         return false;
-    });
-    $("#btn").on('click', function (e) { //Submit still doesnt get updated after backspace
-        if (input.length > 2) {
-            console.log(input);
-        }
-
     });
 });
 
@@ -37,5 +32,57 @@ function getCourses(data){
         
     }
     console.log(course_array);
+    displayDropdown(course_array);
     
+}
+
+function displayDropdown(arr){
+    var alreadyFilled = false;
+    function initDialog() {
+        clearDialog();
+        for (var i = 0; i < arr.length; i++) {
+            $('.dialog').append('<div>' + arr[i] + '</div>');
+        }
+    }
+    function clearDialog() {
+        $('.dialog').empty();
+    }
+    $('.autocomplete input').click(function() {
+        if (!alreadyFilled) {
+            $('.dialog').addClass('open');
+        }
+
+    });
+    $('body').on('click', '.dialog > div', function() {
+        $('.autocomplete input').val($(this).text()).focus();
+        $('.autocomplete .close').addClass('visible');
+        alreadyFilled = true;
+    });
+    $('.autocomplete .close').click(function() {
+        alreadyFilled = false;
+        $('.dialog').addClass('open');
+        $('.autocomplete input').val('').focus();
+        $(this).removeClass('visible');
+    });
+
+    function match(str) {
+        str = str.toLowerCase();
+        clearDialog();
+        for (var i = 0; i < arr.length; i++) {
+            if (arr[i].toLowerCase().startsWith(str)) {
+                $('.dialog').append('<div>' + arr[i] + '</div>');
+            }
+        }
+    }
+    $('.autocomplete input').on('input', function() {
+        $('.dialog').addClass('open');
+        alreadyFilled = false;
+        match($(this).val());
+    });
+    $('body').click(function(e) {
+        if (!$(e.target).is("input, .close")) {
+            $('.dialog').removeClass('open');
+        }
+    });
+    initDialog();
 }
