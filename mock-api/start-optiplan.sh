@@ -1,1 +1,0 @@
-json-server --watch response-mocks-optiplan.json --routes optiplan-routes.json -c json-server.json
