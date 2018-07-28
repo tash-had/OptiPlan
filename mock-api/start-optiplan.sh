@@ -1,0 +1,1 @@
+json-server --watch response/response-mocks-optiplan.json --routes routes/optiplan-routes.json -c json-server.json --port 3002

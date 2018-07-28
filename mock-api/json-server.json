@@ -1,0 +1,5 @@
+{
+	"middlewares": [
+		"middleware.js"
+	]
+}
