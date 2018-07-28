@@ -20,23 +20,23 @@ $(document).ready(function () {
             return true;
         }
 
-        e.preventDefault(); 
+        e.preventDefault();
         return false;
     });
 });
 
-function getCourses(data){
+function getCourses(data) {
     var course_dict = {};
-    for (i in data){
+    for (i in data) {
         course_dict[data[i].course] = data[i].id;
-        
+
     }
     console.log(course_dict);
     displayDropdown(course_dict);
-    
+
 }
 
-function displayDropdown(arr){
+function displayDropdown(arr) {
     var alreadyFilled = false;
     function initDialog() {
         clearDialog();
@@ -47,18 +47,21 @@ function displayDropdown(arr){
     function clearDialog() {
         $('.dialog').empty();
     }
-    $('.autocomplete input').click(function() {
+
+    $('.autocomplete input').click(function () {
         if (!alreadyFilled) {
             $('.dialog').addClass('open');
         }
 
     });
-    $('body').on('click', '.dialog > div', function() {
+
+    $('body').on('click', '.dialog > div', function () {
         $('.autocomplete input').val($(this).text()).focus();
         $('.autocomplete .close').addClass('visible');
         alreadyFilled = true;
     });
-    $('.autocomplete .close').click(function() {
+
+    $('.autocomplete .close').click(function () {
         alreadyFilled = false;
         $('.dialog').addClass('open');
         $('.autocomplete input').val('').focus();
@@ -74,12 +77,14 @@ function displayDropdown(arr){
             }
         }
     }
-    $('.autocomplete input').on('input', function() {
+
+    $('.autocomplete input').on('input', function () {
         $('.dialog').addClass('open');
         alreadyFilled = false;
         match($(this).val());
     });
-    $('body').click(function(e) {
+
+    $('body').click(function (e) {
         if (!$(e.target).is("input, .close")) {
             $('.dialog').removeClass('open');
         }
