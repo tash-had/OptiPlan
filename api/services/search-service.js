@@ -10,12 +10,17 @@ module.exports = {
         courseSearch: GRIDDY_BASE + "/course?q=",
         courseDataSearch: GRIDDY_BASE + "/course?id="
     },
+
     sendQueryToGriddy: function (endpoint, params, onRequestCompleted) {
         client.get(endpoint + params, function (data) {
             onRequestCompleted(data);
         });
     },
+
     parseCourseSearchResults: function (data) {
+        if (!data || !data.CodeNameMatches){
+            return []
+        }
         var resultsArr = data.CodeNameMatches.split("</li>");
         var matchingCourses = []
         for (var i = 0; i < resultsArr.length - 1; i++) { // last element is always ""
@@ -26,15 +31,16 @@ module.exports = {
 
             courseAsListItem = courseAsListItem + "</li>"; // end tag got deleted in the split
             var course = {
-                course: courseCode,
+                courseCode: courseCode,
                 courseFullName: courseFullName,
                 html: courseAsListItem,
-                id : courseID
+                id: courseID
             };
             matchingCourses.push(course);
         }
         return matchingCourses;
     },
+
     parseCourseData: function (data) {
         var course = {
             courseCode: data.Abbr,

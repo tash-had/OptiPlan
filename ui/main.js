@@ -1,22 +1,17 @@
 var SEARCH_COURSE_API = 'http://localhost:3000/search-course?searchQuery=';
+var COURSE_MATCHER = new RegExp("^[a-zA-Z]{3}[0-9]{1,3}$");
 
 $(document).ready(function () {
-    var input = '';
+    var input = '', lastSearch = '';
     $('#courseSearch').keyup(function (e) {
-        var regex = new RegExp("^[a-zA-Z0-9]+$");
         input = this.value;
-        if (regex.test(input)) {
-            console.log(input);
-            if (input.length > 2) {
-                var reg2 = new RegExp("^[a-zA-Z]{3}[0-9]{1,3}$");
-                if (reg2.test(input)) {
-                    var URL = SEARCH_COURSE_API + input;
-                    $.get(URL, function (response) {
-                        getCourses(response);
-                    });
-                }
-
-            }
+        if (input && input != lastSearch && input.length > 3 && COURSE_MATCHER.test(input)) {
+            lastSearch = input;
+            var URL = SEARCH_COURSE_API + input;
+            displayDropdown([]);
+            $.get(URL, function (response) {
+                displayDropdown(response);
+            });
             return true;
         }
 
@@ -25,24 +20,12 @@ $(document).ready(function () {
     });
 });
 
-function getCourses(data) {
-    var course_dict = {};
-    for (i in data) {
-        course_dict[data[i].course] = data[i].id;
-
-    }
-    console.log(course_dict);
-    displayDropdown(course_dict);
-
-}
-
 function displayDropdown(arr) {
+    console.log("GO"); 
+    $('.dialog').append('<div>' + "ABC" + '</div>');        
     var alreadyFilled = false;
-    function initDialog() {
-        clearDialog();
-        for (var key in arr) {
-            $('.dialog').append('<div>' + key + '</div>');
-        }
+    for (var key of arr) {
+        $('.dialog').append('<div>' + key.courseCode + '</div>');
     }
     function clearDialog() {
         $('.dialog').empty();
@@ -52,12 +35,12 @@ function displayDropdown(arr) {
         if (!alreadyFilled) {
             $('.dialog').addClass('open');
         }
-
     });
 
     $('body').on('click', '.dialog > div', function () {
         $('.autocomplete input').val($(this).text()).focus();
         $('.autocomplete .close').addClass('visible');
+        console.log("CLICKED"); 
         alreadyFilled = true;
     });
 
@@ -66,28 +49,21 @@ function displayDropdown(arr) {
         $('.dialog').addClass('open');
         $('.autocomplete input').val('').focus();
         $(this).removeClass('visible');
+        console.log("CLOSED"); 
     });
-
-    function match(str) {
-        str = str.toLowerCase();
-        clearDialog();
-        for (var key in arr) {
-            if (key.toLowerCase().startsWith(str)) {
-                $('.dialog').append('<div>' + key + '</div>');
-            }
-        }
-    }
 
     $('.autocomplete input').on('input', function () {
         $('.dialog').addClass('open');
         alreadyFilled = false;
-        match($(this).val());
+        console.log("OPENED"); 
+
     });
 
     $('body').click(function (e) {
         if (!$(e.target).is("input, .close")) {
             $('.dialog').removeClass('open');
+        console.log("DESTROYED"); 
         }
     });
-    initDialog();
+    // initDialog();
 }
