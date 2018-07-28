@@ -4,7 +4,7 @@ var COURSE_MATCHER = new RegExp("^[a-zA-Z]{3}[0-9]{1,3}$");
 $(document).ready(function () {
     var input = '', lastSearch = '';
 
-    String.prototype.replaceAll = function(search, replacement) {
+    String.prototype.replaceAll = function (search, replacement) {
         var target = this;
         return target.replace(new RegExp(search, 'g'), replacement);
     };
@@ -24,21 +24,22 @@ $(document).ready(function () {
 });
 
 function displayDropdown(dataArr) {
-    var currentlySelected = -1; 
-    var numOptions = 0; 
-    var dropdownOpen = false; 
+    var currentlySelected = -1;
+    var numOptions = 0;
+    var dropdownOpen = false;
 
     initDialog(dataArr);
 
     function initDialog(courses) {
-        numOptions = courses.length; 
+        numOptions = courses.length;
         $('.dialog').empty();
         for (var course of courses) {
-            $('.dialog').append('<div>' + course.courseFullName.replaceAll(":", "") + '</div>');
+            $('.dialog').append('<div data-course-id="' + course.id + '">' +
+                course.courseFullName.replaceAll(":", "") + '</div>');
         }
         $('.dialog').addClass('open');
-        dropdownOpen = true; 
-        trackArrowKeys(); 
+        dropdownOpen = true;
+        trackArrowKeys();
     }
 
     function trackArrowKeys() {
@@ -57,21 +58,39 @@ function displayDropdown(dataArr) {
         });
     }
 
-    function selectOption(change){
+    function match(str) {
+        str = str.toLowerCase();
+        clearDialog();
+        for (var key in arr) {
+            if (key.toLowerCase().startsWith(str)) {
+                $('.dialog').append('<div>' + key + '</div>');
+            }
+        }
+    }
+
+    $('.autocomplete .close').click(function () {
+        alreadyFilled = false;
+        $('.dialog').addClass('open');
+        $('.autocomplete input').val('').focus();
+        $(this).removeClass('visible');
+        console.log("CLOSED");
+    });
+
+    function selectOption(change) {
         if (currentlySelected < 1 && change < 1 ||
-            currentlySelected === numOptions-1 && change > -1 ||
-            !dropdownOpen){
-                return; 
+            currentlySelected === numOptions - 1 && change > -1 ||
+            !dropdownOpen) {
+            return;
         }
-        var scrollDivisor = 1.20; 
-        if (change == -1){
-            scrollDivisor = 2; 
+        var scrollDivisor = 1.20;
+        if (change == -1) {
+            scrollDivisor = 2;
         }
-        var options = $('.dialog > div'); 
-        options.eq(currentlySelected).removeClass('selected'); 
+        var options = $('.dialog > div');
+        options.eq(currentlySelected).removeClass('selected');
         options.eq(currentlySelected).removeAttr('id');
-        currentlySelected += change; 
-        var newSelection = options.eq(currentlySelected); 
+        currentlySelected += change;
+        var newSelection = options.eq(currentlySelected);
         newSelection.addClass('selected');
         newSelection.attr('id', 'selectedItem');
         $('.dialog').animate({
@@ -82,10 +101,12 @@ function displayDropdown(dataArr) {
 
     $('body').on('click', '.dialog > div', function (e) {
         $('.autocomplete input').val($(this).text()).focus();
+        console.log($(this).attr("data-course-id")); 
+
     });
 
     $('body').click(function (e) {
         $('.dialog').removeClass('open');
-        dropdownOpen = false; 
+        dropdownOpen = false;
     });
 }
