@@ -1,3 +1,4 @@
+var SEARCH_COURSE_API = 'http://localhost:3000/search-course?searchQuery=';
 
 $(document).ready(function () {
     var input = '';
@@ -9,9 +10,8 @@ $(document).ready(function () {
             if (input.length > 2) {
                 var reg2 = new RegExp("^[a-zA-Z]{3}[0-9]{1,3}$");
                 if (reg2.test(input)) {
-                    var URL = 'http://localhost:3000/search-course?searchQuery=' + input;
+                    var URL = SEARCH_COURSE_API + input;
                     $.get(URL, function (response) {
-                        console.log(response);
                         getCourses(response);
                     });
                 }
