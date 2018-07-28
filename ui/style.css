@@ -8,7 +8,7 @@ body {
   .autocomplete {
     background: #fff;
     position: relative;
-    width: 400px;
+    width: 300px;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
   }
   .autocomplete .close {
@@ -50,6 +50,6 @@ body {
     cursor: pointer;
     transition: all 0.2s;
   }
-  .dialog div:hover {
+  .dialog div:hover, .selected{
     background: #f2f2f2;
   }
