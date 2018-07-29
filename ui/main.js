@@ -98,6 +98,7 @@ function displayDropdown(dataArr) {
 
     function chooseOptionWithElement(element) {
         console.log(element.attr("data-course-id"));
+        $('.autocomplete input').val(element.text()).focus();
         toggleSearchResultsDialog(true); 
     }
 
@@ -110,7 +111,6 @@ function displayDropdown(dataArr) {
     // Click inside the options dialog
     $('body').on('click', '.dialog > div', function(e){
         e.stopPropagation();
-        $('.autocomplete input').val($(this).text()).focus();
         chooseOptionWithElement($(this))
     });
 
