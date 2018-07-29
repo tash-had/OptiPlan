@@ -1,7 +1,6 @@
 var SEARCH_COURSE_API = 'http://localhost:3000/search-course?searchQuery=';
 var COURSE_MATCHER = new RegExp("^[a-zA-Z]{3}[0-9]{1,3}$");
 var chosenCourses = [];
-var courseChosenHandler;
 
 $(document).ready(function () {
     var input = '';
@@ -30,25 +29,15 @@ function displayDropdown(dataArr) {
     var dropdownOpen = false;
     var disableArrowSelection = false;
 
-    courseChosenHandler = function (courseId, courseName) {
-        console.log(courseId, courseName);
-        if (chosenCourses.indexOf(courseId) < 0) {
-            chosenCourses.push(courseId);
-            // Remove from search results
-            console.log(courseId, courseName, chosenCourses);
-        }
-        $('.autocomplete input').val(courseId).focus();
-    };
-
     initDialog(dataArr);
+
     function initDialog(courses) {
         numOptions = courses.length;
         $('.dialog').empty();
         for (var course of courses) {
             if (chosenCourses.indexOf(course.id) < 0) {
-                var courseName = "'" + course.courseFullName.replaceAll(":", "") + "'";
-                $('.dialog').append('<div data-id=' + course.id + ' onclick="courseChosenHandler(' + course.id + ', ' + courseName +
-                    ');">' + courseName + '</div>');
+                $('.dialog').append('<div data-course-id=' + course.id + '>' +
+                    course.courseFullName.replaceAll(":", "") + '</div>');
             }
         }
         $('.dialog').addClass('open');
@@ -61,9 +50,7 @@ function displayDropdown(dataArr) {
             e.stopPropagation();
             switch (e.which) {
                 case 13: // enter button 
-                    var elem = $('.dialog > div').eq(currentlySelected);
-                    // chooseOption(elem.attr('data-id'), elem[0].innerHTML);
-                    courseChosenHandler(elem.attr('data-id'), elem[0].innerHTML);
+                    chooseOptionWithElement($('.dialog > div').eq(currentlySelected));
                     break;
                 case 38: // up
                     selectOptionWithIndex(-1);
@@ -112,13 +99,11 @@ function displayDropdown(dataArr) {
         }
     }
 
-    function chooseOption(courseId, courseName) {
-        console.log(courseId, courseName); 
+    function chooseOptionWithElement(element) {
+        var courseId = element.attr("data-course-id");
         if (chosenCourses.indexOf(courseId) < 0) {
             chosenCourses.push(courseId);
-            // Remove from search results
-            chosenCourses.splice(parseInt(resultIdx), 1);
-            console.log(courseId, resultIdx, chosenCourses);
+            console.log(chosenCourses);
         }
         $('.autocomplete input').val(element.text()).focus();
         toggleSearchResultsDialog(true);
@@ -131,10 +116,10 @@ function displayDropdown(dataArr) {
     });
 
     // Click inside the options dialog
-    // $('body').on('click', '.dialog > div', function (e) {
-    //     e.stopPropagation();
-    //     chooseOptionWithElement($(this))
-    // });
+    $('body').on('click', '.dialog > div', function (e) {
+        e.stopPropagation();
+        chooseOptionWithElement($(this))
+    });
 
     // Click inside the input box
     $('body').on('click', '.autocomplete input', function (e) {
