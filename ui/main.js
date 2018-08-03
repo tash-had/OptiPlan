@@ -15,12 +15,21 @@ $(document).ready(function () {
         if (input && input.length > 3 && COURSE_MATCHER.test(input)) {
             var URL = SEARCH_COURSE_API + input;
             $.get(URL, function (response) {
+                $('div.autocomplete').off('keydown');
                 displayDropdown(response);
+                
             });
             return true;
         }
         return false;
     });
+
+    var listItems = $('li');
+    for (var items in listItems){
+        items.onclick = function(){
+            this.parentNode.removeChild(this);
+        }
+    }
 });
 
 function displayDropdown(dataArr) {
@@ -48,6 +57,7 @@ function displayDropdown(dataArr) {
     function trackArrowKeysAndEnterBtn() {
         $('.autocomplete').keydown(function (e) {
             e.stopPropagation();
+
             switch (e.which) {
                 case 13: // enter button 
                     chooseOptionWithElement($('.dialog > div').eq(currentlySelected));
@@ -104,6 +114,8 @@ function displayDropdown(dataArr) {
         if (chosenCourses.indexOf(courseId) < 0) {
             chosenCourses.push(courseId);
             console.log(chosenCourses);
+            $(".collection").append('<li><class="collection-item"><div>'+element[0].innerHTML+'\
+            <i class="material-icons">delete</i></div></li>');
         }
         $('.autocomplete input').val(element.text()).focus();
         toggleSearchResultsDialog(true);
@@ -126,6 +138,7 @@ function displayDropdown(dataArr) {
         e.stopPropagation();
         toggleSearchResultsDialog();
     });
+
 
     function match(str) {
         str = str.toLowerCase();
