@@ -138,7 +138,6 @@ function displayDropdown(dataArr) {
         $('.autocomplete input').off('click');
         $('.dialog > div').off('click');
         $('body').off('click');
-        $('.selectable').off('click'); 
         
         // Click in the document body (not the search dialog or input box)
         $('body').click(function (e) {
