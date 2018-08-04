@@ -53,3 +53,7 @@ body {
   .dialog div:hover, .selected{
     background: #f2f2f2;
   }
+  i:hover{
+    cursor: pointer;
+    color: #7f7d7c;
+   }

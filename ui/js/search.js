@@ -27,7 +27,16 @@ $(document).ready(function () {
         return false;
     });
 
+    
+
 });
+
+// function deleteIconListen(){
+//     $('li').on('click', function(){
+//         alert("BITCH");
+//         this.remove();
+//     });
+// }
 
 function displayDropdown(dataArr) {
     var currentlySelected = -1;
@@ -111,18 +120,6 @@ function displayDropdown(dataArr) {
         }
     }
 
-    function chooseOptionWithElement(element) {
-        var courseId = element.attr("data-course-id");
-        if (chosenCourses.indexOf(courseId) < 0) {
-            chosenCourses.push(courseId);
-            console.log(chosenCourses);
-            $(".collection").append('<li class="collection-item"><div>'+element[0].innerHTML+'\
-            <i class="material-icons">delete</i></div></li>');
-        }
-        $('.autocomplete input').val("").focus();
-        toggleSearchResultsDialog(true);
-    }
-
     // Click in the document body (not the search dialog or input box)
     $('body').click(function (e) {
         e.stopPropagation();
@@ -142,6 +139,26 @@ function displayDropdown(dataArr) {
     });
 
 
+    function chooseOptionWithElement(element) {
+        var courseId = element.attr("data-course-id");
+        if (chosenCourses.indexOf(courseId) < 0) {
+            chosenCourses.push(courseId);
+            console.log(chosenCourses);
+            $(".collection").append('<li class="collection-item" data-course-id='+courseId+'>\
+            <div>'+element[0].innerHTML+'\
+            <i class="material-icons" id="selectable">delete</i></div></li>');
+        }
+        $('.autocomplete input').val("").focus();
+        
+        $('#selectable').on('click', function(e){
+            var IDtoRemove = $(this).closest('li').attr('data-course-id');
+            chosenCourses = removeFromArr(chosenCourses, IDtoRemove);
+            console.log(chosenCourses);
+            $(this).closest('li').remove();
+        });
+        toggleSearchResultsDialog(true);
+    }
+
     function match(str) {
         str = str.toLowerCase();
         clearDialog();
@@ -151,4 +168,13 @@ function displayDropdown(dataArr) {
             }
         }
     }
+
+    function removeFromArr(array, element) {
+        return array.filter(e => e !== element);
+    }
+    // function removeFromArr(array, element) {
+    //     const index = array.indexOf(element);
+    //     array.splice(index, 1);
+    // }
+
 }
