@@ -113,7 +113,7 @@ class SearchDropdown {
         // Click in the document body (not the search dialog or input box)
         $('body').click((e) => {
             e.stopPropagation();
-            this.toggleSearchResultsDialog(true);
+            searchDropdown.toggleSearchResultsDialog(true);
         });
 
         // Click inside the options dialog
@@ -125,7 +125,7 @@ class SearchDropdown {
         // Click inside the input box
         $('body').on('click', '.autocomplete input', function (e) {
             e.stopPropagation();
-            this.toggleSearchResultsDialog();
+            searchDropdown.toggleSearchResultsDialog();
         });
     }
 
