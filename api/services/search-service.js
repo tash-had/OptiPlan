@@ -18,7 +18,7 @@ module.exports = {
     },
 
     parseCourseSearchResults: function (data) {
-        if (!data || !data.CodeNameMatches){
+        if (!data || !data.CodeNameMatches) {
             return []
         }
         var resultsArr = data.CodeNameMatches.split("</li>");
@@ -27,14 +27,14 @@ module.exports = {
             var courseAsListItem = resultsArr[i];
             var courseCode = courseAsListItem.substring(courseAsListItem.indexOf(">") + 1, courseAsListItem.indexOf(":"));
             var courseFullName = courseAsListItem.substring(courseAsListItem.indexOf(">") + 1);
-            var courseID = courseAsListItem.substring(courseAsListItem.indexOf('=') + 1, courseAsListItem.indexOf('class') - 1);
+            var courseId = courseAsListItem.substring(courseAsListItem.indexOf('=') + 1, courseAsListItem.indexOf('class') - 1);
 
-            courseAsListItem = courseAsListItem + "</li>"; // end tag got deleted in the split
+            // courseAsListItem = courseAsListItem + "</li>"; // end tag got deleted in the split
             var course = {
                 courseCode: courseCode,
                 courseFullName: courseFullName,
-                html: courseAsListItem,
-                id: courseID
+                // html: courseAsListItem,
+                id: courseId
             };
             matchingCourses.push(course);
         }
