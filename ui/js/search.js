@@ -34,14 +34,14 @@ function displayDropdown(dataArr) {
 
     function initDialog(courses) {
         numOptions = courses.length;
-        $('.dialog').empty();
+        $('.search-dialog').empty();
         for (var course of courses) {
             if (chosenCourses.indexOf(course.id) < 0) {
-                $('.dialog').append('<div data-course-id=' + course.id + '>' +
+                $('.search-dialog').append('<div data-course-id=' + course.id + '>' +
                     course.courseFullName.replaceAll(":", "") + '</div>');
             }
         }
-        $('.dialog').addClass('open');
+        $('.search-dialog').addClass('open');
         dropdownOpen = true;
         resetEventListeners(); 
     }
@@ -52,7 +52,7 @@ function displayDropdown(dataArr) {
             !dropdownOpen || disableArrowSelection) {
             return;
         }
-        var options = $('.dialog > div');
+        var options = $('.search-dialog > div');
         var currentSelection = options.eq(currentlySelected);
         currentSelection.removeClass('selected');
         currentSelection.removeAttr('id');
@@ -69,7 +69,7 @@ function displayDropdown(dataArr) {
         if (arrowDirection == -1) {
             scrollDivisor = 2;
         }
-        $('.dialog').animate({
+        $('.search-dialog').animate({
             scrollTop: $("#selectedItem").offset().top / scrollDivisor
         }, 100);
         $('.autocomplete input').val(newSelection[0].innerHTML);
@@ -77,12 +77,12 @@ function displayDropdown(dataArr) {
     }
 
     function toggleSearchResultsDialog(forceClose) {
-        $('.dialog > div').eq(currentlySelected).removeAttr("selectedItem");
+        $('.search-dialog > div').eq(currentlySelected).removeAttr("selectedItem");
         if (forceClose) {
-            $('.dialog').removeClass('open');
+            $('.search-dialog').removeClass('open');
             dropdownOpen = false;
         } else {
-            $('.dialog').toggleClass('open');
+            $('.search-dialog').toggleClass('open');
             dropdownOpen = !dropdownOpen;
         }
     }
@@ -114,7 +114,7 @@ function displayDropdown(dataArr) {
 
             switch (e.which) {
                 case 13: // enter button 
-                    chooseOptionWithElement($('.dialog > div').eq(currentlySelected));
+                    chooseOptionWithElement($('.search-dialog > div').eq(currentlySelected));
                     break;
                 case 38: // up
                     selectOptionWithIndex(-1);
@@ -135,7 +135,7 @@ function displayDropdown(dataArr) {
         });
 
         // Click inside the options dialog
-        $('body').on('click', '.dialog > div', function (e) {
+        $('body').on('click', '.search-dialog > div', function (e) {
             e.stopPropagation();
             chooseOptionWithElement($(this))
         });
@@ -150,7 +150,7 @@ function displayDropdown(dataArr) {
     function removeEventListeners() {
         $('div.autocomplete').off('keydown');
         $('.autocomplete input').off('click');
-        $('.dialog > div').off('click');
+        $('.search-dialog > div').off('click');
         $('body').off('click');
     }
 
