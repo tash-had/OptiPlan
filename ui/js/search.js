@@ -157,7 +157,7 @@ class CourseSelectionListener {
             chosenCourses.push(courseId);
             $(".collection").append('<li class="collection-item" data-course-id=' + courseId + '>\
             <div>'+ courseElement[0].innerHTML + '\
-            <i class="material-icons deleteIcon">delete</i></div></li>');
+            <i class="material-icons delete-icon">delete</i></div></li>');
         }
         $('.autocomplete input').val("").focus();
         this.setDeleteCourseListener();
@@ -165,7 +165,7 @@ class CourseSelectionListener {
     }
 
     setDeleteCourseListener() {
-        $('.deleteIcon').on('click', function(e) {
+        $('.delete-icon').on('click', function(e) {
             var idToRemove = $(this).closest('li').attr('data-course-id');
             chosenCourses = courseSelectionListener.removeFromArr(chosenCourses, idToRemove);
             $(this).closest('li').remove();
