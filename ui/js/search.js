@@ -115,7 +115,7 @@ function displayDropdown(dataArr) {
             console.log(chosenCourses);
             $(".collection").append('<li class="collection-item" data-course-id=' + courseId + '>\
             <div>'+ element[0].innerHTML + '\
-            <i class="material-icons selectable">delete</i></div></li>');
+            <i class="material-icons deleteIcon">delete</i></div></li>');
         }
         $('.autocomplete input').val("").focus();
         deleteCourseListener();
@@ -124,7 +124,7 @@ function displayDropdown(dataArr) {
     }
 
     function deleteCourseListener() {
-        $('.selectable').on('click', function (e) {
+        $('.deleteIcon').on('click', function (e) {
             var IDtoRemove = $(this).closest('li').attr('data-course-id');
             chosenCourses = removeFromArr(chosenCourses, IDtoRemove);
             console.log(chosenCourses);
