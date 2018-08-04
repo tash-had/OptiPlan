@@ -31,13 +31,6 @@ $(document).ready(function () {
 
 });
 
-// function deleteIconListen(){
-//     $('li').on('click', function(){
-//         alert("BITCH");
-//         this.remove();
-//     });
-// }
-
 function displayDropdown(dataArr) {
     var currentlySelected = -1;
     var numOptions = 0;
@@ -146,35 +139,25 @@ function displayDropdown(dataArr) {
             console.log(chosenCourses);
             $(".collection").append('<li class="collection-item" data-course-id='+courseId+'>\
             <div>'+element[0].innerHTML+'\
-            <i class="material-icons" id="selectable">delete</i></div></li>');
+            <i class="material-icons selectable">delete</i></div></li>');
         }
         $('.autocomplete input').val("").focus();
-        
-        $('#selectable').on('click', function(e){
+        deleteCourseListener();
+
+        toggleSearchResultsDialog(true);
+    }
+    function deleteCourseListener(){
+        $('.selectable').on('click', function(e){
             var IDtoRemove = $(this).closest('li').attr('data-course-id');
             chosenCourses = removeFromArr(chosenCourses, IDtoRemove);
             console.log(chosenCourses);
             $(this).closest('li').remove();
         });
-        toggleSearchResultsDialog(true);
     }
 
-    function match(str) {
-        str = str.toLowerCase();
-        clearDialog();
-        for (var key in arr) {
-            if (key.toLowerCase().startsWith(str)) {
-                $('.dialog').append('<div>' + key + '</div>');
-            }
-        }
-    }
 
     function removeFromArr(array, element) {
         return array.filter(e => e !== element);
     }
-    // function removeFromArr(array, element) {
-    //     const index = array.indexOf(element);
-    //     array.splice(index, 1);
-    // }
 
 }
