@@ -15,19 +15,15 @@ $(document).ready(function () {
         if (input && input.length > 3 && COURSE_MATCHER.test(input)) {
             var URL = SEARCH_COURSE_API + input;
             $.get(URL, function (response) {
-                $('div.autocomplete').off('keydown');
-                $('.autocomplete input').off('click');
-                $('.dialog > div').off('click');
-                $('body').off('click');
                 displayDropdown(response);
-                
+
             });
             return true;
         }
         return false;
     });
 
-    
+
 
 });
 
@@ -83,10 +79,10 @@ function displayDropdown(dataArr) {
         currentSelection.removeClass('selected');
         currentSelection.removeAttr('id');
         currentlySelected += arrowDirection;
-        startSelectOptionVisuals(options, arrowDirection); 
+        startSelectOptionVisuals(options, arrowDirection);
     }
 
-    function startSelectOptionVisuals(searchResults, arrowDirection){
+    function startSelectOptionVisuals(searchResults, arrowDirection) {
         var newSelection = searchResults.eq(currentlySelected);
         newSelection.addClass('selected');
         newSelection.attr('id', 'selectedItem');
@@ -113,32 +109,13 @@ function displayDropdown(dataArr) {
         }
     }
 
-    // Click in the document body (not the search dialog or input box)
-    $('body').click(function (e) {
-        e.stopPropagation();
-        toggleSearchResultsDialog(true);
-    });
-
-    // Click inside the options dialog
-    $('body').on('click', '.dialog > div', function (e) {
-        e.stopPropagation();
-        chooseOptionWithElement($(this))
-    });
-
-    // Click inside the input box
-    $('body').on('click', '.autocomplete input', function (e) {
-        e.stopPropagation();
-        toggleSearchResultsDialog();
-    });
-
-
     function chooseOptionWithElement(element) {
         var courseId = element.attr("data-course-id");
         if (chosenCourses.indexOf(courseId) < 0) {
             chosenCourses.push(courseId);
             console.log(chosenCourses);
-            $(".collection").append('<li class="collection-item" data-course-id='+courseId+'>\
-            <div>'+element[0].innerHTML+'\
+            $(".collection").append('<li class="collection-item" data-course-id=' + courseId + '>\
+            <div>'+ element[0].innerHTML + '\
             <i class="material-icons selectable">delete</i></div></li>');
         }
         $('.autocomplete input').val("").focus();
@@ -146,8 +123,9 @@ function displayDropdown(dataArr) {
 
         toggleSearchResultsDialog(true);
     }
-    function deleteCourseListener(){
-        $('.selectable').on('click', function(e){
+
+    function deleteCourseListener() {
+        $('.selectable').on('click', function (e) {
             var IDtoRemove = $(this).closest('li').attr('data-course-id');
             chosenCourses = removeFromArr(chosenCourses, IDtoRemove);
             console.log(chosenCourses);
@@ -155,9 +133,33 @@ function displayDropdown(dataArr) {
         });
     }
 
+    function resetListeners() {
+        $('div.autocomplete').off('keydown');
+        $('.autocomplete input').off('click');
+        $('.dialog > div').off('click');
+        $('body').off('click');
+        $('.selectable').off('click'); 
+        
+        // Click in the document body (not the search dialog or input box)
+        $('body').click(function (e) {
+            e.stopPropagation();
+            toggleSearchResultsDialog(true);
+        });
+
+        // Click inside the options dialog
+        $('body').on('click', '.dialog > div', function (e) {
+            e.stopPropagation();
+            chooseOptionWithElement($(this))
+        });
+
+        // Click inside the input box
+        $('body').on('click', '.autocomplete input', function (e) {
+            e.stopPropagation();
+            toggleSearchResultsDialog();
+        });
+    }
 
     function removeFromArr(array, element) {
         return array.filter(e => e !== element);
     }
-
 }
