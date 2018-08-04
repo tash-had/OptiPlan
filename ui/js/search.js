@@ -117,13 +117,13 @@ class SearchDropdown {
         });
 
         // Click inside the options dialog
-        $('body').on('click', '.search-dialog > div', (e) => {
+        $('body').on('click', '.search-dialog > div', function (e) {
             e.stopPropagation();
             courseSelectionListener.addCourse($(this))
         });
 
         // Click inside the input box
-        $('body').on('click', '.autocomplete input', (e) => {
+        $('body').on('click', '.autocomplete input', function (e) {
             e.stopPropagation();
             this.toggleSearchResultsDialog();
         });
@@ -165,9 +165,9 @@ class CourseSelectionListener {
     }
 
     setDeleteCourseListener() {
-        $('.deleteIcon').on('click', (e) => {
+        $('.deleteIcon').on('click', function(e) {
             var idToRemove = $(this).closest('li').attr('data-course-id');
-            chosenCourses = this.removeFromArr(chosenCourses, idToRemove);
+            chosenCourses = courseSelectionListener.removeFromArr(chosenCourses, idToRemove);
             $(this).closest('li').remove();
         });
     }
