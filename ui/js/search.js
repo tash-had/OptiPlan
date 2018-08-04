@@ -16,7 +16,6 @@ $(document).ready(function () {
             var URL = SEARCH_COURSE_API + input;
             $.get(URL, function (response) {
                 displayDropdown(response);
-
             });
             return true;
         }
@@ -46,7 +45,7 @@ function displayDropdown(dataArr) {
         }
         $('.dialog').addClass('open');
         dropdownOpen = true;
-        trackArrowKeysAndEnterBtn();
+        resetEventListeners(); 
     }
 
     function trackArrowKeysAndEnterBtn() {
@@ -133,12 +132,7 @@ function displayDropdown(dataArr) {
         });
     }
 
-    function resetListeners() {
-        $('div.autocomplete').off('keydown');
-        $('.autocomplete input').off('click');
-        $('.dialog > div').off('click');
-        $('body').off('click');
-        
+    function setClickListeners() {
         // Click in the document body (not the search dialog or input box)
         $('body').click(function (e) {
             e.stopPropagation();
@@ -156,6 +150,19 @@ function displayDropdown(dataArr) {
             e.stopPropagation();
             toggleSearchResultsDialog();
         });
+    }
+
+    function removeEventListeners() {
+        $('div.autocomplete').off('keydown');
+        $('.autocomplete input').off('click');
+        $('.dialog > div').off('click');
+        $('body').off('click');
+    }
+
+    function resetEventListeners() {
+        removeEventListeners(); 
+        setClickListeners(); 
+        trackArrowKeysAndEnterBtn();
     }
 
     function removeFromArr(array, element) {
