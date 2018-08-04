@@ -10,12 +10,14 @@ String.prototype.replaceAll = function (search, replacement) {
 $(document).ready(function () {
 
     var input = '';
+    var dropdown = new Dropdown(); 
+    dropdown.f1(); 
+    dropdown.f2(); 
     $('#courseSearch').on('input', function (e) {
         input = this.value;
         if (input && input.length > 3 && COURSE_MATCHER.test(input)) {
             var URL = SEARCH_COURSE_API + input;
             $.get(URL, function (response) {
-                displayDropdown(response);
             });
             return true;
         }
@@ -24,15 +26,23 @@ $(document).ready(function () {
 
 });
 
-function displayDropdown(dataArr) {
-    var currentlySelected = -1;
-    var numOptions = 0;
-    var dropdownOpen = false;
-    var disableArrowSelection = false;
+class Dropdown {
+    constructor(){
+        this.currentlySelected = -1;
+        this.numOptions = 0; 
+        this.dropdownOpen = false; 
+        this.disableArrowSelection = false; 
+    }
 
-    initDialog(dataArr);
+    f1() {
+        console.log("HI"); 
+    }
 
-    function initDialog(courses) {
+    // function f2(){
+    //     console.log("BYE"): 
+    // }
+
+    initDialog(courses) {
         numOptions = courses.length;
         $('.dialog').empty();
         for (var course of courses) {
@@ -46,69 +56,7 @@ function displayDropdown(dataArr) {
         resetEventListeners(); 
     }
 
-    function selectOptionWithIndex(arrowDirection) {
-        if ((currentlySelected < 1 && arrowDirection < 1) ||
-            (currentlySelected === numOptions - 1 && arrowDirection > -1) ||
-            !dropdownOpen || disableArrowSelection) {
-            return;
-        }
-        var options = $('.dialog > div');
-        var currentSelection = options.eq(currentlySelected);
-        currentSelection.removeClass('selected');
-        currentSelection.removeAttr('id');
-        currentlySelected += arrowDirection;
-        startSelectOptionVisuals(options, arrowDirection);
-    }
-
-    function startSelectOptionVisuals(searchResults, arrowDirection) {
-        var newSelection = searchResults.eq(currentlySelected);
-        newSelection.addClass('selected');
-        newSelection.attr('id', 'selectedItem');
-
-        var scrollDivisor = 1.20;
-        if (arrowDirection == -1) {
-            scrollDivisor = 2;
-        }
-        $('.dialog').animate({
-            scrollTop: $("#selectedItem").offset().top / scrollDivisor
-        }, 100);
-        $('.autocomplete input').val(newSelection[0].innerHTML);
-        $('.autocomplete input').css('color', '#757575');
-    }
-
-    function toggleSearchResultsDialog(forceClose) {
-        $('.dialog > div').eq(currentlySelected).removeAttr("selectedItem");
-        if (forceClose) {
-            $('.dialog').removeClass('open');
-            dropdownOpen = false;
-        } else {
-            $('.dialog').toggleClass('open');
-            dropdownOpen = !dropdownOpen;
-        }
-    }
-
-    function chooseOptionWithElement(element) {
-        var courseId = element.attr("data-course-id");
-        if (chosenCourses.indexOf(courseId) < 0) {
-            chosenCourses.push(courseId);
-            $(".collection").append('<li class="collection-item" data-course-id=' + courseId + '>\
-            <div>'+ element[0].innerHTML + '\
-            <i class="material-icons deleteIcon">delete</i></div></li>');
-        }
-        $('.autocomplete input').val("").focus();
-        setDeleteCourseListener();
-        toggleSearchResultsDialog(true);
-    }
-
-    function setDeleteCourseListener() {
-        $('.deleteIcon').on('click', function (e) {
-            var idToRemove = $(this).closest('li').attr('data-course-id');
-            chosenCourses = removeFromArr(chosenCourses, idToRemove);
-            $(this).closest('li').remove();
-        });
-    }
-
-    function trackArrowKeysAndEnterBtn() {
+    trackArrowKeysAndEnterBtn() {
         $('.autocomplete').keydown(function (e) {
             e.stopPropagation();
 
@@ -127,7 +75,70 @@ function displayDropdown(dataArr) {
         });
     }
 
-    function setClickListeners() {
+    selectOptionWithIndex(arrowDirection) {
+        if ((currentlySelected < 1 && arrowDirection < 1) ||
+            (currentlySelected === numOptions - 1 && arrowDirection > -1) ||
+            !dropdownOpen || disableArrowSelection) {
+            return;
+        }
+        var options = $('.dialog > div');
+        var currentSelection = options.eq(currentlySelected);
+        currentSelection.removeClass('selected');
+        currentSelection.removeAttr('id');
+        currentlySelected += arrowDirection;
+        startSelectOptionVisuals(options, arrowDirection);
+    }
+
+    startSelectOptionVisuals = function(searchResults, arrowDirection) {
+        var newSelection = searchResults.eq(currentlySelected);
+        newSelection.addClass('selected');
+        newSelection.attr('id', 'selectedItem');
+
+        var scrollDivisor = 1.20;
+        if (arrowDirection == -1) {
+            scrollDivisor = 2;
+        }
+        $('.dialog').animate({
+            scrollTop: $("#selectedItem").offset().top / scrollDivisor
+        }, 100);
+        $('.autocomplete input').val(newSelection[0].innerHTML);
+        $('.autocomplete input').css('color', '#757575');
+    }
+
+    toggleSearchResultsDialog = function (forceClose) {
+        $('.dialog > div').eq(currentlySelected).removeAttr("selectedItem");
+        if (forceClose) {
+            $('.dialog').removeClass('open');
+            dropdownOpen = false;
+        } else {
+            $('.dialog').toggleClass('open');
+            dropdownOpen = !dropdownOpen;
+        }
+    }
+
+    chooseOptionWithElement(element) {
+        var courseId = element.attr("data-course-id");
+        if (chosenCourses.indexOf(courseId) < 0) {
+            chosenCourses.push(courseId);
+            $(".collection").append('<li class="collection-item" data-course-id=' + courseId + '>\
+            <div>'+ element[0].innerHTML + '\
+            <i class="material-icons deleteIcon">delete</i></div></li>');
+        }
+        $('.autocomplete input').val("").focus();
+        deleteCourseListener();
+        toggleSearchResultsDialog(true);
+    }
+
+    deleteCourseListener() {
+        $('.selectable').on('click', function (e) {
+            var IDtoRemove = $(this).closest('li').attr('data-course-id');
+            chosenCourses = removeFromArr(chosenCourses, IDtoRemove);
+            console.log(chosenCourses);
+            $(this).closest('li').remove();
+        });
+    }
+
+    setClickListeners() {
         // Click in the document body (not the search dialog or input box)
         $('body').click(function (e) {
             e.stopPropagation();
@@ -147,20 +158,20 @@ function displayDropdown(dataArr) {
         });
     }
 
-    function removeEventListeners() {
+    removeEventListeners() {
         $('div.autocomplete').off('keydown');
         $('.autocomplete input').off('click');
         $('.dialog > div').off('click');
         $('body').off('click');
     }
 
-    function resetEventListeners() {
+    resetEventListeners() {
         removeEventListeners(); 
         setClickListeners(); 
         trackArrowKeysAndEnterBtn();
     }
 
-    function removeFromArr(array, element) {
+    removeFromArr(array, element) {
         return array.filter(e => e !== element);
     }
 }
