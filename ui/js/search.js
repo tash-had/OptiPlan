@@ -16,6 +16,9 @@ $(document).ready(function () {
             var URL = SEARCH_COURSE_API + input;
             $.get(URL, function (response) {
                 $('div.autocomplete').off('keydown');
+                $('.autocomplete input').off('click');
+                $('.dialog > div').off('click');
+                $('body').off('click');
                 displayDropdown(response);
                 
             });
@@ -67,24 +70,29 @@ function displayDropdown(dataArr) {
         });
     }
 
-    function selectOptionWithIndex(change) {
-        if ((currentlySelected < 1 && change < 1) ||
-            (currentlySelected === numOptions - 1 && change > -1) ||
+    function selectOptionWithIndex(arrowDirection) {
+        if ((currentlySelected < 1 && arrowDirection < 1) ||
+            (currentlySelected === numOptions - 1 && arrowDirection > -1) ||
             !dropdownOpen || disableArrowSelection) {
             return;
-        }
-        var scrollDivisor = 1.20;
-        if (change == -1) {
-            scrollDivisor = 2;
         }
         var options = $('.dialog > div');
         var currentSelection = options.eq(currentlySelected);
         currentSelection.removeClass('selected');
         currentSelection.removeAttr('id');
-        currentlySelected += change;
-        var newSelection = options.eq(currentlySelected);
+        currentlySelected += arrowDirection;
+        startSelectOptionVisuals(options, arrowDirection); 
+    }
+
+    function startSelectOptionVisuals(searchResults, arrowDirection){
+        var newSelection = searchResults.eq(currentlySelected);
         newSelection.addClass('selected');
         newSelection.attr('id', 'selectedItem');
+
+        var scrollDivisor = 1.20;
+        if (arrowDirection == -1) {
+            scrollDivisor = 2;
+        }
         $('.dialog').animate({
             scrollTop: $("#selectedItem").offset().top / scrollDivisor
         }, 100);
@@ -108,10 +116,10 @@ function displayDropdown(dataArr) {
         if (chosenCourses.indexOf(courseId) < 0) {
             chosenCourses.push(courseId);
             console.log(chosenCourses);
-            $(".collection").append('<li><class="collection-item"><div>'+element[0].innerHTML+'\
+            $(".collection").append('<li class="collection-item"><div>'+element[0].innerHTML+'\
             <i class="material-icons">delete</i></div></li>');
         }
-        $('.autocomplete input').val(element.text()).focus();
+        $('.autocomplete input').val("").focus();
         toggleSearchResultsDialog(true);
     }
 
