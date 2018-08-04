@@ -90,7 +90,7 @@ class SearchDropdown {
         }
     }
 
-    trackArrowKeysAndEnterBtn() {
+    setKeyListeners() {
         $('.autocomplete').keydown((e) => {
             e.stopPropagation();
 
@@ -139,7 +139,7 @@ class SearchDropdown {
     resetEventListeners() {
         this.removeEventListeners();
         this.setClickListeners();
-        this.trackArrowKeysAndEnterBtn();
+        this.setKeyListeners();
     }
 
     resetDropdownAttributes() {
