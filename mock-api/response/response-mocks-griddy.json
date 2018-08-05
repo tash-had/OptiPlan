@@ -35,7 +35,7 @@
         "RawMatches": "<li id='c6082' class='courseResult'>MAT102H5F: Introduction to Mathematical P...</li><li id='c6111' class='courseResult'>MAT102H5S: Introduction to Mathematical P...</li>",
         "Matches": null
     },
-    "griddy-course-csc108": {
+    "griddy-course-1996": {
         "Semester": "F",
         "Abbr": "CSC108H1F",
         "Prerequisites": null,
@@ -173,7 +173,2205 @@
             }
         ]
     },
-    "griddy-course-csc165": {
+    "griddy-course-1992": {
+        "Semester": "F",
+        "Abbr": "CSC104H1F",
+        "Prerequisites": null,
+        "Postrequisites": null,
+        "Corequisites": null,
+        "Exclusions": null,
+        "DistributionRequirement": null,
+        "BreadthRequirement": null,
+        "Campus": "UTSG",
+        "Evaluation": {
+            "Presentation": 0,
+            "Explanation": 0,
+            "Communication": 0,
+            "Teaching": 0,
+            "Workload": 0,
+            "Difficulty": 0,
+            "LearningExperience": 0,
+            "Comment": null
+        },
+        "ID": 1992,
+        "Name": "Computational Thinking",
+        "Description": null,
+        "Department": null,
+        "Sections": [
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 44,
+                            "End": 48
+                        },
+                        {
+                            "Day": 5,
+                            "Start": 44,
+                            "End": 48
+                        }
+                    ],
+                    "StringFormat": "Monday 11:00-12:00 Friday 11:00-12:00",
+                    "TBA": false
+                },
+                "Name": "LEC0101",
+                "IsLecture": true,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 48,
+                            "End": 52
+                        },
+                        {
+                            "Day": 5,
+                            "Start": 48,
+                            "End": 52
+                        }
+                    ],
+                    "StringFormat": "Monday 12:00-13:00 Friday 12:00-13:00",
+                    "TBA": false
+                },
+                "Name": "LEC0201",
+                "IsLecture": true,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 60,
+                            "End": 64
+                        },
+                        {
+                            "Day": 5,
+                            "Start": 60,
+                            "End": 64
+                        }
+                    ],
+                    "StringFormat": "Monday 15:00-16:00 Friday 15:00-16:00",
+                    "TBA": false
+                },
+                "Name": "LEC0301",
+                "IsLecture": true,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 3,
+                            "Start": 44,
+                            "End": 48
+                        }
+                    ],
+                    "StringFormat": "Wednesday 11:00-12:00",
+                    "TBA": false
+                },
+                "Name": "TUT0101",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 3,
+                            "Start": 48,
+                            "End": 52
+                        }
+                    ],
+                    "StringFormat": "Wednesday 12:00-13:00",
+                    "TBA": false
+                },
+                "Name": "TUT0201",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 3,
+                            "Start": 52,
+                            "End": 56
+                        }
+                    ],
+                    "StringFormat": "Wednesday 13:00-14:00",
+                    "TBA": false
+                },
+                "Name": "TUT0301",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 3,
+                            "Start": 56,
+                            "End": 60
+                        }
+                    ],
+                    "StringFormat": "Wednesday 14:00-15:00",
+                    "TBA": false
+                },
+                "Name": "TUT0401",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 3,
+                            "Start": 60,
+                            "End": 64
+                        }
+                    ],
+                    "StringFormat": "Wednesday 15:00-16:00",
+                    "TBA": false
+                },
+                "Name": "TUT0501",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": null
+            }
+        ]
+    },
+    "griddy-course-1993": {
+        "Semester": "S",
+        "Abbr": "CSC104H1S",
+        "Prerequisites": null,
+        "Postrequisites": null,
+        "Corequisites": null,
+        "Exclusions": null,
+        "DistributionRequirement": null,
+        "BreadthRequirement": null,
+        "Campus": "UTSG",
+        "Evaluation": {
+            "Presentation": 0,
+            "Explanation": 0,
+            "Communication": 0,
+            "Teaching": 0,
+            "Workload": 0,
+            "Difficulty": 0,
+            "LearningExperience": 0,
+            "Comment": null
+        },
+        "ID": 1993,
+        "Name": "Computational Thinking",
+        "Description": null,
+        "Department": null,
+        "Sections": [
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 44,
+                            "End": 48
+                        },
+                        {
+                            "Day": 5,
+                            "Start": 44,
+                            "End": 48
+                        }
+                    ],
+                    "StringFormat": "Monday 11:00-12:00 Friday 11:00-12:00",
+                    "TBA": false
+                },
+                "Name": "LEC0101",
+                "IsLecture": true,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 48,
+                            "End": 52
+                        },
+                        {
+                            "Day": 5,
+                            "Start": 48,
+                            "End": 52
+                        }
+                    ],
+                    "StringFormat": "Monday 12:00-13:00 Friday 12:00-13:00",
+                    "TBA": false
+                },
+                "Name": "LEC0201",
+                "IsLecture": true,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 3,
+                            "Start": 40,
+                            "End": 44
+                        }
+                    ],
+                    "StringFormat": "Wednesday 10:00-11:00",
+                    "TBA": false
+                },
+                "Name": "TUT0101",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 3,
+                            "Start": 44,
+                            "End": 48
+                        }
+                    ],
+                    "StringFormat": "Wednesday 11:00-12:00",
+                    "TBA": false
+                },
+                "Name": "TUT0201",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 3,
+                            "Start": 48,
+                            "End": 52
+                        }
+                    ],
+                    "StringFormat": "Wednesday 12:00-13:00",
+                    "TBA": false
+                },
+                "Name": "TUT0301",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 3,
+                            "Start": 60,
+                            "End": 64
+                        }
+                    ],
+                    "StringFormat": "Wednesday 15:00-16:00",
+                    "TBA": false
+                },
+                "Name": "TUT0401",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": null
+            }
+        ]
+    },
+    "griddy-course-1997": {
+        "Semester": "S",
+        "Abbr": "CSC108H1S",
+        "Prerequisites": null,
+        "Postrequisites": null,
+        "Corequisites": null,
+        "Exclusions": null,
+        "DistributionRequirement": null,
+        "BreadthRequirement": null,
+        "Campus": "UTSG",
+        "Evaluation": {
+            "Presentation": 0,
+            "Explanation": 0,
+            "Communication": 0,
+            "Teaching": 0,
+            "Workload": 0,
+            "Difficulty": 0,
+            "LearningExperience": 0,
+            "Comment": null
+        },
+        "ID": 1997,
+        "Name": "Introduction to Computer Programming",
+        "Description": null,
+        "Department": null,
+        "Sections": [
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 52,
+                            "End": 60
+                        },
+                        {
+                            "Day": 5,
+                            "Start": 52,
+                            "End": 56
+                        }
+                    ],
+                    "StringFormat": "Tuesday 13:00-15:00 Friday 13:00-14:00",
+                    "TBA": false
+                },
+                "Name": "LEC0101",
+                "IsLecture": true,
+                "Instructor": "T Fairgrieve",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 52,
+                            "End": 60
+                        },
+                        {
+                            "Day": 5,
+                            "Start": 52,
+                            "End": 56
+                        }
+                    ],
+                    "StringFormat": "Tuesday 13:00-15:00 Friday 13:00-14:00",
+                    "TBA": false
+                },
+                "Name": "LEC0102",
+                "IsLecture": true,
+                "Instructor": "T Fairgrieve",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [],
+                    "StringFormat": "",
+                    "TBA": false
+                },
+                "Name": "LEC0201",
+                "IsLecture": true,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 4,
+                            "Start": 52,
+                            "End": 64
+                        }
+                    ],
+                    "StringFormat": "Thursday 13:00-16:00",
+                    "TBA": false
+                },
+                "Name": "LEC0301",
+                "IsLecture": true,
+                "Instructor": "P Gries",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 72,
+                            "End": 84
+                        }
+                    ],
+                    "StringFormat": "Tuesday 18:00-21:00",
+                    "TBA": false
+                },
+                "Name": "LEC5101",
+                "IsLecture": true,
+                "Instructor": "P Gries",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 72,
+                            "End": 84
+                        }
+                    ],
+                    "StringFormat": "Tuesday 18:00-21:00",
+                    "TBA": false
+                },
+                "Name": "LEC5102",
+                "IsLecture": true,
+                "Instructor": "P Gries",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [],
+                    "StringFormat": "",
+                    "TBA": false
+                },
+                "Name": "LEC9901",
+                "IsLecture": true,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 64,
+                            "End": 68
+                        }
+                    ],
+                    "StringFormat": "Monday 16:00-17:00",
+                    "TBA": false
+                },
+                "Name": "TUT0301",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 3,
+                            "Start": 64,
+                            "End": 68
+                        }
+                    ],
+                    "StringFormat": "Wednesday 16:00-17:00",
+                    "TBA": false
+                },
+                "Name": "TUT0302",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 5,
+                            "Start": 64,
+                            "End": 68
+                        }
+                    ],
+                    "StringFormat": "Friday 16:00-17:00",
+                    "TBA": false
+                },
+                "Name": "TUT0303",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": null
+            }
+        ]
+    },
+    "griddy-course-5437": {
+        "Semester": "F",
+        "Abbr": "CSC108H5F",
+        "Prerequisites": "Grade 12 Advanced Functions (MHF4U).  ",
+        "Postrequisites": null,
+        "Corequisites": null,
+        "Exclusions": "<span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'>CSC108H1</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>,<span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'>CSC120H1</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>,<span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'>CSC148H5</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>, <span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'>CSC148H1</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>, <span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'>CSC150H1</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>,<span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'>CSCA08H3</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>,<span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'>CSCA20H3</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>",
+        "DistributionRequirement": null,
+        "BreadthRequirement": null,
+        "Campus": "UTM",
+        "Evaluation": {
+            "Presentation": 0,
+            "Explanation": 0,
+            "Communication": 0,
+            "Teaching": 0,
+            "Workload": 0,
+            "Difficulty": 0,
+            "LearningExperience": 0,
+            "Comment": null
+        },
+        "ID": 5437,
+        "Name": "Introduction to Computer Programming",
+        "Description": "Structure of computers; the computing environment. Programming in a language such as Python. Program structure: elementary data types, statements, control flow, functions, classes, objects, methods,fields. List: searching, sorting and complexity. [36L, 24P]",
+        "Department": "Computer Science (CSC) (CBJ)",
+        "Sections": [
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 36,
+                            "End": 40
+                        },
+                        {
+                            "Day": 3,
+                            "Start": 36,
+                            "End": 40
+                        },
+                        {
+                            "Day": 5,
+                            "Start": 36,
+                            "End": 40
+                        }
+                    ],
+                    "StringFormat": "Tuesday 9:00-10:00 Wednesday 9:00-10:00 Friday 9:00-10:00",
+                    "TBA": false
+                },
+                "Name": "LEC0101",
+                "IsLecture": true,
+                "Instructor": "Zhang, Y.",
+                "Location": "DV2072 IB120 IB120 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 40,
+                            "End": 44
+                        },
+                        {
+                            "Day": 3,
+                            "Start": 40,
+                            "End": 44
+                        },
+                        {
+                            "Day": 5,
+                            "Start": 40,
+                            "End": 44
+                        }
+                    ],
+                    "StringFormat": "Monday 10:00-11:00 Wednesday 10:00-11:00 Friday 10:00-11:00",
+                    "TBA": false
+                },
+                "Name": "LEC0102",
+                "IsLecture": true,
+                "Instructor": "Zhang, Y.",
+                "Location": "DV2074 DV2105F DV2105F "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 60,
+                            "End": 64
+                        },
+                        {
+                            "Day": 3,
+                            "Start": 60,
+                            "End": 64
+                        },
+                        {
+                            "Day": 5,
+                            "Start": 60,
+                            "End": 64
+                        }
+                    ],
+                    "StringFormat": "Monday 15:00-16:00 Wednesday 15:00-16:00 Friday 15:00-16:00",
+                    "TBA": false
+                },
+                "Name": "LEC0103",
+                "IsLecture": true,
+                "Instructor": "Maccio, V.",
+                "Location": "DV2074 DV2074 DV2074 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 68,
+                            "End": 72
+                        },
+                        {
+                            "Day": 3,
+                            "Start": 68,
+                            "End": 72
+                        },
+                        {
+                            "Day": 5,
+                            "Start": 68,
+                            "End": 72
+                        }
+                    ],
+                    "StringFormat": "Monday 17:00-18:00 Wednesday 17:00-18:00 Friday 17:00-18:00",
+                    "TBA": false
+                },
+                "Name": "LEC0104",
+                "IsLecture": true,
+                "Instructor": "Dema, I.",
+                "Location": "DV2072 DV2072 DV2072 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 72,
+                            "End": 84
+                        }
+                    ],
+                    "StringFormat": "Tuesday 18:00-21:00",
+                    "TBA": false
+                },
+                "Name": "LEC0105",
+                "IsLecture": true,
+                "Instructor": "Liut, M.",
+                "Location": "DV2074 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 36,
+                            "End": 44
+                        }
+                    ],
+                    "StringFormat": "Monday 9:00-11:00",
+                    "TBA": false
+                },
+                "Name": "PRA0101",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 44,
+                            "End": 52
+                        }
+                    ],
+                    "StringFormat": "Monday 11:00-13:00",
+                    "TBA": false
+                },
+                "Name": "PRA0102",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 52,
+                            "End": 60
+                        }
+                    ],
+                    "StringFormat": "Monday 13:00-15:00",
+                    "TBA": false
+                },
+                "Name": "PRA0103",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 60,
+                            "End": 68
+                        }
+                    ],
+                    "StringFormat": "Monday 15:00-17:00",
+                    "TBA": false
+                },
+                "Name": "PRA0104",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 36,
+                            "End": 44
+                        }
+                    ],
+                    "StringFormat": "Tuesday 9:00-11:00",
+                    "TBA": false
+                },
+                "Name": "PRA0105",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 44,
+                            "End": 52
+                        }
+                    ],
+                    "StringFormat": "Tuesday 11:00-13:00",
+                    "TBA": false
+                },
+                "Name": "PRA0106",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 52,
+                            "End": 60
+                        }
+                    ],
+                    "StringFormat": "Tuesday 13:00-15:00",
+                    "TBA": false
+                },
+                "Name": "PRA0107",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 60,
+                            "End": 68
+                        }
+                    ],
+                    "StringFormat": "Tuesday 15:00-17:00",
+                    "TBA": false
+                },
+                "Name": "PRA0108",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 3,
+                            "Start": 36,
+                            "End": 44
+                        }
+                    ],
+                    "StringFormat": "Wednesday 9:00-11:00",
+                    "TBA": false
+                },
+                "Name": "PRA0109",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 3,
+                            "Start": 44,
+                            "End": 52
+                        }
+                    ],
+                    "StringFormat": "Wednesday 11:00-13:00",
+                    "TBA": false
+                },
+                "Name": "PRA0110",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 3,
+                            "Start": 52,
+                            "End": 60
+                        }
+                    ],
+                    "StringFormat": "Wednesday 13:00-15:00",
+                    "TBA": false
+                },
+                "Name": "PRA0111",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 3,
+                            "Start": 60,
+                            "End": 68
+                        }
+                    ],
+                    "StringFormat": "Wednesday 15:00-17:00",
+                    "TBA": false
+                },
+                "Name": "PRA0112",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 4,
+                            "Start": 36,
+                            "End": 44
+                        }
+                    ],
+                    "StringFormat": "Thursday 9:00-11:00",
+                    "TBA": false
+                },
+                "Name": "PRA0113",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 4,
+                            "Start": 44,
+                            "End": 52
+                        }
+                    ],
+                    "StringFormat": "Thursday 11:00-13:00",
+                    "TBA": false
+                },
+                "Name": "PRA0114",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 4,
+                            "Start": 52,
+                            "End": 60
+                        }
+                    ],
+                    "StringFormat": "Thursday 13:00-15:00",
+                    "TBA": false
+                },
+                "Name": "PRA0115",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 4,
+                            "Start": 60,
+                            "End": 68
+                        }
+                    ],
+                    "StringFormat": "Thursday 15:00-17:00",
+                    "TBA": false
+                },
+                "Name": "PRA0116",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 5,
+                            "Start": 36,
+                            "End": 44
+                        }
+                    ],
+                    "StringFormat": "Friday 9:00-11:00",
+                    "TBA": false
+                },
+                "Name": "PRA0117",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 5,
+                            "Start": 44,
+                            "End": 52
+                        }
+                    ],
+                    "StringFormat": "Friday 11:00-13:00",
+                    "TBA": false
+                },
+                "Name": "PRA0118",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            }
+        ]
+    },
+    "griddy-course-5454": {
+        "Semester": "S",
+        "Abbr": "CSC108H5S",
+        "Prerequisites": "Grade 12 Advanced Functions (MHF4U).  ",
+        "Postrequisites": null,
+        "Corequisites": null,
+        "Exclusions": "<span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'>CSC108H1</span></span>,<span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'>CSC120H1</span></span>,<span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'>CSC148H5</span></span>, <span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'>CSC148H1</span></span>, <span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'>CSC150H1</span></span>,<span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'>CSCA08H3</span></span>,<span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'>CSCA20H3</span></span>",
+        "DistributionRequirement": null,
+        "BreadthRequirement": null,
+        "Campus": "UTM",
+        "Evaluation": {
+            "Presentation": 0,
+            "Explanation": 0,
+            "Communication": 0,
+            "Teaching": 0,
+            "Workload": 0,
+            "Difficulty": 0,
+            "LearningExperience": 0,
+            "Comment": null
+        },
+        "ID": 5454,
+        "Name": "Introduction to Computer Programming",
+        "Description": "Structure of computers; the computing environment. Programming in a language such as Python. Program structure: elementary data types, statements, control flow, functions, classes, objects, methods,fields. List: searching, sorting and complexity. [36L, 24P]",
+        "Department": "Computer Science (CSC) (CBJ)",
+        "Sections": [
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 68,
+                            "End": 72
+                        },
+                        {
+                            "Day": 3,
+                            "Start": 68,
+                            "End": 72
+                        },
+                        {
+                            "Day": 5,
+                            "Start": 68,
+                            "End": 72
+                        }
+                    ],
+                    "StringFormat": "Tuesday 17:00-18:00 Wednesday 17:00-18:00 Friday 17:00-18:00",
+                    "TBA": false
+                },
+                "Name": "LEC0101",
+                "IsLecture": true,
+                "Instructor": "",
+                "Location": "NE1210 NE1210 NE1210 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 72,
+                            "End": 76
+                        },
+                        {
+                            "Day": 3,
+                            "Start": 72,
+                            "End": 76
+                        },
+                        {
+                            "Day": 5,
+                            "Start": 72,
+                            "End": 76
+                        }
+                    ],
+                    "StringFormat": "Tuesday 18:00-19:00 Wednesday 18:00-19:00 Friday 18:00-19:00",
+                    "TBA": false
+                },
+                "Name": "LEC0102",
+                "IsLecture": true,
+                "Instructor": "",
+                "Location": "IB245 IB245 IB245 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 36,
+                            "End": 44
+                        }
+                    ],
+                    "StringFormat": "Monday 9:00-11:00",
+                    "TBA": false
+                },
+                "Name": "PRA0101",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 44,
+                            "End": 52
+                        }
+                    ],
+                    "StringFormat": "Monday 11:00-13:00",
+                    "TBA": false
+                },
+                "Name": "PRA0102",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 52,
+                            "End": 60
+                        }
+                    ],
+                    "StringFormat": "Monday 13:00-15:00",
+                    "TBA": false
+                },
+                "Name": "PRA0103",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 60,
+                            "End": 68
+                        }
+                    ],
+                    "StringFormat": "Monday 15:00-17:00",
+                    "TBA": false
+                },
+                "Name": "PRA0104",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 36,
+                            "End": 44
+                        }
+                    ],
+                    "StringFormat": "Tuesday 9:00-11:00",
+                    "TBA": false
+                },
+                "Name": "PRA0105",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 44,
+                            "End": 52
+                        }
+                    ],
+                    "StringFormat": "Tuesday 11:00-13:00",
+                    "TBA": false
+                },
+                "Name": "PRA0106",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 52,
+                            "End": 60
+                        }
+                    ],
+                    "StringFormat": "Tuesday 13:00-15:00",
+                    "TBA": false
+                },
+                "Name": "PRA0107",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 60,
+                            "End": 68
+                        }
+                    ],
+                    "StringFormat": "Tuesday 15:00-17:00",
+                    "TBA": false
+                },
+                "Name": "PRA0108",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 3,
+                            "Start": 36,
+                            "End": 44
+                        }
+                    ],
+                    "StringFormat": "Wednesday 9:00-11:00",
+                    "TBA": false
+                },
+                "Name": "PRA0109",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 3,
+                            "Start": 44,
+                            "End": 52
+                        }
+                    ],
+                    "StringFormat": "Wednesday 11:00-13:00",
+                    "TBA": false
+                },
+                "Name": "PRA0110",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 3,
+                            "Start": 44,
+                            "End": 52
+                        }
+                    ],
+                    "StringFormat": "Wednesday 11:00-13:00",
+                    "TBA": false
+                },
+                "Name": "PRA0111",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2026 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 3,
+                            "Start": 60,
+                            "End": 68
+                        }
+                    ],
+                    "StringFormat": "Wednesday 15:00-17:00",
+                    "TBA": false
+                },
+                "Name": "PRA0112",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 4,
+                            "Start": 36,
+                            "End": 44
+                        }
+                    ],
+                    "StringFormat": "Thursday 9:00-11:00",
+                    "TBA": false
+                },
+                "Name": "PRA0113",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            }
+        ]
+    },
+    "griddy-course-2001": {
+        "Semester": "F",
+        "Abbr": "CSC120H1F",
+        "Prerequisites": null,
+        "Postrequisites": null,
+        "Corequisites": null,
+        "Exclusions": null,
+        "DistributionRequirement": null,
+        "BreadthRequirement": null,
+        "Campus": "UTSG",
+        "Evaluation": {
+            "Presentation": 0,
+            "Explanation": 0,
+            "Communication": 0,
+            "Teaching": 0,
+            "Workload": 0,
+            "Difficulty": 0,
+            "LearningExperience": 0,
+            "Comment": null
+        },
+        "ID": 2001,
+        "Name": "Computer Science for the Sciences",
+        "Description": null,
+        "Department": null,
+        "Sections": [
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 48,
+                            "End": 52
+                        },
+                        {
+                            "Day": 3,
+                            "Start": 48,
+                            "End": 52
+                        },
+                        {
+                            "Day": 5,
+                            "Start": 48,
+                            "End": 52
+                        }
+                    ],
+                    "StringFormat": "Monday 12:00-13:00 Wednesday 12:00-13:00 Friday 12:00-13:00",
+                    "TBA": false
+                },
+                "Name": "LEC0101",
+                "IsLecture": true,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 4,
+                            "Start": 52,
+                            "End": 60
+                        }
+                    ],
+                    "StringFormat": "Thursday 13:00-15:00",
+                    "TBA": false
+                },
+                "Name": "TUT0101",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 4,
+                            "Start": 60,
+                            "End": 68
+                        }
+                    ],
+                    "StringFormat": "Thursday 15:00-17:00",
+                    "TBA": false
+                },
+                "Name": "TUT0201",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": null
+            }
+        ]
+    },
+    "griddy-course-2004": {
+        "Semester": "F",
+        "Abbr": "CSC148H1F",
+        "Prerequisites": null,
+        "Postrequisites": null,
+        "Corequisites": null,
+        "Exclusions": null,
+        "DistributionRequirement": null,
+        "BreadthRequirement": null,
+        "Campus": "UTSG",
+        "Evaluation": {
+            "Presentation": 0,
+            "Explanation": 0,
+            "Communication": 0,
+            "Teaching": 0,
+            "Workload": 0,
+            "Difficulty": 0,
+            "LearningExperience": 0,
+            "Comment": null
+        },
+        "ID": 2004,
+        "Name": "Introduction to Computer Science",
+        "Description": null,
+        "Department": null,
+        "Sections": [
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 40,
+                            "End": 48
+                        },
+                        {
+                            "Day": 5,
+                            "Start": 40,
+                            "End": 44
+                        }
+                    ],
+                    "StringFormat": "Tuesday 10:00-12:00 Friday 10:00-11:00",
+                    "TBA": false
+                },
+                "Name": "LEC0101",
+                "IsLecture": true,
+                "Instructor": "D Liu",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 40,
+                            "End": 48
+                        },
+                        {
+                            "Day": 5,
+                            "Start": 40,
+                            "End": 44
+                        }
+                    ],
+                    "StringFormat": "Tuesday 10:00-12:00 Friday 10:00-11:00",
+                    "TBA": false
+                },
+                "Name": "LEC0102",
+                "IsLecture": true,
+                "Instructor": "D Liu",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 4,
+                            "Start": 36,
+                            "End": 44
+                        }
+                    ],
+                    "StringFormat": "Thursday 9:00-11:00",
+                    "TBA": false
+                },
+                "Name": "TUT0101",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 4,
+                            "Start": 44,
+                            "End": 52
+                        }
+                    ],
+                    "StringFormat": "Thursday 11:00-13:00",
+                    "TBA": false
+                },
+                "Name": "TUT0201",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 4,
+                            "Start": 52,
+                            "End": 60
+                        }
+                    ],
+                    "StringFormat": "Thursday 13:00-15:00",
+                    "TBA": false
+                },
+                "Name": "TUT0301",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 4,
+                            "Start": 76,
+                            "End": 84
+                        }
+                    ],
+                    "StringFormat": "Thursday 19:00-21:00",
+                    "TBA": false
+                },
+                "Name": "TUT5101",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": null
+            }
+        ]
+    },
+    "griddy-course-2005": {
+        "Semester": "S",
+        "Abbr": "CSC148H1S",
+        "Prerequisites": null,
+        "Postrequisites": null,
+        "Corequisites": null,
+        "Exclusions": null,
+        "DistributionRequirement": null,
+        "BreadthRequirement": null,
+        "Campus": "UTSG",
+        "Evaluation": {
+            "Presentation": 0,
+            "Explanation": 0,
+            "Communication": 0,
+            "Teaching": 0,
+            "Workload": 0,
+            "Difficulty": 0,
+            "LearningExperience": 0,
+            "Comment": null
+        },
+        "ID": 2005,
+        "Name": "Introduction to Computer Science",
+        "Description": null,
+        "Department": null,
+        "Sections": [
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 64,
+                            "End": 72
+                        },
+                        {
+                            "Day": 5,
+                            "Start": 60,
+                            "End": 64
+                        }
+                    ],
+                    "StringFormat": "Tuesday 16:00-18:00 Friday 15:00-16:00",
+                    "TBA": false
+                },
+                "Name": "LEC0101",
+                "IsLecture": true,
+                "Instructor": "J Smith",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 64,
+                            "End": 72
+                        },
+                        {
+                            "Day": 5,
+                            "Start": 60,
+                            "End": 64
+                        }
+                    ],
+                    "StringFormat": "Tuesday 16:00-18:00 Friday 15:00-16:00",
+                    "TBA": false
+                },
+                "Name": "LEC0102",
+                "IsLecture": true,
+                "Instructor": "J Smith",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 3,
+                            "Start": 72,
+                            "End": 84
+                        }
+                    ],
+                    "StringFormat": "Wednesday 18:00-21:00",
+                    "TBA": false
+                },
+                "Name": "LEC5101",
+                "IsLecture": true,
+                "Instructor": "D Horton",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 3,
+                            "Start": 72,
+                            "End": 84
+                        }
+                    ],
+                    "StringFormat": "Wednesday 18:00-21:00",
+                    "TBA": false
+                },
+                "Name": "LEC5102",
+                "IsLecture": true,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 4,
+                            "Start": 36,
+                            "End": 44
+                        }
+                    ],
+                    "StringFormat": "Thursday 9:00-11:00",
+                    "TBA": false
+                },
+                "Name": "TUT0101",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 4,
+                            "Start": 44,
+                            "End": 52
+                        }
+                    ],
+                    "StringFormat": "Thursday 11:00-13:00",
+                    "TBA": false
+                },
+                "Name": "TUT0201",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 4,
+                            "Start": 52,
+                            "End": 60
+                        }
+                    ],
+                    "StringFormat": "Thursday 13:00-15:00",
+                    "TBA": false
+                },
+                "Name": "TUT0301",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 4,
+                            "Start": 60,
+                            "End": 68
+                        }
+                    ],
+                    "StringFormat": "Thursday 15:00-17:00",
+                    "TBA": false
+                },
+                "Name": "TUT0401",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 5,
+                            "Start": 44,
+                            "End": 52
+                        }
+                    ],
+                    "StringFormat": "Friday 11:00-13:00",
+                    "TBA": false
+                },
+                "Name": "TUT0501",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 4,
+                            "Start": 68,
+                            "End": 76
+                        }
+                    ],
+                    "StringFormat": "Thursday 17:00-19:00",
+                    "TBA": false
+                },
+                "Name": "TUT5101",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 4,
+                            "Start": 76,
+                            "End": 84
+                        }
+                    ],
+                    "StringFormat": "Thursday 19:00-21:00",
+                    "TBA": false
+                },
+                "Name": "TUT5201",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": null
+            }
+        ]
+    },
+    "griddy-course-5455": {
+        "Semester": "S",
+        "Abbr": "CSC148H5S",
+        "Prerequisites": "<span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'>CSC108H5</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>",
+        "Postrequisites": null,
+        "Corequisites": null,
+        "Exclusions": "<span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'>CSC148H1</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>, <span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'>CSC150H1</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>, <span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'><span class='courseCode' onclick='searchCourseCode(this)'>CSCA48H3</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>",
+        "DistributionRequirement": null,
+        "BreadthRequirement": null,
+        "Campus": "UTM",
+        "Evaluation": {
+            "Presentation": 0,
+            "Explanation": 0,
+            "Communication": 0,
+            "Teaching": 0,
+            "Workload": 0,
+            "Difficulty": 0,
+            "LearningExperience": 0,
+            "Comment": null
+        },
+        "ID": 5455,
+        "Name": "Introduction to Computer Science",
+        "Description": "Abstract data types and data structures for implementing them.  Linked data structures. Encapsulation and information-hiding. Object-oriented programming. Specifications. Analyzing the efficiency of programs. Recursion. This course assumes programming experience in a language such as Python, C++, or Java, as provided by CSC108H5.  Students who already have this background may consult the Computer Science faculty advisor for advice about skipping CSC108H5. [36L, 24P]",
+        "Department": "Computer Science (CSC) (CBJ)",
+        "Sections": [
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 36,
+                            "End": 40
+                        },
+                        {
+                            "Day": 3,
+                            "Start": 36,
+                            "End": 40
+                        },
+                        {
+                            "Day": 5,
+                            "Start": 36,
+                            "End": 40
+                        }
+                    ],
+                    "StringFormat": "Monday 9:00-10:00 Wednesday 9:00-10:00 Friday 9:00-10:00",
+                    "TBA": false
+                },
+                "Name": "LEC0101",
+                "IsLecture": true,
+                "Instructor": "Simion, B.",
+                "Location": "NE1270 NE1270 NE1270 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 40,
+                            "End": 44
+                        },
+                        {
+                            "Day": 3,
+                            "Start": 40,
+                            "End": 44
+                        },
+                        {
+                            "Day": 5,
+                            "Start": 40,
+                            "End": 44
+                        }
+                    ],
+                    "StringFormat": "Monday 10:00-11:00 Wednesday 10:00-11:00 Friday 10:00-11:00",
+                    "TBA": false
+                },
+                "Name": "LEC0102",
+                "IsLecture": true,
+                "Instructor": "Simion, B.",
+                "Location": "NE1270 NE1270 NE1270 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 52,
+                            "End": 56
+                        },
+                        {
+                            "Day": 3,
+                            "Start": 52,
+                            "End": 56
+                        },
+                        {
+                            "Day": 5,
+                            "Start": 52,
+                            "End": 56
+                        }
+                    ],
+                    "StringFormat": "Monday 13:00-14:00 Wednesday 13:00-14:00 Friday 13:00-14:00",
+                    "TBA": false
+                },
+                "Name": "LEC0103",
+                "IsLecture": true,
+                "Instructor": "",
+                "Location": "NE1270 NE1270 NE1270 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 72,
+                            "End": 76
+                        },
+                        {
+                            "Day": 3,
+                            "Start": 72,
+                            "End": 76
+                        },
+                        {
+                            "Day": 5,
+                            "Start": 72,
+                            "End": 76
+                        }
+                    ],
+                    "StringFormat": "Monday 18:00-19:00 Wednesday 18:00-19:00 Friday 18:00-19:00",
+                    "TBA": false
+                },
+                "Name": "LEC0104",
+                "IsLecture": true,
+                "Instructor": "Liut, M.",
+                "Location": "NE1270 NE1270 NE1270 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 36,
+                            "End": 44
+                        }
+                    ],
+                    "StringFormat": "Monday 9:00-11:00",
+                    "TBA": false
+                },
+                "Name": "PRA0101",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 44,
+                            "End": 52
+                        }
+                    ],
+                    "StringFormat": "Monday 11:00-13:00",
+                    "TBA": false
+                },
+                "Name": "PRA0102",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 52,
+                            "End": 60
+                        }
+                    ],
+                    "StringFormat": "Monday 13:00-15:00",
+                    "TBA": false
+                },
+                "Name": "PRA0103",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 60,
+                            "End": 68
+                        }
+                    ],
+                    "StringFormat": "Monday 15:00-17:00",
+                    "TBA": false
+                },
+                "Name": "PRA0104",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 36,
+                            "End": 44
+                        }
+                    ],
+                    "StringFormat": "Tuesday 9:00-11:00",
+                    "TBA": false
+                },
+                "Name": "PRA0105",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 44,
+                            "End": 52
+                        }
+                    ],
+                    "StringFormat": "Tuesday 11:00-13:00",
+                    "TBA": false
+                },
+                "Name": "PRA0106",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 52,
+                            "End": 60
+                        }
+                    ],
+                    "StringFormat": "Tuesday 13:00-15:00",
+                    "TBA": false
+                },
+                "Name": "PRA0107",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 60,
+                            "End": 68
+                        }
+                    ],
+                    "StringFormat": "Tuesday 15:00-17:00",
+                    "TBA": false
+                },
+                "Name": "PRA0108",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 3,
+                            "Start": 36,
+                            "End": 44
+                        }
+                    ],
+                    "StringFormat": "Wednesday 9:00-11:00",
+                    "TBA": false
+                },
+                "Name": "PRA0109",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 3,
+                            "Start": 44,
+                            "End": 52
+                        }
+                    ],
+                    "StringFormat": "Wednesday 11:00-13:00",
+                    "TBA": false
+                },
+                "Name": "PRA0110",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 3,
+                            "Start": 44,
+                            "End": 52
+                        }
+                    ],
+                    "StringFormat": "Wednesday 11:00-13:00",
+                    "TBA": false
+                },
+                "Name": "PRA0111",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2026 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 3,
+                            "Start": 60,
+                            "End": 68
+                        }
+                    ],
+                    "StringFormat": "Wednesday 15:00-17:00",
+                    "TBA": false
+                },
+                "Name": "PRA0112",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 4,
+                            "Start": 36,
+                            "End": 44
+                        }
+                    ],
+                    "StringFormat": "Thursday 9:00-11:00",
+                    "TBA": false
+                },
+                "Name": "PRA0113",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 4,
+                            "Start": 44,
+                            "End": 52
+                        }
+                    ],
+                    "StringFormat": "Thursday 11:00-13:00",
+                    "TBA": false
+                },
+                "Name": "PRA0114",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 4,
+                            "Start": 52,
+                            "End": 60
+                        }
+                    ],
+                    "StringFormat": "Thursday 13:00-15:00",
+                    "TBA": false
+                },
+                "Name": "PRA0115",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 4,
+                            "Start": 60,
+                            "End": 68
+                        }
+                    ],
+                    "StringFormat": "Thursday 15:00-17:00",
+                    "TBA": false
+                },
+                "Name": "PRA0116",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2010 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 44,
+                            "End": 52
+                        }
+                    ],
+                    "StringFormat": "Monday 11:00-13:00",
+                    "TBA": false
+                },
+                "Name": "PRA0117",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2020 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 52,
+                            "End": 60
+                        }
+                    ],
+                    "StringFormat": "Monday 13:00-15:00",
+                    "TBA": false
+                },
+                "Name": "PRA0118",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2020 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 4,
+                            "Start": 44,
+                            "End": 52
+                        }
+                    ],
+                    "StringFormat": "Thursday 11:00-13:00",
+                    "TBA": false
+                },
+                "Name": "PRA0119",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2020 "
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 4,
+                            "Start": 52,
+                            "End": 60
+                        }
+                    ],
+                    "StringFormat": "Thursday 13:00-15:00",
+                    "TBA": false
+                },
+                "Name": "PRA0120",
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "DH2020 "
+            }
+        ]
+    },
+    "griddy-course-2007": {
         "Semester": "F",
         "Abbr": "CSC165H1F",
         "Prerequisites": null,
@@ -241,6 +2439,326 @@
                 "IsLecture": true,
                 "Instructor": "T Fairgrieve",
                 "Location": null
+            }
+        ]
+    },
+    "griddy-course-2008": {
+        "Semester": "S",
+        "Abbr": "CSC165H1S",
+        "Prerequisites": null,
+        "Postrequisites": null,
+        "Corequisites": null,
+        "Exclusions": null,
+        "DistributionRequirement": null,
+        "BreadthRequirement": null,
+        "Campus": "UTSG",
+        "Evaluation": {
+            "Presentation": 0,
+            "Explanation": 0,
+            "Communication": 0,
+            "Teaching": 0,
+            "Workload": 0,
+            "Difficulty": 0,
+            "LearningExperience": 0,
+            "Comment": null
+        },
+        "ID": 2008,
+        "Name": "Mathematical Expression and Reasoning for Computer Science",
+        "Description": null,
+        "Department": null,
+        "Sections": [
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 44,
+                            "End": 52
+                        },
+                        {
+                            "Day": 3,
+                            "Start": 44,
+                            "End": 52
+                        }
+                    ],
+                    "StringFormat": "Monday 11:00-13:00 Wednesday 11:00-13:00",
+                    "TBA": false
+                },
+                "Name": "LEC0101",
+                "IsLecture": true,
+                "Instructor": "D Liu",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 52,
+                            "End": 60
+                        },
+                        {
+                            "Day": 3,
+                            "Start": 52,
+                            "End": 60
+                        }
+                    ],
+                    "StringFormat": "Monday 13:00-15:00 Wednesday 13:00-15:00",
+                    "TBA": false
+                },
+                "Name": "LEC0201",
+                "IsLecture": true,
+                "Instructor": "F Pitt",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 60,
+                            "End": 68
+                        },
+                        {
+                            "Day": 3,
+                            "Start": 60,
+                            "End": 68
+                        }
+                    ],
+                    "StringFormat": "Monday 15:00-17:00 Wednesday 15:00-17:00",
+                    "TBA": false
+                },
+                "Name": "LEC0301",
+                "IsLecture": true,
+                "Instructor": "D Liu",
+                "Location": null
+            },
+            {
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 72,
+                            "End": 80
+                        },
+                        {
+                            "Day": 3,
+                            "Start": 72,
+                            "End": 80
+                        }
+                    ],
+                    "StringFormat": "Monday 18:00-20:00 Wednesday 18:00-20:00",
+                    "TBA": false
+                },
+                "Name": "LEC5101",
+                "IsLecture": true,
+                "Instructor": "F Pitt",
+                "Location": null
+            }
+        ]
+    },
+    "griddy-course-35": {
+        "Semester": "F",
+        "Abbr": "CSC180H1F",
+        "Prerequisites": null,
+        "Postrequisites": null,
+        "Corequisites": null,
+        "Exclusions": null,
+        "DistributionRequirement": null,
+        "BreadthRequirement": null,
+        "Campus": "UTSG",
+        "Evaluation": {
+            "Presentation": 0,
+            "Explanation": 0,
+            "Communication": 0,
+            "Teaching": 0,
+            "Workload": 0,
+            "Difficulty": 0,
+            "LearningExperience": 0,
+            "Comment": null
+        },
+        "ID": 35,
+        "Name": null,
+        "Description": null,
+        "Department": null,
+        "Sections": [
+            {
+                "Name": "LEC0101",
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 44,
+                            "End": 48
+                        },
+                        {
+                            "Day": 4,
+                            "Start": 52,
+                            "End": 60
+                        }
+                    ],
+                    "StringFormat": "Monday 11:00-12:00 Thursday 13:00-15:00",
+                    "TBA": false
+                },
+                "IsLecture": true,
+                "Instructor": "",
+                "Location": "BA1160 BA1160"
+            },
+            {
+                "Name": "LEC0102",
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 48,
+                            "End": 52
+                        },
+                        {
+                            "Day": 4,
+                            "Start": 60,
+                            "End": 68
+                        }
+                    ],
+                    "StringFormat": "Monday 12:00-13:00 Thursday 15:00-17:00",
+                    "TBA": false
+                },
+                "IsLecture": true,
+                "Instructor": "",
+                "Location": "SS2117 PBB150"
+            },
+            {
+                "Name": "PRA0101",
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 36,
+                            "End": 48
+                        }
+                    ],
+                    "StringFormat": "Tuesday 9:00-12:00",
+                    "TBA": false
+                },
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "SF1012"
+            },
+            {
+                "Name": "PRA0102",
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 3,
+                            "Start": 36,
+                            "End": 48
+                        }
+                    ],
+                    "StringFormat": "Wednesday 9:00-12:00",
+                    "TBA": false
+                },
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "SF1012"
+            },
+            {
+                "Name": "PRA0103",
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 5,
+                            "Start": 60,
+                            "End": 72
+                        }
+                    ],
+                    "StringFormat": "Friday 15:00-18:00",
+                    "TBA": false
+                },
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "SF1013"
+            }
+        ]
+    },
+    "griddy-course-249": {
+        "Semester": "S",
+        "Abbr": "CSC190H1S",
+        "Prerequisites": null,
+        "Postrequisites": null,
+        "Corequisites": null,
+        "Exclusions": null,
+        "DistributionRequirement": null,
+        "BreadthRequirement": null,
+        "Campus": "UTSG",
+        "Evaluation": {
+            "Presentation": 0,
+            "Explanation": 0,
+            "Communication": 0,
+            "Teaching": 0,
+            "Workload": 0,
+            "Difficulty": 0,
+            "LearningExperience": 0,
+            "Comment": null
+        },
+        "ID": 249,
+        "Name": null,
+        "Description": null,
+        "Department": null,
+        "Sections": [
+            {
+                "Name": "LEC0101",
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 5,
+                            "Start": 40,
+                            "End": 48
+                        },
+                        {
+                            "Day": 2,
+                            "Start": 44,
+                            "End": 48
+                        }
+                    ],
+                    "StringFormat": "Friday 10:00-12:00 Tuesday 11:00-12:00",
+                    "TBA": false
+                },
+                "IsLecture": true,
+                "Instructor": "",
+                "Location": "MS2158 PBB150"
+            },
+            {
+                "Name": "PRA0101",
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 1,
+                            "Start": 60,
+                            "End": 72
+                        }
+                    ],
+                    "StringFormat": "Monday 15:00-18:00",
+                    "TBA": false
+                },
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "SF1012"
+            },
+            {
+                "Name": "PRA0102",
+                "ParsedTime": {
+                    "MeetTimes": [
+                        {
+                            "Day": 2,
+                            "Start": 60,
+                            "End": 72
+                        }
+                    ],
+                    "StringFormat": "Tuesday 15:00-18:00",
+                    "TBA": false
+                },
+                "IsLecture": false,
+                "Instructor": "",
+                "Location": "SF1012"
             }
         ]
     }
