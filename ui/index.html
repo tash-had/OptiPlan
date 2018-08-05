@@ -3,9 +3,9 @@
 
 <head>
     <title>OptiPlan </title>
-    <link href="css/material-icons.css" rel="stylesheet">
+    <link href="css/ext/material-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/ext/materialize.min.css">
     <link rel="stylesheet" href="css/search.css">
-    <link rel="stylesheet" href="css/materialize.min.css">
 </head>
 
 <body>
@@ -18,19 +18,24 @@
                     </div>
                 </div>
             </div>
+            <div class="col s3">
+                <a class="waves-effect waves-light btn" style="float:right;" onclick="localStorage.removeItem('timetable');">Clear All Data</a>
+            </div>
         </div>
     </div>
 
     <div id="courses" class="container">
         <div class="row">
-                <ul class="collection col s6"></ul>
+            <ul class="collection col s6"></ul>
         </div>
-        
-    </div>
 
-    <script src="js/ext/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="js/ext/materialize.min.js"></script>
-    <script type="text/javascript" src="js/services/search.js"></script>
+    </div>
 </body>
+<script type="text/javascript" src="js/ext/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/ext/materialize.min.js"></script>
+<script type="text/javascript" src="js/models/timetable.js"></script>
+<script type="text/javascript" src="js/models/course.js"></script>
+<script type="text/javascript" src="js/services/search.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 
 </html>

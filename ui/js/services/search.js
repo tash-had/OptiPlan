@@ -1,16 +1,10 @@
 var SEARCH_COURSE_API = 'http://localhost:3000/search-course?searchQuery=';
 var COURSE_MATCHER = new RegExp("^[a-zA-Z]{3}[0-9]{1,3}$");
-var searchDropdown, courseSelectionListener;
-var chosenCourses = [];
-
-String.prototype.replaceAll = function (search, replacement) {
-    var target = this;
-    return target.replace(new RegExp(search, 'g'), replacement);
-};
+var searchDropdown, timetableUI;
+var chosenCourseIds = [];
 
 $(document).ready(function () {
     searchDropdown = new SearchDropdown();
-    courseSelectionListener = new CourseSelectionListener();
 
     $('#courseSearch').on('input', function (e) {
         var input = this.value;
@@ -23,7 +17,6 @@ $(document).ready(function () {
         }
         return false;
     });
-
 });
 
 class SearchDropdown {
@@ -39,7 +32,7 @@ class SearchDropdown {
         this.numOptions = courses.length;
         $('.search-dialog').empty();
         for (var course of courses) {
-            if (chosenCourses.indexOf(course.id) < 0) {
+            if (chosenCourseIds.indexOf(course.id) < 0) {
                 $('.search-dialog').append('<div data-course-id=' + course.id + '>' +
                     course.courseFullName.replaceAll(":", "") + '</div>');
             }
@@ -61,7 +54,7 @@ class SearchDropdown {
         currentSelection.removeAttr('id');
         this.currentlySelected += arrowDirection;
         this.startSelectOptionVisuals(options, arrowDirection);
-    }
+    }   
 
     startSelectOptionVisuals(searchResults, arrowDirection) {
         var newSelection = searchResults.eq(this.currentlySelected);
@@ -96,7 +89,7 @@ class SearchDropdown {
 
             switch (e.which) {
                 case 13: // enter button 
-                    courseSelectionListener.addCourse($('.search-dialog > div').eq(this.currentlySelected));
+                    timetableUI.addCourseWithElement($('.search-dialog > div').eq(this.currentlySelected));
                     break;
                 case 38: // up
                     this.selectOptionWithIndex(-1);
@@ -119,7 +112,7 @@ class SearchDropdown {
         // Click inside the options dialog
         $('body').on('click', '.search-dialog > div', function (e) {
             e.stopPropagation();
-            courseSelectionListener.addCourse($(this))
+            timetableUI.addCourseWithElement($(this))
         });
 
         // Click inside the input box
@@ -147,32 +140,5 @@ class SearchDropdown {
         this.numOptions = 0;
         this.dropdownOpen = false;
         this.disableArrowSelection = false;
-    }
-}
-
-class CourseSelectionListener {
-    addCourse(courseElement) {
-        var courseId = courseElement.attr("data-course-id");
-        if (chosenCourses.indexOf(courseId) < 0) {
-            chosenCourses.push(courseId);
-            $(".collection").append('<li class="collection-item" data-course-id=' + courseId + '>\
-            <div>'+ courseElement[0].innerHTML + '\
-            <i class="material-icons delete-icon">delete</i></div></li>');
-        }
-        $('.autocomplete input').val("").focus();
-        this.setDeleteCourseListener();
-        searchDropdown.toggleSearchResultsDialog(true);
-    }
-
-    setDeleteCourseListener() {
-        $('.delete-icon').on('click', function(e) {
-            var idToRemove = $(this).closest('li').attr('data-course-id');
-            chosenCourses = courseSelectionListener.removeFromArr(chosenCourses, idToRemove);
-            $(this).closest('li').remove();
-        });
-    }
-
-    removeFromArr(array, element) {
-        return array.filter(e => e !== element);
     }
 }

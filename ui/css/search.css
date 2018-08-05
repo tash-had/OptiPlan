@@ -32,4 +32,5 @@ i:hover{
 }
 .delete-icon {
   float: right;
+  position: relative;
 }
