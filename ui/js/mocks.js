@@ -26,6 +26,7 @@ $(document).ready(function () {
         var jsonDiv = document.getElementById("timetable");
         renderjson.set_show_to_level(3);
         jsonDiv.appendChild(renderjson(timetable));
+        console.log(JSON.stringify(timetable)); 
     });
 
 });
