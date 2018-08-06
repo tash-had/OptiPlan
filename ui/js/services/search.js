@@ -33,7 +33,10 @@ class SearchDropdown {
         $('.search-dialog').empty();
         for (var course of courses) {
             if (chosenCourseIds.indexOf(course.id) < 0) {
-                $('.search-dialog').append('<div data-course-id=' + course.id + '>' +
+                var semester = course.id.slice(-1); 
+                var badgeAttrs = getBadgeAttrs(course); 
+                $('.search-dialog').append('<div data-course-id="' + course.id + '"><span class="new badge ' + badgeAttrs.color + '" \
+                data-badge-caption="' + badgeAttrs.season + '"></span>' +
                     course.courseFullName.replaceAll(":", "") + '</div>');
             }
         }
@@ -68,7 +71,8 @@ class SearchDropdown {
         $('.search-dialog').animate({
             scrollTop: newSelection.offset().top / scrollDivisor
         }, 100);
-        $('.autocomplete input').val(newSelection[0].innerHTML);
+        // set the value to the course title but remove the code for the season badge
+        $('.autocomplete input').val(newSelection[0].innerHTML.split("</span>")[1]);
         $('.autocomplete input').css('color', '#757575');
     }
 
