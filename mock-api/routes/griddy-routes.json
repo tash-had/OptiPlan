@@ -1,9 +1,9 @@
 {
-    "/griddy/course?q=CSC1": "/griddy-course-search-csc1",
-    "/griddy/course?q=CSC10": "/griddy-course-search-csc10",
-    "/griddy/course?q=CSC108": "/griddy-course-search-csc108",
-    "/griddy/course?q=CSC16": "/griddy-course-search-csc165",
-    "/griddy/course?q=CSC165": "/griddy-course-search-csc165",
+    "/griddy/course?q=CSC1%20camp%3Autsg": "/griddy-course-search-csc1",
+    "/griddy/course?q=CSC10%20camp%3Autsg": "/griddy-course-search-csc10",
+    "/griddy/course?q=CSC108%20camp%3Autsg": "/griddy-course-search-csc108",
+    "/griddy/course?q=CSC16%20camp%3Autsg": "/griddy-course-search-csc165",
+    "/griddy/course?q=CSC165%20camp%3Autsg": "/griddy-course-search-csc165",
     
     "/griddy/course?id=1992": "/griddy-course-1992",
     "/griddy/course?id=1993": "/griddy-course-1993",
