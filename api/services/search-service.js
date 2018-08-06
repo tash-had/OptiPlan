@@ -34,7 +34,7 @@ module.exports = {
                 courseCode: courseCode,
                 courseFullName: courseFullName,
                 // html: courseAsListItem,
-                id: courseId.substring(1)
+                id: courseId
             };
             matchingCourses.push(course);
         }

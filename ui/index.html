@@ -6,36 +6,44 @@
     <link href="css/ext/material-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="css/ext/materialize.min.css">
     <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/mocks.css">
 </head>
 
 <body>
     <div id="search" class="container">
-        <div class="row">
-            <div class="col s6">
+        <div class="row" >
+            <div class="col s4">
                 <div class="autocomplete">
                     <input id='courseSearch' type="text" placeholder="Choose a course">
                     <div class="search-dialog">
                     </div>
                 </div>
             </div>
-            <div class="col s3">
-                <a class="waves-effect waves-light btn" style="float:right;" onclick="localStorage.removeItem('timetable');">Clear All Data</a>
+            <div class="col s8" >
+                        <a style="background-color: black" class="waves-effect waves-light btn" id="firstYearBtn">CS YR 1</a>
+                        <a style="background-color: #5a1010" class="waves-effect waves-light btn" id="secondYearBtn">CS YR 2</a>
+                        <a style="background-color: #e25f5f" class="waves-effect waves-light btn" id="thirdYearBtn">CS YR 3</a>
+                        <a style="background-color: #2196fe" class="waves-effect waves-light btn" id="fourthYearBtn">CS YR 4</a>
+                        <a style="background-color: #666666" class="waves-effect waves-light btn" id="renderBtn">Render timetable</a>
+                        <a class="waves-effect waves-light btn" id="clearBtn">Clear All Data</a>                
             </div>
         </div>
     </div>
-
     <div id="courses" class="container">
         <div class="row">
-            <ul class="collection col s6"></ul>
+            <ul class="collection col s4"></ul>
+            <h5 style="text-align: center;"><pre>timetable</pre></h5>
+            <div class="col s8" id="timetable">
+            </div>
         </div>
-
     </div>
 </body>
+<script src="https://rawgit.com/caldwell/renderjson/master/renderjson.js"></script>
 <script type="text/javascript" src="js/ext/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="js/ext/materialize.min.js"></script>
 <script type="text/javascript" src="js/models/timetable.js"></script>
 <script type="text/javascript" src="js/models/course.js"></script>
 <script type="text/javascript" src="js/services/search.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
-
+<script type="text/javascript" src="js/mocks.js"></script>
 </html>
