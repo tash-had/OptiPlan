@@ -2,19 +2,8 @@ var COURSE_MOCK_URL = "http://localhost:3002/mock/year-";
 var MOCK_BTNS = ['y1', 'y2', 'y3', 'y4'];
 
 $(document).ready(function () {
-    $("#clearBtn").on("click", function () {
-        clearData();
-    });
-
-    $("#renderBtn").on('click', function () {
-        var jsonDiv = document.getElementById("timetable");
-        jsonDiv.innerHTML = ''; 
-        renderjson.set_show_to_level(3);
-        jsonDiv.appendChild(renderjson(timetable));
-    });
     $("#renderBtn").attr("disabled", true);
     setButtonState();
-    
 });
 
 function setButtonState() {
@@ -34,18 +23,25 @@ function fetchCourseData(year) {
     var yearSet = localStorage.yearSet;
     if (yearToSet != yearSet) {
         $.get(COURSE_MOCK_URL + year, function (response) {
-            console.log("GET RESPONSE", response); 
+            console.log("GET RESPONSE", response);
             for (course of response.courses) {
                 timetableUI.addCourseToView(course);
             }
-            timetable.courses = response.courses; 
-            localStorage.timetable = JSON.stringify(timetable.courses); 
+            timetable.courses = response.courses;
+            localStorage.timetable = JSON.stringify(timetable.courses);
+            console.log("NEW TIMETABLE", timetable);
         });
         localStorage.yearSet = 'y' + year;
         setButtonState();
         $("#renderBtn").attr("disabled", false);
-        console.log("NEW TIMETABLE", timetable); 
     }
+}
+
+function renderTimetable() {
+    var jsonDiv = document.getElementById("timetable");
+    jsonDiv.innerHTML = '';
+    renderjson.set_show_to_level(3);
+    jsonDiv.appendChild(renderjson(timetable));
 }
 
 function clearData() {
