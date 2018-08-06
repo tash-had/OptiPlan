@@ -310,8 +310,1484 @@
       }
     ]
   }, 
-  "year-1-cs": {"courses":[{"courseId":"461","courseShortenedName":"MAT137Y1Y: Calculus"},{"courseId":"1996","courseCode":"CSC108H1F","courseFullName":"Introduction to Computer Programming","campus":"UTSG","id":1996,"semester":"F","sections":[{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":48,"End":56},{"Day":4,"Start":52,"End":56}],"StringFormat":"Tuesday 12:00-14:00 Thursday 13:00-14:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"J Campbell","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":48,"End":56},{"Day":4,"Start":52,"End":56}],"StringFormat":"Tuesday 12:00-14:00 Thursday 13:00-14:00","TBA":false},"Name":"LEC0102","IsLecture":true,"Instructor":"J Campbell","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":52,"End":60},{"Day":5,"Start":52,"End":56}],"StringFormat":"Wednesday 13:00-15:00 Friday 13:00-14:00","TBA":false},"Name":"LEC0201","IsLecture":true,"Instructor":"T Fairgrieve","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":72,"End":84}],"StringFormat":"Tuesday 18:00-21:00","TBA":false},"Name":"LEC5101","IsLecture":true,"Instructor":"J Smith","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":72,"End":84}],"StringFormat":"Tuesday 18:00-21:00","TBA":false},"Name":"LEC5102","IsLecture":true,"Instructor":"J Smith","Location":null},{"ParsedTime":{"MeetTimes":[],"StringFormat":"","TBA":false},"Name":"LEC9901","IsLecture":true,"Instructor":"J Smith","Location":null}],"courseShortenedName":"CSC108H1F: Introduction to Computer Progr..."},{"courseId":"1980","courseShortenedName":"HPS100H1F: Introduction to History and Ph..."},{"courseId":"435","courseShortenedName":"AST101H1F: The Sun and Its Neighbours"},{"courseId":"1982","courseShortenedName":"PSY100H1F: Introductory Psychology"},{"courseId":"473","courseShortenedName":"AST201H1S: Stars and Galaxies"},{"courseId":"2005","courseCode":"CSC148H1S","courseFullName":"Introduction to Computer Science","campus":"UTSG","id":2005,"semester":"S","sections":[{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":72},{"Day":5,"Start":60,"End":64}],"StringFormat":"Tuesday 16:00-18:00 Friday 15:00-16:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"J Smith","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":72},{"Day":5,"Start":60,"End":64}],"StringFormat":"Tuesday 16:00-18:00 Friday 15:00-16:00","TBA":false},"Name":"LEC0102","IsLecture":true,"Instructor":"J Smith","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":72,"End":84}],"StringFormat":"Wednesday 18:00-21:00","TBA":false},"Name":"LEC5101","IsLecture":true,"Instructor":"D Horton","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":72,"End":84}],"StringFormat":"Wednesday 18:00-21:00","TBA":false},"Name":"LEC5102","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":36,"End":44}],"StringFormat":"Thursday 9:00-11:00","TBA":false},"Name":"TUT0101","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":44,"End":52}],"StringFormat":"Thursday 11:00-13:00","TBA":false},"Name":"TUT0201","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":52,"End":60}],"StringFormat":"Thursday 13:00-15:00","TBA":false},"Name":"TUT0301","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":60,"End":68}],"StringFormat":"Thursday 15:00-17:00","TBA":false},"Name":"TUT0401","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":44,"End":52}],"StringFormat":"Friday 11:00-13:00","TBA":false},"Name":"TUT0501","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":76}],"StringFormat":"Thursday 17:00-19:00","TBA":false},"Name":"TUT5101","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":76,"End":84}],"StringFormat":"Thursday 19:00-21:00","TBA":false},"Name":"TUT5201","IsLecture":false,"Instructor":"","Location":null}],"courseShortenedName":"CSC148H1S: Introduction to Computer Scien..."},{"courseId":"2008","courseCode":"CSC165H1S","courseFullName":"Mathematical Expression and Reasoning for Computer Science","campus":"UTSG","id":2008,"semester":"S","sections":[{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":44,"End":52},{"Day":3,"Start":44,"End":52}],"StringFormat":"Monday 11:00-13:00 Wednesday 11:00-13:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"D Liu","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":52,"End":60},{"Day":3,"Start":52,"End":60}],"StringFormat":"Monday 13:00-15:00 Wednesday 13:00-15:00","TBA":false},"Name":"LEC0201","IsLecture":true,"Instructor":"F Pitt","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":60,"End":68},{"Day":3,"Start":60,"End":68}],"StringFormat":"Monday 15:00-17:00 Wednesday 15:00-17:00","TBA":false},"Name":"LEC0301","IsLecture":true,"Instructor":"D Liu","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":72,"End":80},{"Day":3,"Start":72,"End":80}],"StringFormat":"Monday 18:00-20:00 Wednesday 18:00-20:00","TBA":false},"Name":"LEC5101","IsLecture":true,"Instructor":"F Pitt","Location":null}],"courseShortenedName":"CSC165H1S: Mathematical Expression and Re..."},{"courseId":"2944","courseShortenedName":"ECO101H1S: Principles of Microeconomics"}]},
-  "year-2-cs": {"courses":[{"courseId":"2038","courseCode":"CSC207H1F","courseFullName":"Software Design","campus":"UTSG","id":2038,"semester":"F","sections":[{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":56,"End":60},{"Day":2,"Start":52,"End":60}],"StringFormat":"Monday 14:00-15:00 Tuesday 13:00-15:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"P Gries","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68},{"Day":2,"Start":60,"End":68}],"StringFormat":"Monday 16:00-17:00 Tuesday 15:00-17:00","TBA":false},"Name":"LEC0201","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":60,"End":64},{"Day":3,"Start":56,"End":64}],"StringFormat":"Monday 15:00-16:00 Wednesday 14:00-16:00","TBA":false},"Name":"LEC0301","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":56,"End":60},{"Day":2,"Start":52,"End":60}],"StringFormat":"Monday 14:00-15:00 Tuesday 13:00-15:00","TBA":false},"Name":"LEC2000","IsLecture":true,"Instructor":"P Gries","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":68,"End":72},{"Day":3,"Start":72,"End":80}],"StringFormat":"Wednesday 17:00-18:00 Wednesday 18:00-20:00","TBA":false},"Name":"LEC5101","IsLecture":true,"Instructor":"","Location":null}],"courseShortenedName":"CSC207H1F Software Design"},{"courseId":"2072","courseCode":"CSC236H1F","courseFullName":"Introduction to the Theory of Computation","campus":"UTSG","id":2072,"semester":"F","sections":[{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":44,"End":48},{"Day":3,"Start":44,"End":48},{"Day":5,"Start":44,"End":48}],"StringFormat":"Monday 11:00-12:00 Wednesday 11:00-12:00 Friday 11:00-12:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"D Heap","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":48,"End":52},{"Day":3,"Start":48,"End":52},{"Day":5,"Start":48,"End":52}],"StringFormat":"Monday 12:00-13:00 Wednesday 12:00-13:00 Friday 12:00-13:00","TBA":false},"Name":"LEC0201","IsLecture":true,"Instructor":"D Heap","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":44,"End":48},{"Day":3,"Start":44,"End":48},{"Day":5,"Start":44,"End":48}],"StringFormat":"Monday 11:00-12:00 Wednesday 11:00-12:00 Friday 11:00-12:00","TBA":false},"Name":"LEC2000","IsLecture":true,"Instructor":"D Heap","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":72,"End":80},{"Day":4,"Start":80,"End":84}],"StringFormat":"Thursday 18:00-20:00 Thursday 20:00-21:00","TBA":false},"Name":"LEC5101","IsLecture":true,"Instructor":"D Heap","Location":null}],"courseShortenedName":"CSC236H1F Introduction to the Theory of ..."},{"courseId":"2118","courseCode":"PSY270H1F","courseFullName":"Introduction to Cognitive Psychology","campus":"UTSG","id":2118,"semester":"F","sections":[{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":56,"End":68}],"StringFormat":"Tuesday 14:00-17:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"K Duncan","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":40,"End":52}],"StringFormat":"Friday 10:00-13:00","TBA":false},"Name":"LEC0201","IsLecture":true,"Instructor":"C Burton","Location":null}],"courseShortenedName":"PSY270H1F Introduction to Cognitive Psyc..."},{"courseId":"554","courseCode":"STA247H1F","courseFullName":"Probability with Computer Applications","campus":"UTSG","id":554,"semester":"F","sections":[{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":60,"End":68},{"Day":5,"Start":60,"End":64}],"StringFormat":"Monday 15:00-17:00 Friday 15:00-16:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":64,"End":68}],"StringFormat":"Friday 16:00-17:00","TBA":false},"Name":"TUT0101","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":64,"End":68}],"StringFormat":"Friday 16:00-17:00","TBA":false},"Name":"TUT0102","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":64,"End":68}],"StringFormat":"Friday 16:00-17:00","TBA":false},"Name":"TUT0103","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":64,"End":68}],"StringFormat":"Friday 16:00-17:00","TBA":false},"Name":"TUT0104","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":64,"End":68}],"StringFormat":"Friday 16:00-17:00","TBA":false},"Name":"TUT0105","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":64,"End":68}],"StringFormat":"Friday 16:00-17:00","TBA":false},"Name":"TUT0106","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":64,"End":68}],"StringFormat":"Friday 16:00-17:00","TBA":false},"Name":"TUT0107","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":64,"End":68}],"StringFormat":"Friday 16:00-17:00","TBA":false},"Name":"TUT0108","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":64,"End":68}],"StringFormat":"Friday 16:00-17:00","TBA":false},"Name":"TUT0109","IsLecture":false,"Instructor":"","Location":null}],"courseShortenedName":"STA247H1F Probability with Computer Appl..."},{"courseId":"532","courseCode":"MAT235Y1Y","courseFullName":"Calculus II","campus":"UTSG","id":532,"semester":"Y","sections":[{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":56,"End":60},{"Day":3,"Start":56,"End":60},{"Day":5,"Start":56,"End":60}],"StringFormat":"Monday 14:00-15:00 Wednesday 14:00-15:00 Friday 14:00-15:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":68},{"Day":4,"Start":64,"End":72}],"StringFormat":"Tuesday 16:00-17:00 Thursday 16:00-18:00","TBA":false},"Name":"LEC0201","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":48,"End":52},{"Day":3,"Start":48,"End":52},{"Day":5,"Start":48,"End":52}],"StringFormat":"Monday 12:00-13:00 Wednesday 12:00-13:00 Friday 12:00-13:00","TBA":false},"Name":"LEC0301","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":48,"End":52},{"Day":4,"Start":48,"End":56}],"StringFormat":"Monday 12:00-13:00 Thursday 12:00-14:00","TBA":false},"Name":"LEC0401","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":36,"End":40},{"Day":3,"Start":36,"End":40},{"Day":5,"Start":36,"End":40}],"StringFormat":"Monday 9:00-10:00 Wednesday 9:00-10:00 Friday 9:00-10:00","TBA":false},"Name":"LEC0501","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":44,"End":48},{"Day":3,"Start":44,"End":48},{"Day":4,"Start":44,"End":48}],"StringFormat":"Tuesday 11:00-12:00 Wednesday 11:00-12:00 Thursday 11:00-12:00","TBA":false},"Name":"LEC0601","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":36,"End":40},{"Day":3,"Start":36,"End":40},{"Day":4,"Start":36,"End":40}],"StringFormat":"Monday 9:00-10:00 Wednesday 9:00-10:00 Thursday 9:00-10:00","TBA":false},"Name":"LEC0701","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":72,"End":76},{"Day":4,"Start":72,"End":80}],"StringFormat":"Tuesday 18:00-19:00 Thursday 18:00-20:00","TBA":false},"Name":"LEC5101","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":44,"End":48}],"StringFormat":"Tuesday 11:00-12:00","TBA":false},"Name":"TUT0101","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":44,"End":48}],"StringFormat":"Tuesday 11:00-12:00","TBA":false},"Name":"TUT0102","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":48,"End":52}],"StringFormat":"Tuesday 12:00-13:00","TBA":false},"Name":"TUT0201","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":48,"End":52}],"StringFormat":"Tuesday 12:00-13:00","TBA":false},"Name":"TUT0202","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":60,"End":64}],"StringFormat":"Tuesday 15:00-16:00","TBA":false},"Name":"TUT0301","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":60,"End":64}],"StringFormat":"Tuesday 15:00-16:00","TBA":false},"Name":"TUT0302","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":48,"End":52}],"StringFormat":"Wednesday 12:00-13:00","TBA":false},"Name":"TUT0401","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":48,"End":52}],"StringFormat":"Wednesday 12:00-13:00","TBA":false},"Name":"TUT0402","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":52,"End":56}],"StringFormat":"Wednesday 13:00-14:00","TBA":false},"Name":"TUT0501","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":52,"End":56}],"StringFormat":"Wednesday 13:00-14:00","TBA":false},"Name":"TUT0502","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":52,"End":56}],"StringFormat":"Thursday 13:00-14:00","TBA":false},"Name":"TUT0601","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":56,"End":60}],"StringFormat":"Thursday 14:00-15:00","TBA":false},"Name":"TUT0701","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":56,"End":60}],"StringFormat":"Thursday 14:00-15:00","TBA":false},"Name":"TUT0702","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":52,"End":56}],"StringFormat":"Friday 13:00-14:00","TBA":false},"Name":"TUT0801","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":52,"End":56}],"StringFormat":"Friday 13:00-14:00","TBA":false},"Name":"TUT0802","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":72,"End":76}],"StringFormat":"Wednesday 18:00-19:00","TBA":false},"Name":"TUT5101","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":72,"End":76}],"StringFormat":"Wednesday 18:00-19:00","TBA":false},"Name":"TUT5102","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5201","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5202","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5203","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5204","IsLecture":false,"Instructor":"","Location":null}],"courseShortenedName":"MAT235Y1Y Calculus II"},{"courseId":"2113","courseCode":"CSC263H1S","courseFullName":"Data Structures and Analysis","campus":"UTSG","id":2113,"semester":"S","sections":[{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":56,"End":60},{"Day":3,"Start":56,"End":60},{"Day":5,"Start":56,"End":60}],"StringFormat":"Monday 14:00-15:00 Wednesday 14:00-15:00 Friday 14:00-15:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"S Toueg","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":60,"End":64},{"Day":3,"Start":60,"End":64},{"Day":5,"Start":60,"End":64}],"StringFormat":"Monday 15:00-16:00 Wednesday 15:00-16:00 Friday 15:00-16:00","TBA":false},"Name":"LEC0201","IsLecture":true,"Instructor":"S Toueg","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68},{"Day":3,"Start":64,"End":68},{"Day":5,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00 Wednesday 16:00-17:00 Friday 16:00-17:00","TBA":false},"Name":"LEC0301","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":56,"End":60},{"Day":3,"Start":56,"End":60},{"Day":5,"Start":56,"End":60}],"StringFormat":"Monday 14:00-15:00 Wednesday 14:00-15:00 Friday 14:00-15:00","TBA":false},"Name":"LEC2000","IsLecture":true,"Instructor":"S Toueg","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":72,"End":80},{"Day":4,"Start":80,"End":84}],"StringFormat":"Thursday 18:00-20:00 Thursday 20:00-21:00","TBA":false},"Name":"LEC5101","IsLecture":true,"Instructor":"","Location":null}],"courseShortenedName":"CSC263H1S Data Structures and Analysis"},{"courseId":"2044","courseCode":"CSC209H1S","courseFullName":"Software Tools and Systems Programming","campus":"UTSG","id":2044,"semester":"S","sections":[{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":40,"End":44},{"Day":3,"Start":40,"End":44}],"StringFormat":"Monday 10:00-11:00 Wednesday 10:00-11:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"J Campbell","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":44,"End":48},{"Day":3,"Start":44,"End":48}],"StringFormat":"Monday 11:00-12:00 Wednesday 11:00-12:00","TBA":false},"Name":"LEC0201","IsLecture":true,"Instructor":"J Campbell","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":56,"End":60},{"Day":3,"Start":56,"End":60}],"StringFormat":"Monday 14:00-15:00 Wednesday 14:00-15:00","TBA":false},"Name":"LEC0301","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":72,"End":80}],"StringFormat":"Wednesday 18:00-20:00","TBA":false},"Name":"LEC5101","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":52,"End":56}],"StringFormat":"Friday 13:00-14:00","TBA":false},"Name":"TUT0101","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":60}],"StringFormat":"Friday 14:00-15:00","TBA":false},"Name":"TUT0201","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":60,"End":64}],"StringFormat":"Friday 15:00-16:00","TBA":false},"Name":"TUT0301","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":80,"End":84}],"StringFormat":"Wednesday 20:00-21:00","TBA":false},"Name":"TUT5101","IsLecture":false,"Instructor":"","Location":null}],"courseShortenedName":"CSC209H1S Software Tools and Systems Pro..."},{"courseId":"2104","courseCode":"CSC258H1S","courseFullName":"Computer Organization","campus":"UTSG","id":2104,"semester":"S","sections":[{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":52,"End":56},{"Day":3,"Start":52,"End":56},{"Day":3,"Start":72,"End":84},{"Day":5,"Start":52,"End":56}],"StringFormat":"Monday 13:00-14:00 Wednesday 13:00-14:00 Wednesday 18:00-21:00 Friday 13:00-14:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"S Engels","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":56,"End":60},{"Day":1,"Start":72,"End":84},{"Day":3,"Start":56,"End":60},{"Day":5,"Start":56,"End":60}],"StringFormat":"Monday 14:00-15:00 Monday 18:00-21:00 Wednesday 14:00-15:00 Friday 14:00-15:00","TBA":false},"Name":"LEC0201","IsLecture":true,"Instructor":"S Engels","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":72,"End":84},{"Day":2,"Start":72,"End":84}],"StringFormat":"Monday 18:00-21:00 Tuesday 18:00-21:00","TBA":false},"Name":"LEC5101","IsLecture":true,"Instructor":"","Location":null}],"courseShortenedName":"CSC258H1S Computer Organization"},{"courseId":"2948","courseCode":"PCL102H1S","courseFullName":"The Art of Drug Discovery","campus":"UTSG","id":2948,"semester":"S","sections":[{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":48,"End":52},{"Day":4,"Start":48,"End":52},{"Day":5,"Start":60,"End":64}],"StringFormat":"Tuesday 12:00-13:00 Thursday 12:00-13:00 Friday 15:00-16:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"R Laposa, Y Lytvyn","Location":null}],"courseShortenedName":"PCL102H1S The Art of Drug Discovery"}]},
+  "year-1-cs": {"courses":[{"courseId":"2008","courseCode":"CSC165H1S","courseFullName":"Mathematical Expression and Reasoning for Computer Science","campus":"UTSG","id":2008,"semester":"S","sections":[{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":44,"End":52},{"Day":3,"Start":44,"End":52}],"StringFormat":"Monday 11:00-13:00 Wednesday 11:00-13:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"D Liu","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":52,"End":60},{"Day":3,"Start":52,"End":60}],"StringFormat":"Monday 13:00-15:00 Wednesday 13:00-15:00","TBA":false},"Name":"LEC0201","IsLecture":true,"Instructor":"F Pitt","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":60,"End":68},{"Day":3,"Start":60,"End":68}],"StringFormat":"Monday 15:00-17:00 Wednesday 15:00-17:00","TBA":false},"Name":"LEC0301","IsLecture":true,"Instructor":"D Liu","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":72,"End":80},{"Day":3,"Start":72,"End":80}],"StringFormat":"Monday 18:00-20:00 Wednesday 18:00-20:00","TBA":false},"Name":"LEC5101","IsLecture":true,"Instructor":"F Pitt","Location":null}],"courseShortenedName":"CSC165H1S Mathematical Expression and Re..."},{"courseId":"2005","courseCode":"CSC148H1S","courseFullName":"Introduction to Computer Science","campus":"UTSG","id":2005,"semester":"S","sections":[{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":72},{"Day":5,"Start":60,"End":64}],"StringFormat":"Tuesday 16:00-18:00 Friday 15:00-16:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"J Smith","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":72},{"Day":5,"Start":60,"End":64}],"StringFormat":"Tuesday 16:00-18:00 Friday 15:00-16:00","TBA":false},"Name":"LEC0102","IsLecture":true,"Instructor":"J Smith","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":72,"End":84}],"StringFormat":"Wednesday 18:00-21:00","TBA":false},"Name":"LEC5101","IsLecture":true,"Instructor":"D Horton","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":72,"End":84}],"StringFormat":"Wednesday 18:00-21:00","TBA":false},"Name":"LEC5102","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":36,"End":44}],"StringFormat":"Thursday 9:00-11:00","TBA":false},"Name":"TUT0101","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":44,"End":52}],"StringFormat":"Thursday 11:00-13:00","TBA":false},"Name":"TUT0201","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":52,"End":60}],"StringFormat":"Thursday 13:00-15:00","TBA":false},"Name":"TUT0301","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":60,"End":68}],"StringFormat":"Thursday 15:00-17:00","TBA":false},"Name":"TUT0401","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":44,"End":52}],"StringFormat":"Friday 11:00-13:00","TBA":false},"Name":"TUT0501","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":76}],"StringFormat":"Thursday 17:00-19:00","TBA":false},"Name":"TUT5101","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":76,"End":84}],"StringFormat":"Thursday 19:00-21:00","TBA":false},"Name":"TUT5201","IsLecture":false,"Instructor":"","Location":null}],"courseShortenedName":"CSC148H1S Introduction to Computer Scien..."},{"courseId":"1996","courseCode":"CSC108H1F","courseFullName":"Introduction to Computer Programming","campus":"UTSG","id":1996,"semester":"F","sections":[{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":48,"End":56},{"Day":4,"Start":52,"End":56}],"StringFormat":"Tuesday 12:00-14:00 Thursday 13:00-14:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"J Campbell","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":48,"End":56},{"Day":4,"Start":52,"End":56}],"StringFormat":"Tuesday 12:00-14:00 Thursday 13:00-14:00","TBA":false},"Name":"LEC0102","IsLecture":true,"Instructor":"J Campbell","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":52,"End":60},{"Day":5,"Start":52,"End":56}],"StringFormat":"Wednesday 13:00-15:00 Friday 13:00-14:00","TBA":false},"Name":"LEC0201","IsLecture":true,"Instructor":"T Fairgrieve","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":72,"End":84}],"StringFormat":"Tuesday 18:00-21:00","TBA":false},"Name":"LEC5101","IsLecture":true,"Instructor":"J Smith","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":72,"End":84}],"StringFormat":"Tuesday 18:00-21:00","TBA":false},"Name":"LEC5102","IsLecture":true,"Instructor":"J Smith","Location":null},{"ParsedTime":{"MeetTimes":[],"StringFormat":"","TBA":false},"Name":"LEC9901","IsLecture":true,"Instructor":"J Smith","Location":null}],"courseShortenedName":"CSC108H1F Introduction to Computer Progr..."},{"courseId":"457","courseCode":"MAT135H1F","courseFullName":"Calculus 1(A)","campus":"UTSG","id":457,"semester":"F","sections":[{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":36,"End":40},{"Day":3,"Start":36,"End":40},{"Day":5,"Start":36,"End":40}],"StringFormat":"Monday 9:00-10:00 Wednesday 9:00-10:00 Friday 9:00-10:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":40,"End":44},{"Day":3,"Start":36,"End":44}],"StringFormat":"Monday 10:00-11:00 Wednesday 9:00-11:00","TBA":false},"Name":"LEC0201","IsLecture":true,"Instructor":"S Mayes-Tang","Location":null},{"ParsedTime":{"MeetTimes":[],"StringFormat":"","TBA":false},"Name":"LEC0301","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":60,"End":64},{"Day":3,"Start":56,"End":60},{"Day":5,"Start":52,"End":56}],"StringFormat":"Monday 15:00-16:00 Wednesday 14:00-15:00 Friday 13:00-14:00","TBA":false},"Name":"LEC0401","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":52,"End":56},{"Day":3,"Start":52,"End":56},{"Day":5,"Start":52,"End":56}],"StringFormat":"Monday 13:00-14:00 Wednesday 13:00-14:00 Friday 13:00-14:00","TBA":false},"Name":"LEC0402","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":60,"End":64},{"Day":3,"Start":60,"End":68}],"StringFormat":"Monday 15:00-16:00 Wednesday 15:00-17:00","TBA":false},"Name":"LEC0501","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":36,"End":40},{"Day":4,"Start":44,"End":52}],"StringFormat":"Tuesday 9:00-10:00 Thursday 11:00-13:00","TBA":false},"Name":"LEC0601","IsLecture":true,"Instructor":"E LeBlanc","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":40,"End":44},{"Day":4,"Start":40,"End":44},{"Day":5,"Start":40,"End":44}],"StringFormat":"Tuesday 10:00-11:00 Thursday 10:00-11:00 Friday 10:00-11:00","TBA":false},"Name":"LEC0701","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":48,"End":56},{"Day":4,"Start":48,"End":52}],"StringFormat":"Tuesday 12:00-14:00 Thursday 12:00-13:00","TBA":false},"Name":"LEC0801","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":52,"End":56},{"Day":4,"Start":40,"End":44},{"Day":5,"Start":40,"End":44}],"StringFormat":"Tuesday 13:00-14:00 Thursday 10:00-11:00 Friday 10:00-11:00","TBA":false},"Name":"LEC0901","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":52,"End":56},{"Day":4,"Start":52,"End":56},{"Day":5,"Start":52,"End":56}],"StringFormat":"Tuesday 13:00-14:00 Thursday 13:00-14:00 Friday 13:00-14:00","TBA":false},"Name":"LEC0902","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":60,"End":64},{"Day":5,"Start":56,"End":64}],"StringFormat":"Wednesday 15:00-16:00 Friday 14:00-16:00","TBA":false},"Name":"LEC1001","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":68,"End":72},{"Day":4,"Start":72,"End":80}],"StringFormat":"Tuesday 17:00-18:00 Thursday 18:00-20:00","TBA":false},"Name":"LEC5101","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":72,"End":84}],"StringFormat":"Thursday 18:00-21:00","TBA":false},"Name":"LEC5201","IsLecture":true,"Instructor":"E LeBlanc","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00","TBA":false},"Name":"TUT0101","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00","TBA":false},"Name":"TUT0102","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00","TBA":false},"Name":"TUT0103","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00","TBA":false},"Name":"TUT0104","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00","TBA":false},"Name":"TUT0105","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00","TBA":false},"Name":"TUT0106","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00","TBA":false},"Name":"TUT0107","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00","TBA":false},"Name":"TUT0108","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00","TBA":false},"Name":"TUT0109","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00","TBA":false},"Name":"TUT0110","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00","TBA":false},"Name":"TUT0111","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00","TBA":false},"Name":"TUT0112","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":68}],"StringFormat":"Tuesday 16:00-17:00","TBA":false},"Name":"TUT0201","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":68}],"StringFormat":"Tuesday 16:00-17:00","TBA":false},"Name":"TUT0202","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":68}],"StringFormat":"Tuesday 16:00-17:00","TBA":false},"Name":"TUT0203","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":68}],"StringFormat":"Tuesday 16:00-17:00","TBA":false},"Name":"TUT0204","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":68}],"StringFormat":"Tuesday 16:00-17:00","TBA":false},"Name":"TUT0205","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":68}],"StringFormat":"Tuesday 16:00-17:00","TBA":false},"Name":"TUT0206","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":68}],"StringFormat":"Tuesday 16:00-17:00","TBA":false},"Name":"TUT0207","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":68}],"StringFormat":"Tuesday 16:00-17:00","TBA":false},"Name":"TUT0208","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":68}],"StringFormat":"Tuesday 16:00-17:00","TBA":false},"Name":"TUT0209","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":68}],"StringFormat":"Tuesday 16:00-17:00","TBA":false},"Name":"TUT0210","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":68}],"StringFormat":"Tuesday 16:00-17:00","TBA":false},"Name":"TUT0211","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":68}],"StringFormat":"Tuesday 16:00-17:00","TBA":false},"Name":"TUT0212","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":64,"End":68}],"StringFormat":"Thursday 16:00-17:00","TBA":false},"Name":"TUT0301","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":64,"End":68}],"StringFormat":"Thursday 16:00-17:00","TBA":false},"Name":"TUT0302","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":64,"End":68}],"StringFormat":"Thursday 16:00-17:00","TBA":false},"Name":"TUT0303","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":64,"End":68}],"StringFormat":"Thursday 16:00-17:00","TBA":false},"Name":"TUT0304","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":64,"End":68}],"StringFormat":"Thursday 16:00-17:00","TBA":false},"Name":"TUT0305","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":64,"End":68}],"StringFormat":"Thursday 16:00-17:00","TBA":false},"Name":"TUT0306","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":64,"End":68}],"StringFormat":"Thursday 16:00-17:00","TBA":false},"Name":"TUT0307","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":64,"End":68}],"StringFormat":"Thursday 16:00-17:00","TBA":false},"Name":"TUT0308","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":64,"End":68}],"StringFormat":"Thursday 16:00-17:00","TBA":false},"Name":"TUT0309","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":64,"End":68}],"StringFormat":"Thursday 16:00-17:00","TBA":false},"Name":"TUT0310","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":64,"End":68}],"StringFormat":"Thursday 16:00-17:00","TBA":false},"Name":"TUT0311","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":64,"End":68}],"StringFormat":"Thursday 16:00-17:00","TBA":false},"Name":"TUT0312","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":60}],"StringFormat":"Friday 14:00-15:00","TBA":false},"Name":"TUT0401","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":60}],"StringFormat":"Friday 14:00-15:00","TBA":false},"Name":"TUT0402","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":60}],"StringFormat":"Friday 14:00-15:00","TBA":false},"Name":"TUT0403","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":60}],"StringFormat":"Friday 14:00-15:00","TBA":false},"Name":"TUT0404","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":60}],"StringFormat":"Friday 14:00-15:00","TBA":false},"Name":"TUT0405","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":60}],"StringFormat":"Friday 14:00-15:00","TBA":false},"Name":"TUT0406","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":60}],"StringFormat":"Friday 14:00-15:00","TBA":false},"Name":"TUT0407","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":60,"End":64}],"StringFormat":"Friday 15:00-16:00","TBA":false},"Name":"TUT0501","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":60,"End":64}],"StringFormat":"Friday 15:00-16:00","TBA":false},"Name":"TUT0502","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":60,"End":64}],"StringFormat":"Friday 15:00-16:00","TBA":false},"Name":"TUT0503","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":60,"End":64}],"StringFormat":"Friday 15:00-16:00","TBA":false},"Name":"TUT0504","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":60,"End":64}],"StringFormat":"Friday 15:00-16:00","TBA":false},"Name":"TUT0505","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":60,"End":64}],"StringFormat":"Friday 15:00-16:00","TBA":false},"Name":"TUT0506","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":60,"End":64}],"StringFormat":"Friday 15:00-16:00","TBA":false},"Name":"TUT0507","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":68,"End":72}],"StringFormat":"Monday 17:00-18:00","TBA":false},"Name":"TUT5101","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":68,"End":72}],"StringFormat":"Monday 17:00-18:00","TBA":false},"Name":"TUT5102","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":68,"End":72}],"StringFormat":"Monday 17:00-18:00","TBA":false},"Name":"TUT5103","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":68,"End":72}],"StringFormat":"Monday 17:00-18:00","TBA":false},"Name":"TUT5104","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":68,"End":72}],"StringFormat":"Monday 17:00-18:00","TBA":false},"Name":"TUT5105","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":68,"End":72}],"StringFormat":"Monday 17:00-18:00","TBA":false},"Name":"TUT5106","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":68,"End":72}],"StringFormat":"Monday 17:00-18:00","TBA":false},"Name":"TUT5107","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":68,"End":72}],"StringFormat":"Monday 17:00-18:00","TBA":false},"Name":"TUT5108","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":68,"End":72}],"StringFormat":"Monday 17:00-18:00","TBA":false},"Name":"TUT5109","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":68,"End":72}],"StringFormat":"Monday 17:00-18:00","TBA":false},"Name":"TUT5110","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":68,"End":72}],"StringFormat":"Monday 17:00-18:00","TBA":false},"Name":"TUT5111","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":68,"End":72}],"StringFormat":"Monday 17:00-18:00","TBA":false},"Name":"TUT5112","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":68,"End":72}],"StringFormat":"Tuesday 17:00-18:00","TBA":false},"Name":"TUT5201","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":68,"End":72}],"StringFormat":"Tuesday 17:00-18:00","TBA":false},"Name":"TUT5202","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":68,"End":72}],"StringFormat":"Tuesday 17:00-18:00","TBA":false},"Name":"TUT5203","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":68,"End":72}],"StringFormat":"Tuesday 17:00-18:00","TBA":false},"Name":"TUT5204","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":68,"End":72}],"StringFormat":"Tuesday 17:00-18:00","TBA":false},"Name":"TUT5205","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":68,"End":72}],"StringFormat":"Tuesday 17:00-18:00","TBA":false},"Name":"TUT5206","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":68,"End":72}],"StringFormat":"Tuesday 17:00-18:00","TBA":false},"Name":"TUT5207","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":68,"End":72}],"StringFormat":"Tuesday 17:00-18:00","TBA":false},"Name":"TUT5208","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":68,"End":72}],"StringFormat":"Tuesday 17:00-18:00","TBA":false},"Name":"TUT5209","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":68,"End":72}],"StringFormat":"Tuesday 17:00-18:00","TBA":false},"Name":"TUT5210","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":68,"End":72}],"StringFormat":"Tuesday 17:00-18:00","TBA":false},"Name":"TUT5211","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":68,"End":72}],"StringFormat":"Tuesday 17:00-18:00","TBA":false},"Name":"TUT5212","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5301","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5302","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5303","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5304","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5305","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5306","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5307","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5308","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5309","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5310","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5311","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5312","IsLecture":false,"Instructor":"","Location":null}],"courseShortenedName":"MAT135H1F Calculus 1(A)"},{"courseId":"460","courseCode":"MAT136H1S","courseFullName":"Calculus 1(B)","campus":"UTSG","id":460,"semester":"S","sections":[{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":36,"End":40},{"Day":3,"Start":36,"End":40},{"Day":5,"Start":36,"End":40}],"StringFormat":"Monday 9:00-10:00 Wednesday 9:00-10:00 Friday 9:00-10:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[],"StringFormat":"","TBA":false},"Name":"LEC0102","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[],"StringFormat":"","TBA":false},"Name":"LEC0201","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":44,"End":48},{"Day":3,"Start":44,"End":48},{"Day":5,"Start":44,"End":48}],"StringFormat":"Monday 11:00-12:00 Wednesday 11:00-12:00 Friday 11:00-12:00","TBA":false},"Name":"LEC0301","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":48,"End":52},{"Day":3,"Start":48,"End":52},{"Day":5,"Start":48,"End":52}],"StringFormat":"Monday 12:00-13:00 Wednesday 12:00-13:00 Friday 12:00-13:00","TBA":false},"Name":"LEC0401","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":52,"End":56},{"Day":3,"Start":52,"End":56},{"Day":5,"Start":52,"End":56}],"StringFormat":"Monday 13:00-14:00 Wednesday 13:00-14:00 Friday 13:00-14:00","TBA":false},"Name":"LEC0501","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":60,"End":64},{"Day":3,"Start":60,"End":64},{"Day":5,"Start":60,"End":64}],"StringFormat":"Monday 15:00-16:00 Wednesday 15:00-16:00 Friday 15:00-16:00","TBA":false},"Name":"LEC0601","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":36,"End":40},{"Day":3,"Start":40,"End":44},{"Day":5,"Start":48,"End":52}],"StringFormat":"Tuesday 9:00-10:00 Wednesday 10:00-11:00 Friday 12:00-13:00","TBA":false},"Name":"LEC0701","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":40,"End":44},{"Day":4,"Start":40,"End":44},{"Day":5,"Start":40,"End":44}],"StringFormat":"Tuesday 10:00-11:00 Thursday 10:00-11:00 Friday 10:00-11:00","TBA":false},"Name":"LEC0801","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":48,"End":56},{"Day":4,"Start":48,"End":52}],"StringFormat":"Tuesday 12:00-14:00 Thursday 12:00-13:00","TBA":false},"Name":"LEC0901","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":60,"End":64},{"Day":5,"Start":56,"End":64}],"StringFormat":"Wednesday 15:00-16:00 Friday 14:00-16:00","TBA":false},"Name":"LEC1001","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":56,"End":60},{"Day":3,"Start":56,"End":60},{"Day":5,"Start":56,"End":60}],"StringFormat":"Monday 14:00-15:00 Wednesday 14:00-15:00 Friday 14:00-15:00","TBA":false},"Name":"LEC1101","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":72,"End":84}],"StringFormat":"Tuesday 18:00-21:00","TBA":false},"Name":"LEC5101","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00","TBA":false},"Name":"TUT0101","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00","TBA":false},"Name":"TUT0102","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00","TBA":false},"Name":"TUT0103","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00","TBA":false},"Name":"TUT0104","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00","TBA":false},"Name":"TUT0105","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00","TBA":false},"Name":"TUT0106","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00","TBA":false},"Name":"TUT0107","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00","TBA":false},"Name":"TUT0108","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00","TBA":false},"Name":"TUT0109","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00","TBA":false},"Name":"TUT0110","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00","TBA":false},"Name":"TUT0111","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00","TBA":false},"Name":"TUT0112","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":68}],"StringFormat":"Tuesday 16:00-17:00","TBA":false},"Name":"TUT0201","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":68}],"StringFormat":"Tuesday 16:00-17:00","TBA":false},"Name":"TUT0202","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":68}],"StringFormat":"Tuesday 16:00-17:00","TBA":false},"Name":"TUT0203","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":68}],"StringFormat":"Tuesday 16:00-17:00","TBA":false},"Name":"TUT0204","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":68}],"StringFormat":"Tuesday 16:00-17:00","TBA":false},"Name":"TUT0205","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":68}],"StringFormat":"Tuesday 16:00-17:00","TBA":false},"Name":"TUT0206","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":68}],"StringFormat":"Tuesday 16:00-17:00","TBA":false},"Name":"TUT0207","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":68}],"StringFormat":"Tuesday 16:00-17:00","TBA":false},"Name":"TUT0208","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":68}],"StringFormat":"Tuesday 16:00-17:00","TBA":false},"Name":"TUT0209","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":68}],"StringFormat":"Tuesday 16:00-17:00","TBA":false},"Name":"TUT0210","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":68}],"StringFormat":"Tuesday 16:00-17:00","TBA":false},"Name":"TUT0211","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":64,"End":68}],"StringFormat":"Tuesday 16:00-17:00","TBA":false},"Name":"TUT0212","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":64,"End":68}],"StringFormat":"Thursday 16:00-17:00","TBA":false},"Name":"TUT0301","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":64,"End":68}],"StringFormat":"Thursday 16:00-17:00","TBA":false},"Name":"TUT0302","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":64,"End":68}],"StringFormat":"Thursday 16:00-17:00","TBA":false},"Name":"TUT0303","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":64,"End":68}],"StringFormat":"Thursday 16:00-17:00","TBA":false},"Name":"TUT0304","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":64,"End":68}],"StringFormat":"Thursday 16:00-17:00","TBA":false},"Name":"TUT0305","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":64,"End":68}],"StringFormat":"Thursday 16:00-17:00","TBA":false},"Name":"TUT0306","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":64,"End":68}],"StringFormat":"Thursday 16:00-17:00","TBA":false},"Name":"TUT0307","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":64,"End":68}],"StringFormat":"Thursday 16:00-17:00","TBA":false},"Name":"TUT0308","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":64,"End":68}],"StringFormat":"Thursday 16:00-17:00","TBA":false},"Name":"TUT0309","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":64,"End":68}],"StringFormat":"Thursday 16:00-17:00","TBA":false},"Name":"TUT0310","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":64,"End":68}],"StringFormat":"Thursday 16:00-17:00","TBA":false},"Name":"TUT0311","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":64,"End":68}],"StringFormat":"Thursday 16:00-17:00","TBA":false},"Name":"TUT0312","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":60}],"StringFormat":"Friday 14:00-15:00","TBA":false},"Name":"TUT0401","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":60}],"StringFormat":"Friday 14:00-15:00","TBA":false},"Name":"TUT0402","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":60}],"StringFormat":"Friday 14:00-15:00","TBA":false},"Name":"TUT0403","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":60}],"StringFormat":"Friday 14:00-15:00","TBA":false},"Name":"TUT0404","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":60}],"StringFormat":"Friday 14:00-15:00","TBA":false},"Name":"TUT0405","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":60}],"StringFormat":"Friday 14:00-15:00","TBA":false},"Name":"TUT0406","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":60}],"StringFormat":"Friday 14:00-15:00","TBA":false},"Name":"TUT0407","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":60}],"StringFormat":"Friday 14:00-15:00","TBA":false},"Name":"TUT0408","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":60,"End":64}],"StringFormat":"Friday 15:00-16:00","TBA":false},"Name":"TUT0501","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":60,"End":64}],"StringFormat":"Friday 15:00-16:00","TBA":false},"Name":"TUT0502","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":60,"End":64}],"StringFormat":"Friday 15:00-16:00","TBA":false},"Name":"TUT0503","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":60,"End":64}],"StringFormat":"Friday 15:00-16:00","TBA":false},"Name":"TUT0504","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":60,"End":64}],"StringFormat":"Friday 15:00-16:00","TBA":false},"Name":"TUT0505","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":60,"End":64}],"StringFormat":"Friday 15:00-16:00","TBA":false},"Name":"TUT0506","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":60,"End":64}],"StringFormat":"Friday 15:00-16:00","TBA":false},"Name":"TUT0507","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":60,"End":64}],"StringFormat":"Friday 15:00-16:00","TBA":false},"Name":"TUT0508","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":68,"End":72}],"StringFormat":"Monday 17:00-18:00","TBA":false},"Name":"TUT5101","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":68,"End":72}],"StringFormat":"Monday 17:00-18:00","TBA":false},"Name":"TUT5102","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":68,"End":72}],"StringFormat":"Monday 17:00-18:00","TBA":false},"Name":"TUT5103","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":68,"End":72}],"StringFormat":"Monday 17:00-18:00","TBA":false},"Name":"TUT5104","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":68,"End":72}],"StringFormat":"Monday 17:00-18:00","TBA":false},"Name":"TUT5105","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":68,"End":72}],"StringFormat":"Monday 17:00-18:00","TBA":false},"Name":"TUT5106","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":68,"End":72}],"StringFormat":"Monday 17:00-18:00","TBA":false},"Name":"TUT5107","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":68,"End":72}],"StringFormat":"Monday 17:00-18:00","TBA":false},"Name":"TUT5108","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":68,"End":72}],"StringFormat":"Monday 17:00-18:00","TBA":false},"Name":"TUT5109","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":68,"End":72}],"StringFormat":"Monday 17:00-18:00","TBA":false},"Name":"TUT5110","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":68,"End":72}],"StringFormat":"Monday 17:00-18:00","TBA":false},"Name":"TUT5111","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":68,"End":72}],"StringFormat":"Monday 17:00-18:00","TBA":false},"Name":"TUT5112","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":68,"End":72}],"StringFormat":"Tuesday 17:00-18:00","TBA":false},"Name":"TUT5201","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":68,"End":72}],"StringFormat":"Tuesday 17:00-18:00","TBA":false},"Name":"TUT5202","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":68,"End":72}],"StringFormat":"Tuesday 17:00-18:00","TBA":false},"Name":"TUT5203","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":68,"End":72}],"StringFormat":"Tuesday 17:00-18:00","TBA":false},"Name":"TUT5204","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":68,"End":72}],"StringFormat":"Tuesday 17:00-18:00","TBA":false},"Name":"TUT5205","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":68,"End":72}],"StringFormat":"Tuesday 17:00-18:00","TBA":false},"Name":"TUT5206","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":68,"End":72}],"StringFormat":"Tuesday 17:00-18:00","TBA":false},"Name":"TUT5207","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":68,"End":72}],"StringFormat":"Tuesday 17:00-18:00","TBA":false},"Name":"TUT5208","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":68,"End":72}],"StringFormat":"Tuesday 17:00-18:00","TBA":false},"Name":"TUT5209","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":68,"End":72}],"StringFormat":"Tuesday 17:00-18:00","TBA":false},"Name":"TUT5210","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":68,"End":72}],"StringFormat":"Tuesday 17:00-18:00","TBA":false},"Name":"TUT5211","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":68,"End":72}],"StringFormat":"Tuesday 17:00-18:00","TBA":false},"Name":"TUT5212","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5301","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5302","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5303","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5304","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5305","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5306","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5307","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5308","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5309","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5310","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5311","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT5312","IsLecture":false,"Instructor":"","Location":null}],"courseShortenedName":"MAT136H1S Calculus 1(B)"},{"courseId":"1980","courseCode":"HPS100H1F","courseFullName":"Introduction to History and Philosophy of Science","campus":"UTSG","id":1980,"semester":"F","sections":[{"ParsedTime":{"MeetTimes":[],"StringFormat":"","TBA":false},"Name":"LEC9901","IsLecture":true,"Instructor":"H Barseghyan","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":44,"End":48}],"StringFormat":"Thursday 11:00-12:00","TBA":false},"Name":"TUT9901","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":52,"End":56}],"StringFormat":"Thursday 13:00-14:00","TBA":false},"Name":"TUT9902","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":60,"End":64}],"StringFormat":"Thursday 15:00-16:00","TBA":false},"Name":"TUT9903","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":72}],"StringFormat":"Thursday 17:00-18:00","TBA":false},"Name":"TUT9904","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":44,"End":48}],"StringFormat":"Friday 11:00-12:00","TBA":false},"Name":"TUT9905","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":52,"End":56}],"StringFormat":"Friday 13:00-14:00","TBA":false},"Name":"TUT9906","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":60,"End":64}],"StringFormat":"Friday 15:00-16:00","TBA":false},"Name":"TUT9907","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":68,"End":72}],"StringFormat":"Friday 17:00-18:00","TBA":false},"Name":"TUT9908","IsLecture":false,"Instructor":"","Location":null}],"courseShortenedName":"HPS100H1F Introduction to History and Ph..."},{"courseId":"1982","courseCode":"PSY100H1F","courseFullName":"Introductory Psychology","campus":"UTSG","id":1982,"semester":"F","sections":[{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":44,"End":48},{"Day":4,"Start":44,"End":52}],"StringFormat":"Tuesday 11:00-12:00 Thursday 11:00-13:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"A Waggoner Denton","Location":null}],"courseShortenedName":"PSY100H1F Introductory Psychology"},{"courseId":"1569","courseCode":"COG250Y1Y","courseFullName":"Introduction to Cognitive Science (formerly JUP250Y1, UNI250Y1)","campus":"UTSG","id":1569,"semester":"Y","sections":[{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":60,"End":72}],"StringFormat":"Monday 15:00-18:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"J Vervaeke","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":40,"End":44}],"StringFormat":"Friday 10:00-11:00","TBA":false},"Name":"TUT0101","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":40,"End":44}],"StringFormat":"Friday 10:00-11:00","TBA":false},"Name":"TUT0102","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":44,"End":48}],"StringFormat":"Friday 11:00-12:00","TBA":false},"Name":"TUT0201","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":44,"End":48}],"StringFormat":"Friday 11:00-12:00","TBA":false},"Name":"TUT0202","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":44,"End":48}],"StringFormat":"Friday 11:00-12:00","TBA":false},"Name":"TUT0203","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":48,"End":52}],"StringFormat":"Friday 12:00-13:00","TBA":false},"Name":"TUT0301","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":48,"End":52}],"StringFormat":"Friday 12:00-13:00","TBA":false},"Name":"TUT0302","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":48,"End":52}],"StringFormat":"Friday 12:00-13:00","TBA":false},"Name":"TUT0303","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":52,"End":56}],"StringFormat":"Friday 13:00-14:00","TBA":false},"Name":"TUT0401","IsLecture":false,"Instructor":"","Location":null}],"courseShortenedName":"COG250Y1Y Introduction to Cognitive Scie..."},{"courseId":"455","courseCode":"STA130H1S","courseFullName":"An Introduction to Statistical Reasoning and Data Science","campus":"UTSG","id":455,"semester":"S","sections":[{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":40,"End":48}],"StringFormat":"Monday 10:00-12:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"N Taback","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":56,"End":64}],"StringFormat":"Monday 14:00-16:00","TBA":false},"Name":"LEC0201","IsLecture":true,"Instructor":"B White","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":40,"End":48}],"StringFormat":"Friday 10:00-12:00","TBA":false},"Name":"TUT0101","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":40,"End":48}],"StringFormat":"Friday 10:00-12:00","TBA":false},"Name":"TUT0102","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":40,"End":48}],"StringFormat":"Friday 10:00-12:00","TBA":false},"Name":"TUT0103","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":40,"End":48}],"StringFormat":"Friday 10:00-12:00","TBA":false},"Name":"TUT0104","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":40,"End":48}],"StringFormat":"Friday 10:00-12:00","TBA":false},"Name":"TUT0105","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":40,"End":48}],"StringFormat":"Friday 10:00-12:00","TBA":false},"Name":"TUT0106","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":40,"End":48}],"StringFormat":"Friday 10:00-12:00","TBA":false},"Name":"TUT0107","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":40,"End":48}],"StringFormat":"Friday 10:00-12:00","TBA":false},"Name":"TUT0108","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":40,"End":48}],"StringFormat":"Friday 10:00-12:00","TBA":false},"Name":"TUT0109","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":40,"End":48}],"StringFormat":"Friday 10:00-12:00","TBA":false},"Name":"TUT0110","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":40,"End":48}],"StringFormat":"Friday 10:00-12:00","TBA":false},"Name":"TUT0111","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":40,"End":48}],"StringFormat":"Friday 10:00-12:00","TBA":false},"Name":"TUT0112","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":64}],"StringFormat":"Friday 14:00-16:00","TBA":false},"Name":"TUT0201","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":64}],"StringFormat":"Friday 14:00-16:00","TBA":false},"Name":"TUT0202","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":64}],"StringFormat":"Friday 14:00-16:00","TBA":false},"Name":"TUT0203","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":64}],"StringFormat":"Friday 14:00-16:00","TBA":false},"Name":"TUT0204","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":64}],"StringFormat":"Friday 14:00-16:00","TBA":false},"Name":"TUT0205","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":64}],"StringFormat":"Friday 14:00-16:00","TBA":false},"Name":"TUT0206","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":64}],"StringFormat":"Friday 14:00-16:00","TBA":false},"Name":"TUT0207","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":64}],"StringFormat":"Friday 14:00-16:00","TBA":false},"Name":"TUT0208","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":64}],"StringFormat":"Friday 14:00-16:00","TBA":false},"Name":"TUT0209","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":64}],"StringFormat":"Friday 14:00-16:00","TBA":false},"Name":"TUT0210","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":64}],"StringFormat":"Friday 14:00-16:00","TBA":false},"Name":"TUT0211","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":56,"End":64}],"StringFormat":"Friday 14:00-16:00","TBA":false},"Name":"TUT0212","IsLecture":false,"Instructor":"","Location":null}],"courseShortenedName":"STA130H1S An Introduction to Statistical..."}]},
+  "year-2-cs": {
+    "courses": [
+      {
+        "courseId": "2038",
+        "courseCode": "CSC207H1F",
+        "courseFullName": "Software Design",
+        "campus": "UTSG",
+        "id": 2038,
+        "semester": "F",
+        "sections": [
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 1,
+                  "Start": 56,
+                  "End": 60
+                },
+                {
+                  "Day": 2,
+                  "Start": 52,
+                  "End": 60
+                }
+              ],
+              "StringFormat": "Monday 14:00-15:00 Tuesday 13:00-15:00",
+              "TBA": false
+            },
+            "Name": "LEC0101",
+            "IsLecture": true,
+            "Instructor": "P Gries",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 1,
+                  "Start": 64,
+                  "End": 68
+                },
+                {
+                  "Day": 2,
+                  "Start": 60,
+                  "End": 68
+                }
+              ],
+              "StringFormat": "Monday 16:00-17:00 Tuesday 15:00-17:00",
+              "TBA": false
+            },
+            "Name": "LEC0201",
+            "IsLecture": true,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 1,
+                  "Start": 60,
+                  "End": 64
+                },
+                {
+                  "Day": 3,
+                  "Start": 56,
+                  "End": 64
+                }
+              ],
+              "StringFormat": "Monday 15:00-16:00 Wednesday 14:00-16:00",
+              "TBA": false
+            },
+            "Name": "LEC0301",
+            "IsLecture": true,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 1,
+                  "Start": 56,
+                  "End": 60
+                },
+                {
+                  "Day": 2,
+                  "Start": 52,
+                  "End": 60
+                }
+              ],
+              "StringFormat": "Monday 14:00-15:00 Tuesday 13:00-15:00",
+              "TBA": false
+            },
+            "Name": "LEC2000",
+            "IsLecture": true,
+            "Instructor": "P Gries",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 3,
+                  "Start": 68,
+                  "End": 72
+                },
+                {
+                  "Day": 3,
+                  "Start": 72,
+                  "End": 80
+                }
+              ],
+              "StringFormat": "Wednesday 17:00-18:00 Wednesday 18:00-20:00",
+              "TBA": false
+            },
+            "Name": "LEC5101",
+            "IsLecture": true,
+            "Instructor": "",
+            "Location": null
+          }
+        ],
+        "courseShortenedName": "CSC207H1F Software Design"
+      },
+      {
+        "courseId": "2072",
+        "courseCode": "CSC236H1F",
+        "courseFullName": "Introduction to the Theory of Computation",
+        "campus": "UTSG",
+        "id": 2072,
+        "semester": "F",
+        "sections": [
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 1,
+                  "Start": 44,
+                  "End": 48
+                },
+                {
+                  "Day": 3,
+                  "Start": 44,
+                  "End": 48
+                },
+                {
+                  "Day": 5,
+                  "Start": 44,
+                  "End": 48
+                }
+              ],
+              "StringFormat": "Monday 11:00-12:00 Wednesday 11:00-12:00 Friday 11:00-12:00",
+              "TBA": false
+            },
+            "Name": "LEC0101",
+            "IsLecture": true,
+            "Instructor": "D Heap",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 1,
+                  "Start": 48,
+                  "End": 52
+                },
+                {
+                  "Day": 3,
+                  "Start": 48,
+                  "End": 52
+                },
+                {
+                  "Day": 5,
+                  "Start": 48,
+                  "End": 52
+                }
+              ],
+              "StringFormat": "Monday 12:00-13:00 Wednesday 12:00-13:00 Friday 12:00-13:00",
+              "TBA": false
+            },
+            "Name": "LEC0201",
+            "IsLecture": true,
+            "Instructor": "D Heap",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 1,
+                  "Start": 44,
+                  "End": 48
+                },
+                {
+                  "Day": 3,
+                  "Start": 44,
+                  "End": 48
+                },
+                {
+                  "Day": 5,
+                  "Start": 44,
+                  "End": 48
+                }
+              ],
+              "StringFormat": "Monday 11:00-12:00 Wednesday 11:00-12:00 Friday 11:00-12:00",
+              "TBA": false
+            },
+            "Name": "LEC2000",
+            "IsLecture": true,
+            "Instructor": "D Heap",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 4,
+                  "Start": 72,
+                  "End": 80
+                },
+                {
+                  "Day": 4,
+                  "Start": 80,
+                  "End": 84
+                }
+              ],
+              "StringFormat": "Thursday 18:00-20:00 Thursday 20:00-21:00",
+              "TBA": false
+            },
+            "Name": "LEC5101",
+            "IsLecture": true,
+            "Instructor": "D Heap",
+            "Location": null
+          }
+        ],
+        "courseShortenedName": "CSC236H1F Introduction to the Theory of ..."
+      },
+      {
+        "courseId": "2118",
+        "courseCode": "PSY270H1F",
+        "courseFullName": "Introduction to Cognitive Psychology",
+        "campus": "UTSG",
+        "id": 2118,
+        "semester": "F",
+        "sections": [
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 2,
+                  "Start": 56,
+                  "End": 68
+                }
+              ],
+              "StringFormat": "Tuesday 14:00-17:00",
+              "TBA": false
+            },
+            "Name": "LEC0101",
+            "IsLecture": true,
+            "Instructor": "K Duncan",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 5,
+                  "Start": 40,
+                  "End": 52
+                }
+              ],
+              "StringFormat": "Friday 10:00-13:00",
+              "TBA": false
+            },
+            "Name": "LEC0201",
+            "IsLecture": true,
+            "Instructor": "C Burton",
+            "Location": null
+          }
+        ],
+        "courseShortenedName": "PSY270H1F Introduction to Cognitive Psyc..."
+      },
+      {
+        "courseId": "554",
+        "courseCode": "STA247H1F",
+        "courseFullName": "Probability with Computer Applications",
+        "campus": "UTSG",
+        "id": 554,
+        "semester": "F",
+        "sections": [
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 1,
+                  "Start": 60,
+                  "End": 68
+                },
+                {
+                  "Day": 5,
+                  "Start": 60,
+                  "End": 64
+                }
+              ],
+              "StringFormat": "Monday 15:00-17:00 Friday 15:00-16:00",
+              "TBA": false
+            },
+            "Name": "LEC0101",
+            "IsLecture": true,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 5,
+                  "Start": 64,
+                  "End": 68
+                }
+              ],
+              "StringFormat": "Friday 16:00-17:00",
+              "TBA": false
+            },
+            "Name": "TUT0101",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 5,
+                  "Start": 64,
+                  "End": 68
+                }
+              ],
+              "StringFormat": "Friday 16:00-17:00",
+              "TBA": false
+            },
+            "Name": "TUT0102",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 5,
+                  "Start": 64,
+                  "End": 68
+                }
+              ],
+              "StringFormat": "Friday 16:00-17:00",
+              "TBA": false
+            },
+            "Name": "TUT0103",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 5,
+                  "Start": 64,
+                  "End": 68
+                }
+              ],
+              "StringFormat": "Friday 16:00-17:00",
+              "TBA": false
+            },
+            "Name": "TUT0104",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 5,
+                  "Start": 64,
+                  "End": 68
+                }
+              ],
+              "StringFormat": "Friday 16:00-17:00",
+              "TBA": false
+            },
+            "Name": "TUT0105",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 5,
+                  "Start": 64,
+                  "End": 68
+                }
+              ],
+              "StringFormat": "Friday 16:00-17:00",
+              "TBA": false
+            },
+            "Name": "TUT0106",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 5,
+                  "Start": 64,
+                  "End": 68
+                }
+              ],
+              "StringFormat": "Friday 16:00-17:00",
+              "TBA": false
+            },
+            "Name": "TUT0107",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 5,
+                  "Start": 64,
+                  "End": 68
+                }
+              ],
+              "StringFormat": "Friday 16:00-17:00",
+              "TBA": false
+            },
+            "Name": "TUT0108",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 5,
+                  "Start": 64,
+                  "End": 68
+                }
+              ],
+              "StringFormat": "Friday 16:00-17:00",
+              "TBA": false
+            },
+            "Name": "TUT0109",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          }
+        ],
+        "courseShortenedName": "STA247H1F Probability with Computer Appl..."
+      },
+      {
+        "courseId": "532",
+        "courseCode": "MAT235Y1Y",
+        "courseFullName": "Calculus II",
+        "campus": "UTSG",
+        "id": 532,
+        "semester": "Y",
+        "sections": [
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 1,
+                  "Start": 56,
+                  "End": 60
+                },
+                {
+                  "Day": 3,
+                  "Start": 56,
+                  "End": 60
+                },
+                {
+                  "Day": 5,
+                  "Start": 56,
+                  "End": 60
+                }
+              ],
+              "StringFormat": "Monday 14:00-15:00 Wednesday 14:00-15:00 Friday 14:00-15:00",
+              "TBA": false
+            },
+            "Name": "LEC0101",
+            "IsLecture": true,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 2,
+                  "Start": 64,
+                  "End": 68
+                },
+                {
+                  "Day": 4,
+                  "Start": 64,
+                  "End": 72
+                }
+              ],
+              "StringFormat": "Tuesday 16:00-17:00 Thursday 16:00-18:00",
+              "TBA": false
+            },
+            "Name": "LEC0201",
+            "IsLecture": true,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 1,
+                  "Start": 48,
+                  "End": 52
+                },
+                {
+                  "Day": 3,
+                  "Start": 48,
+                  "End": 52
+                },
+                {
+                  "Day": 5,
+                  "Start": 48,
+                  "End": 52
+                }
+              ],
+              "StringFormat": "Monday 12:00-13:00 Wednesday 12:00-13:00 Friday 12:00-13:00",
+              "TBA": false
+            },
+            "Name": "LEC0301",
+            "IsLecture": true,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 1,
+                  "Start": 48,
+                  "End": 52
+                },
+                {
+                  "Day": 4,
+                  "Start": 48,
+                  "End": 56
+                }
+              ],
+              "StringFormat": "Monday 12:00-13:00 Thursday 12:00-14:00",
+              "TBA": false
+            },
+            "Name": "LEC0401",
+            "IsLecture": true,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 1,
+                  "Start": 36,
+                  "End": 40
+                },
+                {
+                  "Day": 3,
+                  "Start": 36,
+                  "End": 40
+                },
+                {
+                  "Day": 5,
+                  "Start": 36,
+                  "End": 40
+                }
+              ],
+              "StringFormat": "Monday 9:00-10:00 Wednesday 9:00-10:00 Friday 9:00-10:00",
+              "TBA": false
+            },
+            "Name": "LEC0501",
+            "IsLecture": true,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 2,
+                  "Start": 44,
+                  "End": 48
+                },
+                {
+                  "Day": 3,
+                  "Start": 44,
+                  "End": 48
+                },
+                {
+                  "Day": 4,
+                  "Start": 44,
+                  "End": 48
+                }
+              ],
+              "StringFormat": "Tuesday 11:00-12:00 Wednesday 11:00-12:00 Thursday 11:00-12:00",
+              "TBA": false
+            },
+            "Name": "LEC0601",
+            "IsLecture": true,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 1,
+                  "Start": 36,
+                  "End": 40
+                },
+                {
+                  "Day": 3,
+                  "Start": 36,
+                  "End": 40
+                },
+                {
+                  "Day": 4,
+                  "Start": 36,
+                  "End": 40
+                }
+              ],
+              "StringFormat": "Monday 9:00-10:00 Wednesday 9:00-10:00 Thursday 9:00-10:00",
+              "TBA": false
+            },
+            "Name": "LEC0701",
+            "IsLecture": true,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 2,
+                  "Start": 72,
+                  "End": 76
+                },
+                {
+                  "Day": 4,
+                  "Start": 72,
+                  "End": 80
+                }
+              ],
+              "StringFormat": "Tuesday 18:00-19:00 Thursday 18:00-20:00",
+              "TBA": false
+            },
+            "Name": "LEC5101",
+            "IsLecture": true,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 2,
+                  "Start": 44,
+                  "End": 48
+                }
+              ],
+              "StringFormat": "Tuesday 11:00-12:00",
+              "TBA": false
+            },
+            "Name": "TUT0101",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 2,
+                  "Start": 44,
+                  "End": 48
+                }
+              ],
+              "StringFormat": "Tuesday 11:00-12:00",
+              "TBA": false
+            },
+            "Name": "TUT0102",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 2,
+                  "Start": 48,
+                  "End": 52
+                }
+              ],
+              "StringFormat": "Tuesday 12:00-13:00",
+              "TBA": false
+            },
+            "Name": "TUT0201",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 2,
+                  "Start": 48,
+                  "End": 52
+                }
+              ],
+              "StringFormat": "Tuesday 12:00-13:00",
+              "TBA": false
+            },
+            "Name": "TUT0202",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 2,
+                  "Start": 60,
+                  "End": 64
+                }
+              ],
+              "StringFormat": "Tuesday 15:00-16:00",
+              "TBA": false
+            },
+            "Name": "TUT0301",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 2,
+                  "Start": 60,
+                  "End": 64
+                }
+              ],
+              "StringFormat": "Tuesday 15:00-16:00",
+              "TBA": false
+            },
+            "Name": "TUT0302",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 3,
+                  "Start": 48,
+                  "End": 52
+                }
+              ],
+              "StringFormat": "Wednesday 12:00-13:00",
+              "TBA": false
+            },
+            "Name": "TUT0401",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 3,
+                  "Start": 48,
+                  "End": 52
+                }
+              ],
+              "StringFormat": "Wednesday 12:00-13:00",
+              "TBA": false
+            },
+            "Name": "TUT0402",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 3,
+                  "Start": 52,
+                  "End": 56
+                }
+              ],
+              "StringFormat": "Wednesday 13:00-14:00",
+              "TBA": false
+            },
+            "Name": "TUT0501",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 3,
+                  "Start": 52,
+                  "End": 56
+                }
+              ],
+              "StringFormat": "Wednesday 13:00-14:00",
+              "TBA": false
+            },
+            "Name": "TUT0502",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 4,
+                  "Start": 52,
+                  "End": 56
+                }
+              ],
+              "StringFormat": "Thursday 13:00-14:00",
+              "TBA": false
+            },
+            "Name": "TUT0601",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 4,
+                  "Start": 56,
+                  "End": 60
+                }
+              ],
+              "StringFormat": "Thursday 14:00-15:00",
+              "TBA": false
+            },
+            "Name": "TUT0701",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 4,
+                  "Start": 56,
+                  "End": 60
+                }
+              ],
+              "StringFormat": "Thursday 14:00-15:00",
+              "TBA": false
+            },
+            "Name": "TUT0702",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 5,
+                  "Start": 52,
+                  "End": 56
+                }
+              ],
+              "StringFormat": "Friday 13:00-14:00",
+              "TBA": false
+            },
+            "Name": "TUT0801",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 5,
+                  "Start": 52,
+                  "End": 56
+                }
+              ],
+              "StringFormat": "Friday 13:00-14:00",
+              "TBA": false
+            },
+            "Name": "TUT0802",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 3,
+                  "Start": 72,
+                  "End": 76
+                }
+              ],
+              "StringFormat": "Wednesday 18:00-19:00",
+              "TBA": false
+            },
+            "Name": "TUT5101",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 3,
+                  "Start": 72,
+                  "End": 76
+                }
+              ],
+              "StringFormat": "Wednesday 18:00-19:00",
+              "TBA": false
+            },
+            "Name": "TUT5102",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 4,
+                  "Start": 68,
+                  "End": 72
+                }
+              ],
+              "StringFormat": "Thursday 17:00-18:00",
+              "TBA": false
+            },
+            "Name": "TUT5201",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 4,
+                  "Start": 68,
+                  "End": 72
+                }
+              ],
+              "StringFormat": "Thursday 17:00-18:00",
+              "TBA": false
+            },
+            "Name": "TUT5202",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 4,
+                  "Start": 68,
+                  "End": 72
+                }
+              ],
+              "StringFormat": "Thursday 17:00-18:00",
+              "TBA": false
+            },
+            "Name": "TUT5203",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 4,
+                  "Start": 68,
+                  "End": 72
+                }
+              ],
+              "StringFormat": "Thursday 17:00-18:00",
+              "TBA": false
+            },
+            "Name": "TUT5204",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          }
+        ],
+        "courseShortenedName": "MAT235Y1Y Calculus II"
+      },
+      {
+        "courseId": "2113",
+        "courseCode": "CSC263H1S",
+        "courseFullName": "Data Structures and Analysis",
+        "campus": "UTSG",
+        "id": 2113,
+        "semester": "S",
+        "sections": [
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 1,
+                  "Start": 56,
+                  "End": 60
+                },
+                {
+                  "Day": 3,
+                  "Start": 56,
+                  "End": 60
+                },
+                {
+                  "Day": 5,
+                  "Start": 56,
+                  "End": 60
+                }
+              ],
+              "StringFormat": "Monday 14:00-15:00 Wednesday 14:00-15:00 Friday 14:00-15:00",
+              "TBA": false
+            },
+            "Name": "LEC0101",
+            "IsLecture": true,
+            "Instructor": "S Toueg",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 1,
+                  "Start": 60,
+                  "End": 64
+                },
+                {
+                  "Day": 3,
+                  "Start": 60,
+                  "End": 64
+                },
+                {
+                  "Day": 5,
+                  "Start": 60,
+                  "End": 64
+                }
+              ],
+              "StringFormat": "Monday 15:00-16:00 Wednesday 15:00-16:00 Friday 15:00-16:00",
+              "TBA": false
+            },
+            "Name": "LEC0201",
+            "IsLecture": true,
+            "Instructor": "S Toueg",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 1,
+                  "Start": 64,
+                  "End": 68
+                },
+                {
+                  "Day": 3,
+                  "Start": 64,
+                  "End": 68
+                },
+                {
+                  "Day": 5,
+                  "Start": 64,
+                  "End": 68
+                }
+              ],
+              "StringFormat": "Monday 16:00-17:00 Wednesday 16:00-17:00 Friday 16:00-17:00",
+              "TBA": false
+            },
+            "Name": "LEC0301",
+            "IsLecture": true,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 1,
+                  "Start": 56,
+                  "End": 60
+                },
+                {
+                  "Day": 3,
+                  "Start": 56,
+                  "End": 60
+                },
+                {
+                  "Day": 5,
+                  "Start": 56,
+                  "End": 60
+                }
+              ],
+              "StringFormat": "Monday 14:00-15:00 Wednesday 14:00-15:00 Friday 14:00-15:00",
+              "TBA": false
+            },
+            "Name": "LEC2000",
+            "IsLecture": true,
+            "Instructor": "S Toueg",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 4,
+                  "Start": 72,
+                  "End": 80
+                },
+                {
+                  "Day": 4,
+                  "Start": 80,
+                  "End": 84
+                }
+              ],
+              "StringFormat": "Thursday 18:00-20:00 Thursday 20:00-21:00",
+              "TBA": false
+            },
+            "Name": "LEC5101",
+            "IsLecture": true,
+            "Instructor": "",
+            "Location": null
+          }
+        ],
+        "courseShortenedName": "CSC263H1S Data Structures and Analysis"
+      },
+      {
+        "courseId": "2044",
+        "courseCode": "CSC209H1S",
+        "courseFullName": "Software Tools and Systems Programming",
+        "campus": "UTSG",
+        "id": 2044,
+        "semester": "S",
+        "sections": [
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 1,
+                  "Start": 40,
+                  "End": 44
+                },
+                {
+                  "Day": 3,
+                  "Start": 40,
+                  "End": 44
+                }
+              ],
+              "StringFormat": "Monday 10:00-11:00 Wednesday 10:00-11:00",
+              "TBA": false
+            },
+            "Name": "LEC0101",
+            "IsLecture": true,
+            "Instructor": "J Campbell",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 1,
+                  "Start": 44,
+                  "End": 48
+                },
+                {
+                  "Day": 3,
+                  "Start": 44,
+                  "End": 48
+                }
+              ],
+              "StringFormat": "Monday 11:00-12:00 Wednesday 11:00-12:00",
+              "TBA": false
+            },
+            "Name": "LEC0201",
+            "IsLecture": true,
+            "Instructor": "J Campbell",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 1,
+                  "Start": 56,
+                  "End": 60
+                },
+                {
+                  "Day": 3,
+                  "Start": 56,
+                  "End": 60
+                }
+              ],
+              "StringFormat": "Monday 14:00-15:00 Wednesday 14:00-15:00",
+              "TBA": false
+            },
+            "Name": "LEC0301",
+            "IsLecture": true,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 3,
+                  "Start": 72,
+                  "End": 80
+                }
+              ],
+              "StringFormat": "Wednesday 18:00-20:00",
+              "TBA": false
+            },
+            "Name": "LEC5101",
+            "IsLecture": true,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 5,
+                  "Start": 52,
+                  "End": 56
+                }
+              ],
+              "StringFormat": "Friday 13:00-14:00",
+              "TBA": false
+            },
+            "Name": "TUT0101",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 5,
+                  "Start": 56,
+                  "End": 60
+                }
+              ],
+              "StringFormat": "Friday 14:00-15:00",
+              "TBA": false
+            },
+            "Name": "TUT0201",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 5,
+                  "Start": 60,
+                  "End": 64
+                }
+              ],
+              "StringFormat": "Friday 15:00-16:00",
+              "TBA": false
+            },
+            "Name": "TUT0301",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 3,
+                  "Start": 80,
+                  "End": 84
+                }
+              ],
+              "StringFormat": "Wednesday 20:00-21:00",
+              "TBA": false
+            },
+            "Name": "TUT5101",
+            "IsLecture": false,
+            "Instructor": "",
+            "Location": null
+          }
+        ],
+        "courseShortenedName": "CSC209H1S Software Tools and Systems Pro..."
+      },
+      {
+        "courseId": "2104",
+        "courseCode": "CSC258H1S",
+        "courseFullName": "Computer Organization",
+        "campus": "UTSG",
+        "id": 2104,
+        "semester": "S",
+        "sections": [
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 1,
+                  "Start": 52,
+                  "End": 56
+                },
+                {
+                  "Day": 3,
+                  "Start": 52,
+                  "End": 56
+                },
+                {
+                  "Day": 3,
+                  "Start": 72,
+                  "End": 84
+                },
+                {
+                  "Day": 5,
+                  "Start": 52,
+                  "End": 56
+                }
+              ],
+              "StringFormat": "Monday 13:00-14:00 Wednesday 13:00-14:00 Wednesday 18:00-21:00 Friday 13:00-14:00",
+              "TBA": false
+            },
+            "Name": "LEC0101",
+            "IsLecture": true,
+            "Instructor": "S Engels",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 1,
+                  "Start": 56,
+                  "End": 60
+                },
+                {
+                  "Day": 1,
+                  "Start": 72,
+                  "End": 84
+                },
+                {
+                  "Day": 3,
+                  "Start": 56,
+                  "End": 60
+                },
+                {
+                  "Day": 5,
+                  "Start": 56,
+                  "End": 60
+                }
+              ],
+              "StringFormat": "Monday 14:00-15:00 Monday 18:00-21:00 Wednesday 14:00-15:00 Friday 14:00-15:00",
+              "TBA": false
+            },
+            "Name": "LEC0201",
+            "IsLecture": true,
+            "Instructor": "S Engels",
+            "Location": null
+          },
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 1,
+                  "Start": 72,
+                  "End": 84
+                },
+                {
+                  "Day": 2,
+                  "Start": 72,
+                  "End": 84
+                }
+              ],
+              "StringFormat": "Monday 18:00-21:00 Tuesday 18:00-21:00",
+              "TBA": false
+            },
+            "Name": "LEC5101",
+            "IsLecture": true,
+            "Instructor": "",
+            "Location": null
+          }
+        ],
+        "courseShortenedName": "CSC258H1S Computer Organization"
+      },
+      {
+        "courseId": "2948",
+        "courseCode": "PCL102H1S",
+        "courseFullName": "The Art of Drug Discovery",
+        "campus": "UTSG",
+        "id": 2948,
+        "semester": "S",
+        "sections": [
+          {
+            "ParsedTime": {
+              "MeetTimes": [
+                {
+                  "Day": 2,
+                  "Start": 48,
+                  "End": 52
+                },
+                {
+                  "Day": 4,
+                  "Start": 48,
+                  "End": 52
+                },
+                {
+                  "Day": 5,
+                  "Start": 60,
+                  "End": 64
+                }
+              ],
+              "StringFormat": "Tuesday 12:00-13:00 Thursday 12:00-13:00 Friday 15:00-16:00",
+              "TBA": false
+            },
+            "Name": "LEC0101",
+            "IsLecture": true,
+            "Instructor": "R Laposa, Y Lytvyn",
+            "Location": null
+          }
+        ],
+        "courseShortenedName": "PCL102H1S The Art of Drug Discovery"
+      }
+    ]
+  },
   "year-3-cs": {"courses":[{"courseId":"473","courseCode":"AST201H1S","courseFullName":"Stars and Galaxies","campus":"UTSG","id":473,"semester":"S","sections":[{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":56,"End":60},{"Day":4,"Start":56,"End":60}],"StringFormat":"Tuesday 14:00-15:00 Thursday 14:00-15:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"B Gaensler, I MacDonald, C Netterfield","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":40,"End":44}],"StringFormat":"Monday 10:00-11:00","TBA":false},"Name":"TUT0101","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":40,"End":44}],"StringFormat":"Monday 10:00-11:00","TBA":false},"Name":"TUT0102","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":44,"End":48}],"StringFormat":"Monday 11:00-12:00","TBA":false},"Name":"TUT0201","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":44,"End":48}],"StringFormat":"Monday 11:00-12:00","TBA":false},"Name":"TUT0202","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":48,"End":52}],"StringFormat":"Monday 12:00-13:00","TBA":false},"Name":"TUT0301","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":48,"End":52}],"StringFormat":"Monday 12:00-13:00","TBA":false},"Name":"TUT0302","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":52,"End":56}],"StringFormat":"Monday 13:00-14:00","TBA":false},"Name":"TUT0401","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":52,"End":56}],"StringFormat":"Monday 13:00-14:00","TBA":false},"Name":"TUT0402","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":56,"End":60}],"StringFormat":"Monday 14:00-15:00","TBA":false},"Name":"TUT0501","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":56,"End":60}],"StringFormat":"Monday 14:00-15:00","TBA":false},"Name":"TUT0502","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":60,"End":64}],"StringFormat":"Monday 15:00-16:00","TBA":false},"Name":"TUT0601","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":60,"End":64}],"StringFormat":"Monday 15:00-16:00","TBA":false},"Name":"TUT0602","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":40,"End":44}],"StringFormat":"Tuesday 10:00-11:00","TBA":false},"Name":"TUT0701","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":40,"End":44}],"StringFormat":"Tuesday 10:00-11:00","TBA":false},"Name":"TUT0702","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":44,"End":48}],"StringFormat":"Tuesday 11:00-12:00","TBA":false},"Name":"TUT0801","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":44,"End":48}],"StringFormat":"Tuesday 11:00-12:00","TBA":false},"Name":"TUT0802","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":48,"End":52}],"StringFormat":"Tuesday 12:00-13:00","TBA":false},"Name":"TUT0901","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":48,"End":52}],"StringFormat":"Tuesday 12:00-13:00","TBA":false},"Name":"TUT0902","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":52,"End":56}],"StringFormat":"Tuesday 13:00-14:00","TBA":false},"Name":"TUT1001","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":52,"End":56}],"StringFormat":"Tuesday 13:00-14:00","TBA":false},"Name":"TUT1002","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":40,"End":44}],"StringFormat":"Wednesday 10:00-11:00","TBA":false},"Name":"TUT1101","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":40,"End":44}],"StringFormat":"Wednesday 10:00-11:00","TBA":false},"Name":"TUT1102","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":44,"End":48}],"StringFormat":"Wednesday 11:00-12:00","TBA":false},"Name":"TUT1201","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":44,"End":48}],"StringFormat":"Wednesday 11:00-12:00","TBA":false},"Name":"TUT1202","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":48,"End":52}],"StringFormat":"Wednesday 12:00-13:00","TBA":false},"Name":"TUT1301","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":48,"End":52}],"StringFormat":"Wednesday 12:00-13:00","TBA":false},"Name":"TUT1302","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":52,"End":56}],"StringFormat":"Wednesday 13:00-14:00","TBA":false},"Name":"TUT1401","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":52,"End":56}],"StringFormat":"Wednesday 13:00-14:00","TBA":false},"Name":"TUT1402","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":56,"End":60}],"StringFormat":"Wednesday 14:00-15:00","TBA":false},"Name":"TUT1501","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":56,"End":60}],"StringFormat":"Wednesday 14:00-15:00","TBA":false},"Name":"TUT1502","IsLecture":false,"Instructor":"","Location":null}],"courseShortenedName":"AST201H1S Stars and Galaxies"},{"courseId":"598","courseCode":"STA302H1F","courseFullName":"Methods of Data Analysis I","campus":"UTSG","id":598,"semester":"F","sections":[{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":40,"End":48},{"Day":4,"Start":40,"End":44}],"StringFormat":"Tuesday 10:00-12:00 Thursday 10:00-11:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":40,"End":48},{"Day":4,"Start":40,"End":44}],"StringFormat":"Tuesday 10:00-12:00 Thursday 10:00-11:00","TBA":false},"Name":"LEC2001","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":68,"End":80}],"StringFormat":"Thursday 17:00-20:00","TBA":false},"Name":"LEC5101","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":72,"End":84}],"StringFormat":"Wednesday 18:00-21:00","TBA":false},"Name":"LEC5201","IsLecture":true,"Instructor":"","Location":null}],"courseShortenedName":"STA302H1F Methods of Data Analysis I"},{"courseId":"601","courseCode":"STA303H1S","courseFullName":"Methods of Data Analysis II","campus":"UTSG","id":601,"semester":"S","sections":[{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":40,"End":48},{"Day":4,"Start":40,"End":48}],"StringFormat":"Tuesday 10:00-12:00 Thursday 10:00-12:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":60,"End":68},{"Day":4,"Start":44,"End":52}],"StringFormat":"Tuesday 15:00-17:00 Thursday 11:00-13:00","TBA":false},"Name":"LEC0201","IsLecture":true,"Instructor":"","Location":null}],"courseShortenedName":"STA303H1S Methods of Data Analysis II"},{"courseId":"603","courseCode":"STA304H1S","courseFullName":"Surveys, Sampling and Observational Data (formerly STA322H1)","campus":"UTSG","id":603,"semester":"S","sections":[{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68},{"Day":4,"Start":60,"End":68}],"StringFormat":"Monday 16:00-17:00 Thursday 15:00-17:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"","Location":null}],"courseShortenedName":"STA304H1S Surveys, Sampling and Observat..."},{"courseId":"995","courseCode":"NMC101H1F","courseFullName":"Land of the Pharaohs","campus":"UTSG","id":995,"semester":"F","sections":[{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":52,"End":56},{"Day":3,"Start":52,"End":56}],"StringFormat":"Monday 13:00-14:00 Wednesday 13:00-14:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"R Leprohon","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":56,"End":60}],"StringFormat":"Wednesday 14:00-15:00","TBA":false},"Name":"TUT0101","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":60,"End":64}],"StringFormat":"Wednesday 15:00-16:00","TBA":false},"Name":"TUT0102","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":48,"End":52}],"StringFormat":"Friday 12:00-13:00","TBA":false},"Name":"TUT0201","IsLecture":false,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":52,"End":56}],"StringFormat":"Friday 13:00-14:00","TBA":false},"Name":"TUT0202","IsLecture":false,"Instructor":"","Location":null}],"courseShortenedName":"NMC101H1F Land of the Pharaohs"},{"courseId":"2151","courseCode":"CSC301H1F","courseFullName":"Introduction to Software Engineering","campus":"UTSG","id":2151,"semester":"F","sections":[{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":48,"End":56},{"Day":2,"Start":48,"End":52}],"StringFormat":"Monday 12:00-14:00 Tuesday 12:00-13:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":72,"End":80},{"Day":1,"Start":80,"End":84}],"StringFormat":"Monday 18:00-20:00 Monday 20:00-21:00","TBA":false},"Name":"LEC5101","IsLecture":true,"Instructor":"","Location":null}],"courseShortenedName":"CSC301H1F Introduction to Software Engin..."},{"courseId":"2172","courseCode":"CSC309H1S","courseFullName":"Programming on the Web","campus":"UTSG","id":2172,"semester":"S","sections":[{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":40,"End":44},{"Day":3,"Start":40,"End":44},{"Day":5,"Start":40,"End":44}],"StringFormat":"Monday 10:00-11:00 Wednesday 10:00-11:00 Friday 10:00-11:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":40,"End":44},{"Day":3,"Start":40,"End":44},{"Day":5,"Start":40,"End":44}],"StringFormat":"Monday 10:00-11:00 Wednesday 10:00-11:00 Friday 10:00-11:00","TBA":false},"Name":"LEC2001","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":72,"End":80},{"Day":1,"Start":80,"End":84}],"StringFormat":"Monday 18:00-20:00 Monday 20:00-21:00","TBA":false},"Name":"LEC2501","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":72,"End":80},{"Day":1,"Start":80,"End":84}],"StringFormat":"Monday 18:00-20:00 Monday 20:00-21:00","TBA":false},"Name":"LEC5101","IsLecture":true,"Instructor":"","Location":null}],"courseShortenedName":"CSC309H1S Programming on the Web"},{"courseId":"2260","courseCode":"CSC343H1S","courseFullName":"Introduction to Databases","campus":"UTSG","id":2260,"semester":"S","sections":[{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":48,"End":52},{"Day":3,"Start":48,"End":52},{"Day":5,"Start":48,"End":52}],"StringFormat":"Monday 12:00-13:00 Wednesday 12:00-13:00 Friday 12:00-13:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"R Miller","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":36,"End":40},{"Day":3,"Start":36,"End":40},{"Day":5,"Start":36,"End":40}],"StringFormat":"Monday 9:00-10:00 Wednesday 9:00-10:00 Friday 9:00-10:00","TBA":false},"Name":"LEC0201","IsLecture":true,"Instructor":"R Miller","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":48,"End":52},{"Day":3,"Start":48,"End":52},{"Day":5,"Start":48,"End":52}],"StringFormat":"Monday 12:00-13:00 Wednesday 12:00-13:00 Friday 12:00-13:00","TBA":false},"Name":"LEC2001","IsLecture":true,"Instructor":"R Miller","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":48,"End":52},{"Day":3,"Start":48,"End":52},{"Day":5,"Start":48,"End":52}],"StringFormat":"Monday 12:00-13:00 Wednesday 12:00-13:00 Friday 12:00-13:00","TBA":false},"Name":"LEC2003","IsLecture":true,"Instructor":"R Miller","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":36,"End":40},{"Day":3,"Start":36,"End":40},{"Day":5,"Start":36,"End":40}],"StringFormat":"Monday 9:00-10:00 Wednesday 9:00-10:00 Friday 9:00-10:00","TBA":false},"Name":"LEC2201","IsLecture":true,"Instructor":"R Miller","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":72,"End":80},{"Day":2,"Start":80,"End":84}],"StringFormat":"Tuesday 18:00-20:00 Tuesday 20:00-21:00","TBA":false},"Name":"LEC2501","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":72,"End":80},{"Day":2,"Start":80,"End":84}],"StringFormat":"Tuesday 18:00-20:00 Tuesday 20:00-21:00","TBA":false},"Name":"LEC5101","IsLecture":true,"Instructor":"","Location":null}],"courseShortenedName":"CSC343H1S Introduction to Databases"},{"courseId":"2309","courseCode":"CSC373H1F","courseFullName":"Algorithm Design, Analysis & Complexity","campus":"UTSG","id":2309,"semester":"F","sections":[{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":40,"End":44},{"Day":3,"Start":40,"End":44},{"Day":4,"Start":56,"End":60},{"Day":5,"Start":40,"End":44}],"StringFormat":"Monday 10:00-11:00 Wednesday 10:00-11:00 Thursday 14:00-15:00 Friday 10:00-11:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"A Borodin, M Brudno","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":72,"End":84},{"Day":4,"Start":68,"End":72}],"StringFormat":"Wednesday 18:00-21:00 Thursday 17:00-18:00","TBA":false},"Name":"LEC5101","IsLecture":true,"Instructor":"A Borodin, M Brudno","Location":null}],"courseShortenedName":"CSC373H1F Algorithm Design, Analysis &amp; C..."},{"courseId":"2330","courseCode":"CSC384H1F","courseFullName":"Introduction to Artificial Intelligence","campus":"UTSG","id":2330,"semester":"F","sections":[{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":52,"End":56},{"Day":3,"Start":52,"End":56},{"Day":5,"Start":52,"End":56}],"StringFormat":"Monday 13:00-14:00 Wednesday 13:00-14:00 Friday 13:00-14:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"F Bacchus","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":56,"End":60},{"Day":3,"Start":56,"End":60},{"Day":5,"Start":56,"End":60}],"StringFormat":"Monday 14:00-15:00 Wednesday 14:00-15:00 Friday 14:00-15:00","TBA":false},"Name":"LEC0201","IsLecture":true,"Instructor":"F Bacchus","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":52,"End":56},{"Day":3,"Start":52,"End":56},{"Day":5,"Start":52,"End":56}],"StringFormat":"Monday 13:00-14:00 Wednesday 13:00-14:00 Friday 13:00-14:00","TBA":false},"Name":"LEC2001","IsLecture":true,"Instructor":"F Bacchus","Location":null}],"courseShortenedName":"CSC384H1F Introduction to Artificial Int..."}]},
   "year-4-cs": {"courses":[{"courseId":"2418","courseCode":"CSC418H1F","courseFullName":"Computer Graphics","campus":"UTSG","id":2418,"semester":"F","sections":[{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":60,"End":64},{"Day":3,"Start":60,"End":68}],"StringFormat":"Monday 15:00-16:00 Wednesday 15:00-17:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"A Jacobson","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":60,"End":64},{"Day":2,"Start":60,"End":68}],"StringFormat":"Monday 15:00-16:00 Tuesday 15:00-17:00","TBA":false},"Name":"LEC0201","IsLecture":true,"Instructor":"K Singh","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":60,"End":64},{"Day":3,"Start":60,"End":68}],"StringFormat":"Monday 15:00-16:00 Wednesday 15:00-17:00","TBA":false},"Name":"LEC2001","IsLecture":true,"Instructor":"A Jacobson","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":60,"End":64},{"Day":2,"Start":60,"End":68}],"StringFormat":"Monday 15:00-16:00 Tuesday 15:00-17:00","TBA":false},"Name":"LEC2201","IsLecture":true,"Instructor":"K Singh","Location":null}],"courseShortenedName":"CSC418H1F Computer Graphics"},{"courseId":"2484","courseCode":"CSC458H1F","courseFullName":"Computer Networking Systems","campus":"UTSG","id":2484,"semester":"F","sections":[{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":52,"End":60},{"Day":5,"Start":44,"End":48}],"StringFormat":"Thursday 13:00-15:00 Friday 11:00-12:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":52,"End":60},{"Day":5,"Start":52,"End":56}],"StringFormat":"Tuesday 13:00-15:00 Friday 13:00-14:00","TBA":false},"Name":"LEC0201","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":72,"End":80},{"Day":2,"Start":80,"End":84}],"StringFormat":"Tuesday 18:00-20:00 Tuesday 20:00-21:00","TBA":false},"Name":"LEC5101","IsLecture":true,"Instructor":"","Location":null}],"courseShortenedName":"CSC458H1F Computer Networking Systems"},{"courseId":"2422","courseCode":"CSC420H1F","courseFullName":"Introduction to Image Understanding","campus":"UTSG","id":2422,"semester":"F","sections":[{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":60,"End":64},{"Day":4,"Start":60,"End":64},{"Day":4,"Start":64,"End":68}],"StringFormat":"Tuesday 15:00-16:00 Thursday 15:00-16:00 Thursday 16:00-17:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"","Location":null}],"courseShortenedName":"CSC420H1F Introduction to Image Understa..."},{"courseId":"2144","courseCode":"CSC300H1F","courseFullName":"Computers and Society","campus":"UTSG","id":2144,"semester":"F","sections":[{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":60,"End":68},{"Day":3,"Start":68,"End":72}],"StringFormat":"Wednesday 15:00-17:00 Wednesday 17:00-18:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"S Ahmed","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":72,"End":80},{"Day":3,"Start":80,"End":84}],"StringFormat":"Wednesday 18:00-20:00 Wednesday 20:00-21:00","TBA":false},"Name":"LEC5101","IsLecture":true,"Instructor":"M Zaleski","Location":null}],"courseShortenedName":"CSC300H1F Computers and Society"},{"courseId":"2409","courseCode":"CSC411H1F","courseFullName":"Machine Learning and Data Mining","campus":"UTSG","id":2409,"semester":"F","sections":[{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":44,"End":52},{"Day":1,"Start":60,"End":64}],"StringFormat":"Monday 11:00-13:00 Monday 15:00-16:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"R Grosse","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":44,"End":52},{"Day":3,"Start":60,"End":64}],"StringFormat":"Wednesday 11:00-13:00 Wednesday 15:00-16:00","TBA":false},"Name":"LEC0201","IsLecture":true,"Instructor":"R Grosse","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":64,"End":72},{"Day":4,"Start":72,"End":76}],"StringFormat":"Thursday 16:00-18:00 Thursday 18:00-19:00","TBA":false},"Name":"LEC0301","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":5,"Start":44,"End":52},{"Day":5,"Start":60,"End":64}],"StringFormat":"Friday 11:00-13:00 Friday 15:00-16:00","TBA":false},"Name":"LEC0401","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":44,"End":52},{"Day":1,"Start":60,"End":64}],"StringFormat":"Monday 11:00-13:00 Monday 15:00-16:00","TBA":false},"Name":"LEC2001","IsLecture":true,"Instructor":"R Grosse","Location":null}],"courseShortenedName":"CSC411H1F Machine Learning and Data Mini..."},{"courseId":"2157","courseCode":"CSC302H1F","courseFullName":"Engineering Large Software Systems","campus":"UTSG","id":2157,"semester":"F","sections":[{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":64,"End":68},{"Day":3,"Start":64,"End":68},{"Day":5,"Start":64,"End":68}],"StringFormat":"Monday 16:00-17:00 Wednesday 16:00-17:00 Friday 16:00-17:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"M Zaleski","Location":null}],"courseShortenedName":"CSC302H1F Engineering Large Software Sys..."},{"courseId":"2300","courseCode":"CSC369H1S","courseFullName":"Operating Systems","campus":"UTSG","id":2300,"semester":"S","sections":[{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":56,"End":60},{"Day":4,"Start":56,"End":60},{"Day":5,"Start":60,"End":64}],"StringFormat":"Tuesday 14:00-15:00 Thursday 14:00-15:00 Friday 15:00-16:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"K Reid","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":4,"Start":72,"End":80},{"Day":4,"Start":80,"End":84}],"StringFormat":"Thursday 18:00-20:00 Thursday 20:00-21:00","TBA":false},"Name":"LEC5101","IsLecture":true,"Instructor":"K Reid","Location":null}],"courseShortenedName":"CSC369H1S Operating Systems"},{"courseId":"2297","courseCode":"CSC367H1S","courseFullName":"Parallel Programming","campus":"UTSG","id":2297,"semester":"S","sections":[{"ParsedTime":{"MeetTimes":[{"Day":1,"Start":56,"End":60},{"Day":3,"Start":56,"End":60},{"Day":5,"Start":56,"End":60}],"StringFormat":"Monday 14:00-15:00 Wednesday 14:00-15:00 Friday 14:00-15:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"M Dehnavi","Location":null}],"courseShortenedName":"CSC367H1S Parallel Programming"},{"courseId":"2412","courseCode":"CSC412H1S","courseFullName":"Probabilistic Learning and Reasoning","campus":"UTSG","id":2412,"semester":"S","sections":[{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":60,"End":68},{"Day":4,"Start":52,"End":56}],"StringFormat":"Tuesday 15:00-17:00 Thursday 13:00-14:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":60,"End":68},{"Day":4,"Start":52,"End":56}],"StringFormat":"Tuesday 15:00-17:00 Thursday 13:00-14:00","TBA":false},"Name":"LEC2001","IsLecture":true,"Instructor":"","Location":null}],"courseShortenedName":"CSC412H1S Probabilistic Learning and Rea..."},{"courseId":"2442","courseCode":"CSC428H1S","courseFullName":"Human-Computer Interaction","campus":"UTSG","id":2442,"semester":"S","sections":[{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":60,"End":64},{"Day":4,"Start":56,"End":64}],"StringFormat":"Tuesday 15:00-16:00 Thursday 14:00-16:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":2,"Start":60,"End":64},{"Day":4,"Start":56,"End":64}],"StringFormat":"Tuesday 15:00-16:00 Thursday 14:00-16:00","TBA":false},"Name":"LEC2001","IsLecture":true,"Instructor":"","Location":null}],"courseShortenedName":"CSC428H1S Human-Computer Interaction"},{"courseId":"2208","courseCode":"CSC320H1S","courseFullName":"Introduction to Visual Computing","campus":"UTSG","id":2208,"semester":"S","sections":[{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":56,"End":64},{"Day":5,"Start":56,"End":60}],"StringFormat":"Wednesday 14:00-16:00 Friday 14:00-15:00","TBA":false},"Name":"LEC0101","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":72,"End":80},{"Day":3,"Start":80,"End":84}],"StringFormat":"Wednesday 18:00-20:00 Wednesday 20:00-21:00","TBA":false},"Name":"LEC2501","IsLecture":true,"Instructor":"","Location":null},{"ParsedTime":{"MeetTimes":[{"Day":3,"Start":72,"End":80},{"Day":3,"Start":80,"End":84}],"StringFormat":"Wednesday 18:00-20:00 Wednesday 20:00-21:00","TBA":false},"Name":"LEC5101","IsLecture":true,"Instructor":"","Location":null}],"courseShortenedName":"CSC320H1S Introduction to Visual Computi..."}]}
 }

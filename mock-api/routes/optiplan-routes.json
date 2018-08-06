@@ -6,6 +6,11 @@
 	"/search-course?searchQuery=CSC165": "/search-course-csc165",
 	
 	"/course?courseId=1996": "/course-csc108",
-	"/course?courseId=2007": "/course-csc165"
+	"/course?courseId=2007": "/course-csc165",
+
+	"/mock/year-1": "/year-1-cs", 
+	"/mock/year-2": "/year-2-cs",
+	"/mock/year-3": "/year-3-cs",
+	"/mock/year-4": "/year-4-cs"
 
 }

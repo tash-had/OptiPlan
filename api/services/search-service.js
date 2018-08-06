@@ -2,8 +2,8 @@
 
 var Client = require('node-rest-client').Client;
 var client = new Client();
-const GRIDDY_BASE = "http://griddy.org/api";
-// const GRIDDY_BASE = "http://localhost:3001/griddy";
+// const GRIDDY_BASE = "http://griddy.org/api";
+const GRIDDY_BASE = "http://localhost:3001/griddy";
 
 module.exports = {
     ENDPOINTS: {

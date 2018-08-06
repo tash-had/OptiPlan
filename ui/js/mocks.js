@@ -1,46 +1,56 @@
+var COURSE_MOCK_URL = "http://localhost:3002/mock/year-";
+var MOCK_BTNS = ['y1', 'y2', 'y3', 'y4'];
+
 $(document).ready(function () {
-    
-
-    $("#firstYearBtn").on('click', async function () {
-        var courses = ["<div data-course-id='c461' class='courseResult'>MAT137Y1Y: Calculus</div>",
-        "<div data-course-id='c1996' class='courseResult'>CSC108H1F: Introduction to Computer Progr...</div>",
-        "<div data-course-id='c1980' class='courseResult'>HPS100H1F: Introduction to History and Ph...</div>",
-        "<div data-course-id='c435' class='courseResult'>AST101H1F: The Sun and Its Neighbours</div>",
-        "<div data-course-id='c1982' class='courseResult'>PSY100H1F: Introductory Psychology</div>",
-        "<div data-course-id='c473' class='courseResult'>AST201H1S: Stars and Galaxies</div>",
-        "<div data-course-id='c2005' class='courseResult'>CSC148H1S: Introduction to Computer Scien...</div>",
-        "<div data-course-id='c2008' class='courseResult'>CSC165H1S: Mathematical Expression and Re...</div>",
-        "<div data-course-id='c2944' class='courseResult'>ECO101H1S: Principles of Microeconomics</div>"];
-        
-        for (course of courses) {
-            createCourse(course);
-        }
-        // await sleep(0);
-    });
-
     $("#clearBtn").on("click", function () {
         clearData();
     });
 
     $("#renderBtn").on('click', function () {
         var jsonDiv = document.getElementById("timetable");
+        jsonDiv.innerHTML = ''; 
         renderjson.set_show_to_level(3);
         jsonDiv.appendChild(renderjson(timetable));
-        console.log(JSON.stringify(timetable)); 
     });
-
+    $("#renderBtn").attr("disabled", true);
+    setButtonState();
+    
 });
 
-function createElementFromHTML(htmlString) {
-    var div = document.createElement('div');
-    div.innerHTML = htmlString.trim();
+function setButtonState() {
+    var yearSet = localStorage.yearSet;
+    if (yearSet) {
+        for (var year of MOCK_BTNS) {
+            if (year != yearSet) {
+                $("#" + year).attr("disabled", true);
+            }
+        }
+        $("#renderBtn").attr("disabled", false);
+    }
+}
 
-    // Change this to div.childNodes to support multiple top-level nodes
-    return div.firstChild;
+function fetchCourseData(year) {
+    var yearToSet = 'y' + year;
+    var yearSet = localStorage.yearSet;
+    if (yearToSet != yearSet) {
+        $.get(COURSE_MOCK_URL + year, function (response) {
+            console.log("GET RESPONSE", response); 
+            for (course of response.courses) {
+                timetableUI.addCourseToView(course);
+            }
+            timetable.courses = response.courses; 
+            localStorage.timetable = JSON.stringify(timetable.courses); 
+        });
+        localStorage.yearSet = 'y' + year;
+        setButtonState();
+        $("#renderBtn").attr("disabled", false);
+        console.log("NEW TIMETABLE", timetable); 
+    }
 }
 
 function clearData() {
     localStorage.removeItem('timetable');
+    localStorage.removeItem('yearSet');
     location.reload();
 }
 
@@ -48,11 +58,3 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-function createCourse(course) {
-    var div = createElementFromHTML(course);
-    div.attr = function () {
-        return div.getAttribute("data-course-id");
-    }
-    div[0] = div;
-    timetableUI.addCourseWithElement(div);
-}
