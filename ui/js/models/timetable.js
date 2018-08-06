@@ -30,7 +30,7 @@ class Timetable {
             timetableUI.addCourseToView(course); 
         }
     }
-
+    /* TODO: Change this to persist in a database instead of local storage */
     timetableUpdated() {
         localStorage.timetable = JSON.stringify(this.courses);
     }
