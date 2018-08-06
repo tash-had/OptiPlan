@@ -19,7 +19,7 @@ class TimetableUI {
         var courseId = courseElement.attr("data-course-id");
         if (chosenCourseIds.indexOf(courseId) < 0) {
             var course = new Course(courseId, function () {
-                course.courseShortenedName = courseElement[0].innerHTML;
+                course.courseShortenedName = courseElement[0].innerHTML.split("</span>")[1];
                 timetable.addCourse(course);
                 timetableUI.addCourseToView(course);
             });
@@ -30,9 +30,16 @@ class TimetableUI {
 
     addCourseToView(course) {
         chosenCourseIds.push(course.courseId);
-        $(".collection").append('<li class="collection-item" data-course-id=' + course.courseId + '>\
-    <div>'+ course.courseShortenedName + '\
-    <i class="material-icons delete-icon">delete</i></div></li>');
+        var badgeAttrs = getBadgeAttrs(course); 
+        var courseHtml = '<li class="collection-item" data-course-id=' + course.courseId + '>\
+            <div><span class="new badge ' + badgeAttrs.color + '" style="margin-right:5px;float:left;" \
+            data-badge-caption="' + badgeAttrs.season + '"></span>' + course.courseShortenedName + '\
+            <i class="material-icons delete-icon">delete</i></div></li>';
+        if (badgeAttrs.season === "Fall"){
+            $(".collection").prepend(courseHtml);
+        }else{
+            $(".collection").append(courseHtml);
+        }
         this.setDeleteCourseListener();
 
     }
