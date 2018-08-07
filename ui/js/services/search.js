@@ -33,7 +33,6 @@ class SearchDropdown {
         $('.search-dialog').empty();
         for (var course of courses) {
             if (chosenCourseIds.indexOf(course.id) < 0) {
-                var semester = course.id.slice(-1); 
                 var badgeAttrs = getBadgeAttrs(course); 
                 $('.search-dialog').append('<div data-course-id="' + course.id + '"><span class="new badge ' + badgeAttrs.color + '" \
                 data-badge-caption="' + badgeAttrs.season + '"></span>' +
@@ -71,8 +70,8 @@ class SearchDropdown {
         $('.search-dialog').animate({
             scrollTop: newSelection.offset().top / scrollDivisor
         }, 100);
-        // set the value to the course title but remove the code for the season badge
-        $('.autocomplete input').val(newSelection[0].innerHTML.split("</span>")[1]);
+        // set input value to the course code but first remove the code for the season badge
+        $('.autocomplete input').val(newSelection[0].innerHTML.split("</span>")[1].split(" ")[0]);
         $('.autocomplete input').css('color', '#757575');
     }
 
@@ -96,6 +95,7 @@ class SearchDropdown {
                     timetableUI.addCourseWithElement($('.search-dialog > div').eq(this.currentlySelected));
                     break;
                 case 38: // up
+                    e.preventDefault(); 
                     this.selectOptionWithIndex(-1);
                     break;
                 case 40: // down
