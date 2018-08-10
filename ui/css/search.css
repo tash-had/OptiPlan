@@ -6,11 +6,13 @@
   padding: 0 10px 0 10px;
 }
 .search-dialog {
+  position: absolute;
   width: 100%;
   display: none;
   min-height: 40px;
   max-height: 330px;
   overflow: scroll;
+  width: 33%;
   border-top: 1px solid #f4f4f4;
   z-index: 99;
 }
@@ -22,6 +24,7 @@
   font-size: 13px;
   cursor: pointer;
   transition: all 0.2s;
+  background: #fff;
 }
 .search-dialog div:hover, .selected{
   background: #f2f2f2;
