@@ -1,6 +1,5 @@
 .autocomplete {
   background: #fff;
-  /* position: relative; */
   margin-top: 5%; 
   width: 100%;
   padding: 0 10px 0 10px;
@@ -26,8 +25,9 @@
   transition: all 0.2s;
   background: #fff;
 }
-.search-dialog div:hover, .selected{
+.search-dialog div:hover, .selected, #selectedItem{
   background: #f2f2f2;
+  z-index: 10000;
 }
 i:hover{
   cursor: pointer;
