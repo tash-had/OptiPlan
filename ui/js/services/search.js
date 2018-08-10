@@ -33,7 +33,7 @@ class SearchDropdown {
         $('.search-dialog').empty();
         for (var course of courses) {
             if (chosenCourseIds.indexOf(course.id) < 0) {
-                var badgeAttrs = getBadgeAttrs(course); 
+                var badgeAttrs = getBadgeAttrs(course);
                 $('.search-dialog').append('<div data-course-id="' + course.id + '"><span class="new badge ' + badgeAttrs.color + '" \
                 data-badge-caption="' + badgeAttrs.season + '"></span>' +
                     course.courseFullName.replaceAll(":", "") + '</div>');
@@ -56,7 +56,7 @@ class SearchDropdown {
         currentSelection.removeAttr('id');
         this.currentlySelected += arrowDirection;
         this.startSelectOptionVisuals(options, arrowDirection);
-    }   
+    }
 
     startSelectOptionVisuals(searchResults, arrowDirection) {
         var newSelection = searchResults.eq(this.currentlySelected);
@@ -95,7 +95,7 @@ class SearchDropdown {
                     timetableUI.addCourseWithElement($('.search-dialog > div').eq(this.currentlySelected));
                     break;
                 case 38: // up
-                    e.preventDefault(); 
+                    e.preventDefault();
                     this.selectOptionWithIndex(-1);
                     break;
                 case 40: // down
