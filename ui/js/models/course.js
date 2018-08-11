@@ -2,13 +2,15 @@ var COURSE_DATA_URL = "http://localhost:3000/course?courseId=";
 
 class Course {
     constructor(courseId, fetchDataCallback) {
-        this.courseId = courseId.replaceAll("'", "").replaceAll("c", ""); // there is a random single quote at the very end for some reason
+        this.courseId =  getIntCourseId(courseId); 
         this.courseCode;
         this.courseFullName;
         this.courseShortenedName;
         this.semester;
         this.sections;
-        this.fetchCourseData(this.courseId, this, fetchDataCallback);
+        if (fetchDataCallback){
+            this.fetchCourseData(this.courseId, this, fetchDataCallback);
+        }
     }
 
     fetchCourseData(courseId, obj, callback) {
@@ -40,4 +42,8 @@ function getBadgeAttrs(course) {
         badgeAttrs.color = "purple";
     }
     return badgeAttrs;
+}
+
+function getIntCourseId(courseElementId){
+    return courseElementId.replaceAll("c", "");
 }

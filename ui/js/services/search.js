@@ -1,7 +1,6 @@
 var SEARCH_COURSE_API = 'http://localhost:3000/search-course?searchQuery=';
 var COURSE_MATCHER = new RegExp("^[a-zA-Z]{3}[0-9]{1,3}$");
 var searchDropdown, timetableUI;
-var chosenCourseIds = [];
 
 $(document).ready(function () {
     searchDropdown = new SearchDropdown();
@@ -25,6 +24,7 @@ class SearchDropdown {
         this.numOptions;
         this.dropdownOpen;
         this.disableArrowSelection;
+        this.chosenCourseIds = [];
     }
 
     initSearchDialog(courses) {
@@ -32,12 +32,11 @@ class SearchDropdown {
         this.numOptions = courses.length;
         $('.search-dialog').empty();
         for (var course of courses) {
-            if (chosenCourseIds.indexOf(course.id) < 0) {
-                var badgeAttrs = getBadgeAttrs(course);
-                $('.search-dialog').append('<div data-course-id="' + course.id + '"><span class="new badge ' + badgeAttrs.color + '" \
-                data-badge-caption="' + badgeAttrs.season + '"></span>' +
-                    course.courseFullName.replaceAll(":", "") + '</div>');
-            }
+            course.id = getIntCourseId(course.id);
+            var badgeAttrs = getBadgeAttrs(course);
+            $('.search-dialog').append('<div data-course-id=' + course.id +
+                '><span class="new badge ' + badgeAttrs.color + '"data-badge-caption="' +
+                badgeAttrs.season + '"></span>' + course.courseFullName.replaceAll(":", "") + '</div>');
         }
         $('.search-dialog').addClass('open');
         this.dropdownOpen = true;
@@ -92,14 +91,14 @@ class SearchDropdown {
 
             switch (e.which) {
                 case 13: // enter button 
-                    timetableUI.addCourseWithElement($('.search-dialog > div').eq(this.currentlySelected));
+                    searchDropdown.onChoose($('.search-dialog > div').eq(this.currentlySelected));
                     break;
                 case 38: // up
                     e.preventDefault();
-                    this.selectOptionWithIndex(-1);
+                    searchDropdown.selectOptionWithIndex(-1);
                     break;
                 case 40: // down
-                    this.selectOptionWithIndex(1);
+                    searchDropdown.selectOptionWithIndex(1);
                     break;
                 default: return;
             }
@@ -116,7 +115,7 @@ class SearchDropdown {
         // Click inside the options dialog
         $('body').on('click', '.search-dialog > div', function (e) {
             e.stopPropagation();
-            timetableUI.addCourseWithElement($(this))
+            searchDropdown.onChoose($(this));
         });
 
         // Click inside the input box
@@ -144,5 +143,13 @@ class SearchDropdown {
         this.numOptions = 0;
         this.dropdownOpen = false;
         this.disableArrowSelection = false;
+    }
+
+    onChoose(clickedElement) {
+        var courseId = clickedElement.attr("data-course-id"); 
+        if (this.chosenCourseIds.indexOf(courseId) < 0) {
+            timetableUI.addCourseWithElement(clickedElement);
+        }
+        this.toggleSearchResultsDialog(true);
     }
 }
