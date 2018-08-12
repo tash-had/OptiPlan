@@ -71,7 +71,7 @@ class SearchDropdown {
         }, 100);
         // set input value to the course code but first remove the code for the season badge
         $('.autocomplete input').val(newSelection[0].innerHTML.split("</span>")[1].split(" ")[0]);
-        $('.autocomplete input').css('color', '#000000');
+        $('.autocomplete input').css('color', '#757575');
     }
 
     toggleSearchResultsDialog(forceClose) {
@@ -148,7 +148,8 @@ class SearchDropdown {
     onChoose(clickedElement) {
         var courseId = clickedElement.attr("data-course-id"); 
         if (this.chosenCourseIds.indexOf(courseId) < 0) {
-            timetableUI.addCourseWithElement(clickedElement);
+            this.chosenCourseIds.push(course.courseId); 
+            timetableUI.addCourseWithElement(clickedElement, true);
         }
         this.toggleSearchResultsDialog(true);
     }
