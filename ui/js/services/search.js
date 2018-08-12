@@ -71,7 +71,7 @@ class SearchDropdown {
         }, 100);
         // set input value to the course code but first remove the code for the season badge
         $('.autocomplete input').val(newSelection[0].innerHTML.split("</span>")[1].split(" ")[0]);
-        $('.autocomplete input').css('color', '#757575');
+        $('.autocomplete input').css('color', '#000000');
     }
 
     toggleSearchResultsDialog(forceClose) {
