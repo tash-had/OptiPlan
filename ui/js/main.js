@@ -26,7 +26,7 @@ class TimetableUI {
         searchDropdown.toggleSearchResultsDialog(true);
     }
 
-    addCourseToView(course, addedToChosenCourseIds) {
+    addCourseToView(course) {
         var badgeAttrs = getBadgeAttrs(course); 
         var courseHtml = '<li class="collection-item" data-course-id=' + course.courseId + '>\
             <div><span class="new badge ' + badgeAttrs.color + '" style="margin-right:5px;float:left;" \
@@ -38,9 +38,7 @@ class TimetableUI {
             $(".collection").append(courseHtml);
         }
         this.setDeleteCourseListener();
-        if (!addedToChosenCourseIds){
-            searchDropdown.chosenCourseIds.push(course.courseId); 
-        }
+        searchDropdown.chosenCourseIds.push(course.courseId); 
     }
 
     setDeleteCourseListener() {
