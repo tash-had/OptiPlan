@@ -10,26 +10,23 @@ String.prototype.replaceAll = function (search, replacement) {
     return this.replace(new RegExp(search, 'g'), replacement);
 };
 
-Array.prototype.remove = function (element) {
-    return this.filter(e => e !== element);
+Array.prototype.getArrayWithout = function (elementToExclude) {
+    return this.filter(e => e !== elementToExclude);
 }
 
 class TimetableUI {
     addCourseWithElement(courseElement) {
         var courseId = courseElement.attr("data-course-id");
-        if (chosenCourseIds.indexOf(courseId) < 0) {
-            var course = new Course(courseId, function () {
-                course.courseShortenedName = courseElement[0].innerHTML.split("</span>")[1];
-                timetable.addCourse(course);
-                timetableUI.addCourseToView(course);
-            });
-        }
+        var course = new Course(courseId, function () {
+            course.courseShortenedName = courseElement[0].innerHTML.split("</span>")[1];
+            timetable.addCourse(course);
+            timetableUI.addCourseToView(course);
+        });
         $('.autocomplete input').val("").focus();
         searchDropdown.toggleSearchResultsDialog(true);
     }
 
-    addCourseToView(course) {
-        chosenCourseIds.push(course.courseId);
+    addCourseToView(course, addedToChosenCourseIds) {
         var badgeAttrs = getBadgeAttrs(course); 
         var courseHtml = '<li class="collection-item" data-course-id=' + course.courseId + '>\
             <div><span class="new badge ' + badgeAttrs.color + '" style="margin-right:5px;float:left;" \
@@ -41,7 +38,9 @@ class TimetableUI {
             $(".collection").append(courseHtml);
         }
         this.setDeleteCourseListener();
-
+        if (!addedToChosenCourseIds){
+            searchDropdown.chosenCourseIds.push(course.courseId); 
+        }
     }
 
     setDeleteCourseListener() {
@@ -49,7 +48,7 @@ class TimetableUI {
         $('.delete-icon').on('click', function (e) {
             var idToRemove = $(this).closest('li').attr('data-course-id');
             var course = timetable.getCourseWithId(idToRemove);
-            chosenCourseIds = chosenCourseIds.remove(idToRemove);
+            searchDropdown.chosenCourseIds = searchDropdown.chosenCourseIds.getArrayWithout(idToRemove);
             $(this).closest('li').remove();
             timetable.removeCourse(course);
         });
