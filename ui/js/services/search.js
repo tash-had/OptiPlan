@@ -148,7 +148,7 @@ class SearchDropdown {
     onChoose(clickedElement) {
         var courseId = clickedElement.attr("data-course-id"); 
         if (this.chosenCourseIds.indexOf(courseId) < 0) {
-            this.chosenCourseIds.push(course.courseId); 
+            this.chosenCourseIds.push(courseId); 
             timetableUI.addCourseWithElement(clickedElement, true);
         }
         this.toggleSearchResultsDialog(true);
