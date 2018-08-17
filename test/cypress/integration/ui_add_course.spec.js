@@ -47,7 +47,7 @@ describe("Adding/Deleting courses works", function () {
     });
 });
 
-/* 
+
 describe("Searchbar functions correctly", function () {
 
     beforeEach(function () {
@@ -61,29 +61,26 @@ describe("Searchbar functions correctly", function () {
             .type("CSC108").then(function () {
                 cy.wait(1000); 
                 cy.get("#courseSearch").type("{downarrow}"); 
-                cy.get("#selectedItem").then(function (e) {
-                    var gray = ["rgb(242, 242, 242)", "rgb(246, 246, 246)", "rgb(247, 247, 247)"]; 
-                    expect(e).to.have.css('background-color')
-                    var backgroundColor = e.css('background-color'); 
-                    expect(gray).includes(backgroundColor); 
+                cy.get(".search-dialog").then(function (e) {
+                    expect(e.children().first()).to.have.id('selectedItem'); 
                 });
             });
     });
 });
-*/
 
-function addCourse(course, onFetched) {
-    var courseId;
 
-    cy.get("#courseSearch")
-        .type(course);
-    var courseId;
-    cy.get(".search-dialog").children().first().then(function (e) {
-        courseId = e[0].getAttribute("data-course-id");
-    }).click().then(function () {
-        if (onFetched) {
-            onFetched(courseId);
-        }
-    });
-}
+    function addCourse(course, onFetched) {
+        var courseId;
+
+        cy.get("#courseSearch")
+            .type(course);
+        var courseId;
+        cy.get(".search-dialog").children().first().then(function (e) {
+            courseId = e[0].getAttribute("data-course-id");
+        }).click().then(function () {
+            if (onFetched) {
+                onFetched(courseId);
+            }
+        });
+    }
 
