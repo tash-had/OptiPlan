@@ -39,7 +39,6 @@ describe("Adding/Deleting courses works", function () {
         });
         // use the id to click the delete button
         cy.get("#" + "course1" + ">div>.delete-icon").click();
-
         cy.get("#courses>.row>.collection").then(function (courseList) {
             expect(courseList[0].children.length).equals(0);
 
@@ -56,31 +55,31 @@ describe("Searchbar functions correctly", function () {
         cy.reload(true);
     });
 
-    it("Down arrow should have the same effect as cursor hover", function () {
+    it("Down arrow should select search results", function () {
         cy.get("#courseSearch")
             .type("CSC108").then(function () {
-                cy.wait(1000); 
-                cy.get("#courseSearch").type("{downarrow}"); 
+                cy.wait(1000);
+                cy.get("#courseSearch").type("{downarrow}");
                 cy.get(".search-dialog").then(function (e) {
-                    expect(e.children().first()).to.have.id('selectedItem'); 
+                    expect(e.children().first()).to.have.id('selectedItem');
                 });
             });
     });
 });
 
 
-    function addCourse(course, onFetched) {
-        var courseId;
+function addCourse(course, onFetched) {
+    var courseId;
 
-        cy.get("#courseSearch")
-            .type(course);
-        var courseId;
-        cy.get(".search-dialog").children().first().then(function (e) {
-            courseId = e[0].getAttribute("data-course-id");
-        }).click().then(function () {
-            if (onFetched) {
-                onFetched(courseId);
-            }
-        });
-    }
+    cy.get("#courseSearch")
+        .type(course);
+    var courseId;
+    cy.get(".search-dialog").children().first().then(function (e) {
+        courseId = e[0].getAttribute("data-course-id");
+    }).click().then(function () {
+        if (onFetched) {
+            onFetched(courseId);
+        }
+    });
+}
 
