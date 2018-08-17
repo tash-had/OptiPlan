@@ -56,7 +56,7 @@ describe("Searchbar functions correctly", function () {
         cy.reload(true);
     });
 
-    it.only("Down arrow should have the same effect as cursor hover", function () {
+    it("Down arrow should have the same effect as cursor hover", function () {
         cy.get("#courseSearch")
             .type("CSC108").then(function () {
                 cy.wait(1000); 
