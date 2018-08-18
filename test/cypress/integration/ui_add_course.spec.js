@@ -41,7 +41,6 @@ describe("Adding/Deleting courses works", function () {
         cy.get("#" + "course1" + ">div>.delete-icon").click();
         cy.get("#courses>.row>.collection").then(function (courseList) {
             expect(courseList[0].children.length).equals(0);
-
         });
     });
 });
@@ -63,6 +62,8 @@ describe("Searchbar functions correctly", function () {
                 cy.get(".search-dialog").then(function (e) {
                     expect(e.children().first()).to.have.id('selectedItem');
                 });
+                cy.get("#courseSearch").type("{selectall}{backspace}"); 
+                cy.get("#courseSearch").click(); 
             });
     });
 });
