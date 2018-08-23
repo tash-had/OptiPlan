@@ -6,3 +6,5 @@
 3 - Remove the `mock-api` folder (make sure it's not on the prod server)
 
 4 - Remove `renderjson` script tag from index.html
+
+5- Yuvi's in
