@@ -4,7 +4,7 @@
   "description": "UofT Timetable Generator",
   "main": "api/index.js",
   "scripts": {
-    "test": "\"echo \"Error: no test specified\" && exit 1",
+    "test": "chmod +x ./test/test.sh && ./test/test.sh",
     "start": "nodemon api/index.js"
   },
   "repository": {
