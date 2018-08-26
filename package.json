@@ -5,7 +5,8 @@
   "main": "api/index.js",
   "scripts": {
     "test": "chmod +x ./test/test.sh && ./test/test.sh",
-    "start": "nodemon api/index.js"
+    "start": "npm run build:live",
+    "build:live": "nodemon --ignore ./build --exec ./node_modules/.bin/ts-node -- ./api/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,11 +19,14 @@
   "author": "Tash-had, Labib",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^10.9.2",
     "cors": "^2.8.4",
     "cypress": "^3.0.3",
-    "nodemon": "^1.18.2"
+    "nodemon": "^1.18.2",
+    "ts-node": "^7.0.1"
   },
   "dependencies": {
+    "@types/jquery": "^3.3.6",
     "cors": "^2.8.4",
     "express": "^4.16.3",
     "mongoose": "^5.2.3",
