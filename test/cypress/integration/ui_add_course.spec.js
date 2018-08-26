@@ -6,7 +6,7 @@ describe("Adding/Deleting courses works", function () {
         cy.reload(true);
     });
 
-    it("Course can be searched and clicking it add it to the timetable", function () {
+    it("Course can be searched and clicking it adds it to the timetable", function () {
         var checkCorrectCourseAdded = function (expectedCourseId) {
             cy.get("#courses>.row>.collection")
                 .each(function (val, idx, collection) {
@@ -21,7 +21,6 @@ describe("Adding/Deleting courses works", function () {
     });
 
     it("User isn't able to add the same course twice", function () {
-        cy.visit("ui/index.html");
         addCourse("CSC108");
         addCourse("CSC108");
         cy.get("#courses>.row>.collection").then(function (list) {
