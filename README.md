@@ -1,5 +1,5 @@
 # Release Instructions
-1 - Uncomment Mock API URL from api/services/search-service.js
+1 - Uncomment Mock API URL from api/services/search-service.js and update `SEARCH_COURSE_API` in `search.js`
 
 2- Remove `ui/js/mocks.js` and its corresponding script tag in`ui/index.html` and `css/mock.css` aswell as its `link` tag in `index.html`
 
