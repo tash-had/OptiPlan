@@ -2,7 +2,7 @@ describe("Adding/Deleting courses works", function () {
 
     beforeEach(function () {
         cy.clearLocalStorage();
-        cy.visit("ui/index.html");
+        cy.visit("ui-build/index.html");
         cy.reload(true);
     });
 
@@ -21,7 +21,7 @@ describe("Adding/Deleting courses works", function () {
     });
 
     it("User isn't able to add the same course twice", function () {
-        cy.visit("ui/index.html");
+        cy.visit("ui-build/index.html");
         addCourse("CSC108");
         addCourse("CSC108");
         cy.get("#courses>.row>.collection").then(function (list) {
@@ -30,7 +30,7 @@ describe("Adding/Deleting courses works", function () {
     });
 
     it("User can delete the course", function () {
-        cy.visit("ui/index.html");
+        cy.visit("ui-build/index.html");
         addCourse("CSC108");
 
         cy.get("#courses>.row>.collection").then(function (list) {
@@ -50,7 +50,7 @@ describe("Searchbar functions correctly", function () {
 
     beforeEach(function () {
         cy.clearLocalStorage();
-        cy.visit("ui/index.html");
+        cy.visit("ui-build/index.html");
         cy.reload(true);
     });
 
