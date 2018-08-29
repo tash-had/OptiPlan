@@ -26,12 +26,15 @@
     "ts-node": "^7.0.1"
   },
   "dependencies": {
+    "@cypress/xvfb": "^1.2.3",
     "@types/jquery": "^3.3.6",
     "cors": "^2.8.4",
     "express": "^4.16.3",
-    "mongoose": "^5.2.3",
+    "mongoose": "^5.2.10",
     "node-rest-client": "^3.1.0",
-    "uuid": "^3.3.2"
+    "typescript": "^3.0.1",
+    "uuid": "^3.3.2",
+    "xvfb": "^0.2.3"
   },
   "bugs": {
     "url": "https://github.com/tash-had/OptiPlan/issues"
