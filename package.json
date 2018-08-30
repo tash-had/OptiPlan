@@ -18,7 +18,7 @@
     "uoft",
     "timetable"
   ],
-  "author": "Tash-had, Labib",
+  "author": "Tash-had, Labib, Yuvi",
   "license": "ISC",
   "devDependencies": {
     "@types/cors": "^2.8.4",
