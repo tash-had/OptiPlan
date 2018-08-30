@@ -1,5 +1,6 @@
-# if no args are provided, run ui test. if args are provided, open cypress 
+#!/usr/bin/env bash
 
+# if no args are provided, run ui test. if args are provided, open cypress 
 if [ $# -eq 0 ]
   then
     node_modules/.bin/cypress run
