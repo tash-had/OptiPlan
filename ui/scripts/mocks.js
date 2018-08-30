@@ -18,7 +18,7 @@ function setButtonState() {
     }
 }
 
-function fetchCourseData(year) {
+function parseCourseDisplayDetails(year) {
     var yearToSet = 'y' + year;
     var yearSet = localStorage.yearSet;
     if (yearToSet != yearSet) {
