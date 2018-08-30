@@ -11,11 +11,13 @@
 
 # For API Development 
 - In a seperate terminal window, run `npm run start` from the root.
+- You can now write in JS or TS 
 
 # For UI Development
-- In a seperate terminal window, run `npm run start:ui` from the root. Now, You can write HTML/CSS/JS/TS files in `ui/` and everytime you save, your TypeScript will be compiled and you will be able to go to `ui-build/index.html` to run the webpage. 
+- In a seperate terminal window, run `npm run start:ui` from the root. 
+- You can write HTML/CSS/JS/TS files in `ui/` and everytime you save, your TypeScript will be compiled and you will be able to go to `ui-build/index.html` to run the webpage. 
 
-- Remember to add your typescript files with a `.js` extension when declaring them in your HTML. 
+- Remember to add your typescript files with a `.js` extension when declaring them in your HTML `<script></script>` tags. 
 
 - The HTML file in `ui/` is hidden (ie. named `.index.html`) to prevent you from accidentally opening `ui/index.html` instead of `ui-build/index.html`
 
