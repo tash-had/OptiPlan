@@ -1,14 +1,16 @@
 #!/usr/bin/env bash
 build_file="ui-build/"
 root=`pwd`
+log="LOG:"
 
 # remove old ui-build 
 rm -rf $build_file
 cp -r ui/ $build_file
+
 cd $build_file
 current_path=`pwd`
-mv "$current_path/.index.html" "$current_path/index.html"
 
+mv "$current_path/.index.html" "$current_path/index.html"
 rm "$current_path/index.js"
 rm "$current_path/nodeman-ui-config.json"
 
@@ -18,9 +20,9 @@ echo "{\"compilerOptions\": {\"target\": \"es5\",\"types\": [], \"noEmitOnError\
 count=`find . -name '*.ts' | wc -l`
 if [ $count != 0 ]
 then
-echo "going" 
-tsc -b
-echo "gone"
+echo "$log COMPILING TYPESCRIPT" 
+tsc
+echo "$log TYPESCRIPT COMPILED"
 for i in `find . -regex ".*\.ts"`
 do
 rm $i
