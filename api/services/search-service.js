@@ -41,14 +41,16 @@ module.exports = {
         return matchingCourses;
     },
 
+    // The UI is not currently using the rest of the course data. 
+    // So there's no point in sending it. 
     parseCourseData: function (data) {
         var course = {
             courseCode: data.Abbr,
-            courseFullName: data.Name,
-            campus: data.Campus,
+            // courseFullName: data.Name,
+            // campus: data.Campus,
             id: data.ID,
             semester: data.Semester,
-            sections: data.Sections
+            // sections: data.Sections
         };
         return course;
     }
