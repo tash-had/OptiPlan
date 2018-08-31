@@ -1,0 +1,6 @@
+{
+    "events": {
+        "restart": "sh ui-build.sh",
+        "crash": "sh ui-build.sh"
+    }
+}
