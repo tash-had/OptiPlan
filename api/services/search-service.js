@@ -34,7 +34,7 @@ module.exports = {
                 courseCode: courseCode,
                 courseFullName: courseFullName,
                 // html: courseAsListItem,
-                id: courseId
+                id: courseCode
             };
             matchingCourses.push(course);
         }
@@ -46,11 +46,11 @@ module.exports = {
     parseCourseData: function (data) {
         var course = {
             courseCode: data.Abbr,
-            // courseFullName: data.Name,
-            // campus: data.Campus,
-            id: data.ID,
+            courseFullName: data.Name,
+            campus: data.Campus,
+            // id: data.ID,
             semester: data.Semester,
-            // sections: data.Sections
+            sections: data.Sections
         };
         return course;
     }
