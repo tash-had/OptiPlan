@@ -1,4 +1,5 @@
-var SEARCH_COURSE_API = 'http://localhost:3000/search-course?searchQuery=';
+var SEARCH_COURSE_API = 'http://localhost:3002/search-course?searchQuery='; // MOCK URL
+// var SEARCH_COURSE_API = 'http://localhost:3000/search-course?searchQuery=';  
 var COURSE_MATCHER = new RegExp("^[a-zA-Z]{3}[0-9]{1,3}$");
 var searchDropdown, timetableUI;
 
@@ -32,11 +33,10 @@ class SearchDropdown {
         this.numOptions = courses.length;
         $('.search-dialog').empty();
         for (var course of courses) {
-            course.id = getIntCourseId(course.id);
-            var badgeAttrs = getBadgeAttrs(course);
+            var badgeAttrs = getTermDetails(course);
             $('.search-dialog').append('<div data-course-id=' + course.id +
-                '><span class="new badge ' + badgeAttrs.color + '"data-badge-caption="' +
-                badgeAttrs.season + '"></span>' + course.courseFullName.replaceAll(":", "") + '</div>');
+                '><span class="new badge ' + badgeAttrs.badgeColor + '"data-badge-caption="' +
+                badgeAttrs.season + '"></span>' + course.courseShortenedName.replaceAll(":", "") + '</div>');
         }
         $('.search-dialog').addClass('open');
         this.dropdownOpen = true;
