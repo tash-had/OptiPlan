@@ -1,49 +1,48 @@
 var COURSE_DATA_URL = "http://localhost:3000/course?courseId=";
 
 class Course {
-    constructor(courseId, fetchDataCallback) {
-        this.courseId =  getIntCourseId(courseId); 
-        this.courseCode;
+    constructor(courseId, courseDisplayName, fetchDataCallback) {
+        this.courseId = courseId; 
+        this.courseCode = courseId;
+        this.courseShortenedName = courseDisplayName;
         this.courseFullName;
-        this.courseShortenedName;
-        this.semester;
         this.sections;
-        if (fetchDataCallback){
-            this.fetchCourseData(this.courseId, this, fetchDataCallback);
+        if (fetchDataCallback) {
+            this.fetchCourseData(this, fetchDataCallback);
         }
+        this.semester = getTermDetails(this).seasonFirstLetter;
     }
 
-    fetchCourseData(courseId, obj, callback) {
-        $.get(COURSE_DATA_URL + courseId, function (response) {
-            Object.assign(obj, response);
+    fetchCourseData(courseObj, callback) {
+        $.get(COURSE_DATA_URL + courseObj.courseId, function (response) {
+            Object.assign(courseObj, response);
             callback();
         });
-    }
+    } 
 }
 
-function getBadgeAttrs(course) {
+function getTermDetails(course) {
     // its safer to use the semester, so only use courseCode if we really have to 
     var semester = course.courseCode.slice(-1);
     if (course.semester) {
         semester = course.semester;
     }
-    var badgeAttrs = {
+    var termDetails = {
+        "seasonFirstLetter": '', 
         "season": '',
-        "color": ''
+        "badgeColor": ''
     };
     if (semester === "F") {
-        badgeAttrs.season = "Fall";
-        badgeAttrs.color = "orange";
+        termDetails.season = "Fall";
+        termDetails.badgeColor = "orange";
     } else if (semester === "S") {
-        badgeAttrs.season = "Winter";
-        badgeAttrs.color = "blue";
+        termDetails.season = "Winter";
+        termDetails.badgeColor = "blue";
     } else if (semester === "Y") {
-        badgeAttrs.season = "Year";
-        badgeAttrs.color = "purple";
+        termDetails.season = "Year";
+        termDetails.badgeColor = "purple";
     }
-    return badgeAttrs;
-}
+    termDetails.seasonFirstLetter = semester; 
 
-function getIntCourseId(courseElementId){
-    return courseElementId.replaceAll("c", "");
+    return termDetails;
 }

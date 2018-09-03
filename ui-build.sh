@@ -3,6 +3,7 @@ build_file="ui-build/"
 root=`pwd`
 log="LOG:"
 
+echo "$log STARTING BUILD"
 # remove old ui-build 
 rm -rf $build_file
 cp -r ui/ $build_file
@@ -30,3 +31,4 @@ done
 rm "$current_path/tsconfig.json"
 fi 
 cd $root
+echo "$log COMPLETED BUILD"
