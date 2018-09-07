@@ -1,0 +1,46 @@
+.cal-week-hours-view {
+
+    .cal-day-headers {
+        display: flex;
+    }
+
+    .cal-header {
+        flex: 1;
+        text-align: center;
+    }
+
+    .cal-header:first-child {
+        flex: 0.5;
+        text-align: center;
+    }
+
+    .cal-days-container {
+        display: flex;
+    }
+
+    .cal-day-container {
+        flex: 1;
+    }
+
+    .cal-day-container:first-child {
+        flex: 0.5;
+    }
+
+    .cal-day-view .cal-week-hour-odd {
+        background: #ffffff;
+    }
+
+    .cal-day-view .cal-week-hour-even {
+        background: #fafafa;
+    }
+
+    .cal-day-view .cal-hour:not(:last-child) .cal-hour-segment,
+    .cal-day-view .cal-hour:last-child :not(:last-child) .cal-hour-segment {
+        border-bottom: 1px dotted #e1e1e1;
+    }
+
+    .cal-day-view .cal-hour-rows {
+        overflow-y: hidden;
+    }
+
+}
