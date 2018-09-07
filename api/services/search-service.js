@@ -3,7 +3,7 @@
 var Client = require('node-rest-client').Client;
 var client = new Client();
 // const GRIDDY_BASE = "http://griddy.org/api";
-const GRIDDY_BASE = "http://localhost:3001/griddy";
+const GRIDDY_BASE = "http://localhost:3001/griddy"; // MOCK URL
 
 module.exports = {
     ENDPOINTS: {
@@ -27,14 +27,14 @@ module.exports = {
             var courseAsListItem = resultsArr[i];
             var courseCode = courseAsListItem.substring(courseAsListItem.indexOf(">") + 1, courseAsListItem.indexOf(":"));
             var courseFullName = courseAsListItem.substring(courseAsListItem.indexOf(">") + 1);
-            var courseId = courseAsListItem.substring(courseAsListItem.indexOf('=') + 1, courseAsListItem.indexOf('class') - 1);
+            // var courseId = courseAsListItem.substring(courseAsListItem.indexOf('=') + 1, courseAsListItem.indexOf('class') - 1);
 
             // courseAsListItem = courseAsListItem + "</li>"; // end tag got deleted in the split
             var course = {
                 courseCode: courseCode,
-                courseFullName: courseFullName,
+                courseShortenedName: courseFullName,
                 // html: courseAsListItem,
-                id: courseId
+                id: courseCode
             };
             matchingCourses.push(course);
         }
@@ -46,11 +46,11 @@ module.exports = {
     parseCourseData: function (data) {
         var course = {
             courseCode: data.Abbr,
-            // courseFullName: data.Name,
-            // campus: data.Campus,
-            id: data.ID,
+            courseFullName: data.Name,
+            campus: data.Campus,
+            // id: data.ID,
             semester: data.Semester,
-            // sections: data.Sections
+            sections: data.Sections
         };
         return course;
     }

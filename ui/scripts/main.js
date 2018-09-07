@@ -17,19 +17,18 @@ Array.prototype.getArrayWithout = function (elementToExclude) {
 class TimetableUI {
     addCourseWithElement(courseElement) {
         var courseId = courseElement.attr("data-course-id");
-        var course = new Course(courseId, function () {
-            course.courseShortenedName = courseElement[0].innerHTML.split("</span>")[1];
-            timetable.addCourse(course);
-            timetableUI.addCourseToView(course);
-        });
+        var courseShortenedName = courseElement[0].innerHTML.split("</span>")[1];
+        var course = new Course(courseId, courseShortenedName);
+        timetable.addCourse(course);
+        timetableUI.addCourseToView(course);
         $('.autocomplete input').val("").focus();
         searchDropdown.toggleSearchResultsDialog(true);
     }
 
     addCourseToView(course, addedToChosenCourseIds) {
-        var badgeAttrs = getBadgeAttrs(course); 
+        var badgeAttrs = getTermDetails(course); 
         var courseHtml = '<li class="collection-item" data-course-id=' + course.courseId + '>\
-            <div><span class="new badge ' + badgeAttrs.color + '" style="margin-right:5px;float:left;" \
+            <div><span class="new badge ' + badgeAttrs.badgeColor + '" style="margin-right:5px;float:left;" \
             data-badge-caption="' + badgeAttrs.season + '"></span>' + course.courseShortenedName + '\
             <i class="material-icons delete-icon">delete</i></div></li>';
         if (badgeAttrs.season === "Fall"){

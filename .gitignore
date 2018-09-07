@@ -1,5 +1,5 @@
 node_modules/
-.vscode/
 .vs/
 test/cypress/videos/
 test/cypress/screenshots/
+ui-build/

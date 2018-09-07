@@ -4,9 +4,10 @@
   "description": "UofT Timetable Generator",
   "main": "api/index.js",
   "scripts": {
-    "test": "chmod +x ./test/test.sh && ./test/test.sh",
+    "test": "chmod +x ./test/test.sh && sh ./test/test.sh",
+    "start:ui": "sh run-ui.sh && nodemon --ext html,css,js,ts --config ui/nodeman-ui-config.json --ignore ui-build/ ui/index.js",
     "start": "npm run build:live",
-    "build:live": "nodemon --ignore ./build --exec ./node_modules/.bin/ts-node -- ./api/index.js"
+    "build:live": "nodemon -e ts,js --ignore ./ui-build --exec ./node_modules/.bin/ts-node ./api/index.js"
   },
   "repository": {
     "type": "git",
@@ -16,17 +17,26 @@
     "uoft",
     "timetable"
   ],
-  "author": "Tash-had, Labib",
+  "author": "Tash-had, Labib, Yuvi",
   "license": "ISC",
   "devDependencies": {
+    "@types/cors": "^2.8.4",
+    "@types/cypress": "^1.1.3",
+    "@types/mongoose": "^5.2.7",
     "@types/node": "^10.9.2",
+    "@types/uuid": "^3.4.3",
     "cors": "^2.8.4",
     "cypress": "^3.0.3",
-    "nodemon": "^1.18.2",
-    "ts-node": "^7.0.1"
+    "nodemon": "^1.18.3",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.1"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@cypress/xvfb": "^1.2.3",
+=======
+    "@types/express": "^4.16.0",
+>>>>>>> 81372a82cf9b43386fc0bc0e42d4192372ad1de0
     "@types/jquery": "^3.3.6",
     "cors": "^2.8.4",
     "express": "^4.16.3",
