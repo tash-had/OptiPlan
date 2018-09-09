@@ -1,1 +1,0 @@
-open "ui-build/index.html"

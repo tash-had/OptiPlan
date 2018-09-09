@@ -11,6 +11,7 @@
 
 # For API Development 
 - In a seperate terminal window, run `npm run start` from the root.
+- Ignore any mongo-related errors in the terminal.
 - You can now write in JS or TS 
 
 # For UI Development
