@@ -1,1 +1,1 @@
-json-server --watch response/response-mocks-griddy.json --routes routes/griddy-routes.json -c config.json --port 3001
+json-server --watch response/response-mocks-uoft.json --routes routes/uoft-routes.json -c config.json --port 3001

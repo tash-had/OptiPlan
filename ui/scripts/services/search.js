@@ -1,5 +1,5 @@
-var SEARCH_COURSE_API = 'http://localhost:3002/search-course?searchQuery='; // MOCK URL
-// var SEARCH_COURSE_API = 'http://localhost:3000/search-course?searchQuery=';  
+// var SEARCH_COURSE_API = 'http://localhost:3002/search-course?searchQuery='; // MOCK URL
+var SEARCH_COURSE_API = 'http://localhost:3000/search-course?searchQuery=';  
 var COURSE_MATCHER = new RegExp("^[a-zA-Z]{3}[0-9]{1,3}$");
 var searchDropdown, timetableUI;
 

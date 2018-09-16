@@ -3,7 +3,7 @@
 var Client = require('node-rest-client').Client;
 var client = new Client();
 const UOFT_BASE = "https://timetable.iit.artsci.utoronto.ca/api/20189";
-// const UOFT_BASE = "http://localhost:3001/griddy"; // MOCK URL
+// const UOFT_BASE = "http://localhost:3001/uoft"; // MOCK URL
 
 module.exports = {
     ENDPOINTS: {
@@ -24,15 +24,15 @@ module.exports = {
         } 
         var matchingCourses = []
         for ( var course in data){
-            console.log(JSON.stringify(data[course]));
-            var courseCode = data[course].code;
+            // console.log(JSON.stringify(data[course]));
+            var courseCode = data[course].code + data[course].section;
             var courseFullName = data[course].courseTitle;
             var course = {
                         courseCode: courseCode,
                         courseShortenedName: courseFullName,
                         id: courseCode
-                    };
-                    matchingCourses.push(course);
+            };
+            matchingCourses.push(course);
         }
         return matchingCourses;
     },
