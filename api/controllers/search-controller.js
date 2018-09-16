@@ -4,7 +4,32 @@ var searchService = require("../services/search-service");
 var endpoints = searchService.ENDPOINTS;
 
 exports.courseSearch = function (req, res) {
-    var urlParams = req.query.searchQuery + "&section=&studyyear=&daytime=&weekday=&prof=&breadth=&online=&waitlist=&available=&title=";
+
+    var section = "F",
+    studyYear = "",
+    dayTime = "",
+    weekDay = "",
+    prof = "",
+    breadth = "",
+    online = "",
+    waitlist = "",
+    available = "",
+    title = ""
+    ;
+    
+    var searchApiUrl = 
+    "&section="+ section
+    +"&studyyear="+ studyYear
+    +"&daytime="+ dayTime
+    +"&weekday="+ weekDay
+    +"&prof="+ prof
+    +"&breadth="+ breadth
+    +"&online="+ online
+    +"&waitlist="+ waitlist
+    +"&available="+ available
+    +"&title="+ title
+    ;
+    var urlParams = req.query.code + searchApiUrl; 
     searchService.sendQueryToUofT(endpoints.courseSearch, urlParams, function (data) {
         res.send(searchService.parseCourseSearchResults(data));
     });
