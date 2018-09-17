@@ -2,39 +2,39 @@
 
 var Client = require('node-rest-client').Client;
 var client = new Client();
-// const GRIDDY_BASE = "http://griddy.org/api";
-const GRIDDY_BASE = "http://localhost:3001/griddy"; // MOCK URL
+
+var today = new Date();
+var year = today.getFullYear();
+const MONTH = "9";
+const UOFT_BASE = "https://timetable.iit.artsci.utoronto.ca/api/" + year + MONTH + "/courses?";
+// const UOFT_BASE = "http://localhost:3001/uoft"; // MOCK URL
 
 module.exports = {
     ENDPOINTS: {
-        courseSearch: GRIDDY_BASE + "/course?q=",
-        courseDataSearch: GRIDDY_BASE + "/course?id="
+        courseSearch: UOFT_BASE,
+        courseDataSearch: UOFT_BASE + "/courses?org=&code="
     },
 
-    sendQueryToGriddy: function (endpoint, params, onRequestCompleted) {
+    sendQueryToUofT: function (endpoint, params, onRequestCompleted) {
         client.get(endpoint + params, function (data) {
             onRequestCompleted(data);
         });
     },
 
     parseCourseSearchResults: function (data) {
-        if (!data || !data.CodeNameMatches) {
-            return []
-        }
-        var resultsArr = data.CodeNameMatches.split("</li>");
-        var matchingCourses = []
-        for (var i = 0; i < resultsArr.length - 1; i++) { // last element is always ""
-            var courseAsListItem = resultsArr[i];
-            var courseCode = courseAsListItem.substring(courseAsListItem.indexOf(">") + 1, courseAsListItem.indexOf(":"));
-            var courseFullName = courseAsListItem.substring(courseAsListItem.indexOf(">") + 1);
-            // var courseId = courseAsListItem.substring(courseAsListItem.indexOf('=') + 1, courseAsListItem.indexOf('class') - 1);
 
-            // courseAsListItem = courseAsListItem + "</li>"; // end tag got deleted in the split
+        if (!data) {
+            return []
+        } 
+        var matchingCourses = []
+        // Parsing the course data received from U of T response 
+        for ( var course in data){
+            var courseCode = data[course].code + data[course].section;
+            var courseFullName = data[course].courseTitle;
             var course = {
-                courseCode: courseCode,
-                courseShortenedName: courseFullName,
-                // html: courseAsListItem,
-                id: courseCode
+                        courseCode: courseCode,
+                        courseShortenedName: courseFullName,
+                        id: courseCode
             };
             matchingCourses.push(course);
         }
@@ -44,13 +44,18 @@ module.exports = {
     // The UI is not currently using the rest of the course data. 
     // So there's no point in sending it. 
     parseCourseData: function (data) {
+
+        var courseInfo = {
+            fallSection: data.PHY151H1-F-20189
+        };
+
         var course = {
-            courseCode: data.Abbr,
-            courseFullName: data.Name,
-            campus: data.Campus,
+            courseCode: courseInfo.code,
+            courseFullName: courseInfo.courseTitle,
+            campus: courseInfo.Campus,
             // id: data.ID,
-            semester: data.Semester,
-            sections: data.Sections
+            semester: courseInfo.section,
+            sections: courseInfo.meetings
         };
         return course;
     }

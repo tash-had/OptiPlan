@@ -1,15 +1,32 @@
-var SEARCH_COURSE_API = 'http://localhost:3002/search-course?searchQuery='; // MOCK URL
-// var SEARCH_COURSE_API = 'http://localhost:3000/search-course?searchQuery=';  
+// var SEARCH_COURSE_API = 'http://localhost:3002/search-course?searchQuery='; // MOCK URL
+
+
+var SEARCH_COURSE_API = "http://localhost:3000/search-course?";  
 var COURSE_MATCHER = new RegExp("^[a-zA-Z]{3}[0-9]{1,3}$");
 var searchDropdown, timetableUI;
 
 $(document).ready(function () {
     searchDropdown = new SearchDropdown();
+    
 
     $('#courseSearch').on('input', function (e) {
         var input = this.value;
         if (input && input.length > 3 && COURSE_MATCHER.test(input)) {
-            var URL = SEARCH_COURSE_API + input;
+            // Search Filter Options 
+            var searchOptions = "courseCode=" + input
+            +"&section="
+            +"&studyyear="
+            +"&daytime="
+            +"&weekday="
+            +"&prof="
+            +"&breadth="
+            +"&online="
+            +"&waitlist="
+            +"&available="
+            +"&title="
+            +"&department="
+            ;
+            var URL = SEARCH_COURSE_API + searchOptions;
             $.get(URL, function (response) {
                 searchDropdown.initSearchDialog(response);
             });
