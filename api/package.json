@@ -2,12 +2,11 @@
   "name": "optiplan",
   "version": "1.0.0",
   "description": "UofT Timetable Generator",
-  "main": "api/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "chmod +x ./test/test.sh && sh ./test/test.sh",
-    "start:ui": "sh run-ui.sh && nodemon --ext html,css,js,ts --config ui/nodeman-ui-config.json --ignore ui-build/ ui/index.js",
     "start": "npm run build:live",
-    "build:live": "nodemon -e ts,js --ignore ./ui-build --exec ./node_modules/.bin/ts-node ./api/index.js"
+    "build:live": "nodemon -e ts,js --exec ./node_modules/.bin/ts-node ./index.js"
   },
   "repository": {
     "type": "git",

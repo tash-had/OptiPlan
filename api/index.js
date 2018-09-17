@@ -11,7 +11,7 @@ var app = express();
 var port = process.env.port || 3000;
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/optiplanDB');
+mongoose.connect('mongodb://localhost/optiplanDB',  { useNewUrlParser: true });
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
