@@ -2,12 +2,16 @@
 
 var Client = require('node-rest-client').Client;
 var client = new Client();
-const UOFT_BASE = "https://timetable.iit.artsci.utoronto.ca/api/20189";
+
+var today = new Date();
+var year = today.getFullYear();
+const MONTH = "9";
+const UOFT_BASE = "https://timetable.iit.artsci.utoronto.ca/api/" + year + MONTH + "/courses?";
 // const UOFT_BASE = "http://localhost:3001/uoft"; // MOCK URL
 
 module.exports = {
     ENDPOINTS: {
-        courseSearch: UOFT_BASE + "/courses?org=&code=",
+        courseSearch: UOFT_BASE,
         courseDataSearch: UOFT_BASE + "/courses?org=&code="
     },
 
@@ -23,8 +27,8 @@ module.exports = {
             return []
         } 
         var matchingCourses = []
+        // Parsing the course data received from U of T response 
         for ( var course in data){
-            // console.log(JSON.stringify(data[course]));
             var courseCode = data[course].code + data[course].section;
             var courseFullName = data[course].courseTitle;
             var course = {
