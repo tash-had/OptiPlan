@@ -60,19 +60,15 @@
     [events]="events"
     [excludeDays]="excludeDays">
   </mwl-calendar-month-view>
-  <iq-calendar-week-hours-view
-    *ngSwitchCase="'week'"
-    [viewDate]="viewDate"
-    [events]="events"
-    [excludeDays]="excludeDays"
-    [hourSegments]="2"
-    [dayStartHour]="8"
-    [dayEndHour]="20"
-    (eventClicked)="eventClicked($event)"
-    (hourSegmentClicked)="hourSegmentClicked($event)"
-    (eventTimesChanged)="eventTimesChanged($event)"
-    [refresh]="refresh">
-  </iq-calendar-week-hours-view>
+  <mwl-calendar-week-view
+  *ngSwitchCase="'week'"
+  [viewDate]="viewDate"
+  [events]="events"
+  [hourSegments]="2"
+  [dayStartHour]="8"
+  [dayEndHour]="20"
+  [excludeDays]="excludeDays">
+  </mwl-calendar-week-view>
   <mwl-calendar-day-view
     *ngSwitchCase="'day'"
     [viewDate]="viewDate"
