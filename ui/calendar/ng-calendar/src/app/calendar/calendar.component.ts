@@ -21,8 +21,17 @@ import {
   setMinutes
 } from 'date-fns';
 import { colors } from '../utils/colors';
+import { Scheduler } from 'rxjs';
 
 type CalendarPeriod = 'day' | 'week' | 'month';
+type scheduleView = 'fall' | 'winter';
+
+//days are one off for some reason
+const MON = '2018-09-04';
+const TUE = '2018-09-05';
+const WED = '2018-09-06';
+const THU = '2018-09-07';
+const FRI = '2018-09-08';
 
 function addPeriod(period: CalendarPeriod, date:Date, amount: number): Date{
   return {
@@ -66,15 +75,23 @@ function endOfPeriod(period: CalendarPeriod, date: Date): Date {
 })
 export class CalendarComponent {
   view: CalendarPeriod = 'week';
-
+  semester: scheduleView = 'winter';
   viewDate: Date = new Date('2018-09-03');
 
-  events: CalendarEvent[] = [    {
-    start: setHours(setMinutes(new Date('2018-09-04'), 0), 15), //these are 1 day behind for some reason
-    end: setHours(setMinutes(new Date('2018-09-04'), 0), 16),
+  fallEvents: CalendarEvent[] = [    {
+    start: setHours(setMinutes(new Date(MON), 0), 15), 
+    end: setHours(setMinutes(new Date(MON), 0), 16),
     title: 'CSC263',
     color: colors.purple
   }];
+
+  winEvents: CalendarEvent[] = [ {
+    start: setHours(setMinutes(new Date(TUE), 0),12),
+    end: setHours(setMinutes(new Date(TUE), 0),13),
+    title: 'CSC258',
+    color: colors.green
+  }
+  ];
 
   minDate: Date = subMonths(new Date('2018-09-02'), 1);
 
@@ -114,6 +131,10 @@ export class CalendarComponent {
   changeView(view: CalendarPeriod): void {
     this.view = view;
     this.dateOrViewChanged();
+  }
+
+  changeSemester(semester: scheduleView): void{
+    this.semester = semester;
   }
 
   dateOrViewChanged(): void {

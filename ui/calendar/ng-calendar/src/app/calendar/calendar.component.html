@@ -3,30 +3,32 @@
     display: none;
   }
 </style>
-<div [ngSwitch]="view">
-  <mwl-calendar-month-view
-    *ngSwitchCase="'month'"
-    [viewDate]="viewDate"
-    [events]="events"
-    [excludeDays]="excludeDays">
-  </mwl-calendar-month-view>
+<div class="btn-group">
+  <button (click)="changeSemester('fall')" 
+  [ngClass]="semester == 'fall' ? 'btn' : 'btn btn-primary'" >Fall</button>
+  <button (click)="changeSemester('winter')" 
+  [ngClass]="semester == 'winter' ? 'btn' : 'btn btn-primary'" >Winter</button>
+</div>
+<div [ngSwitch]="semester">
   <mwl-calendar-week-view
-  *ngSwitchCase="'week'"
+  *ngSwitchCase="'fall'"
   [viewDate]="viewDate"
-  [events]="events"
+  [events]="fallEvents"
   [hourSegments]="2"
   [dayStartHour]="8"
   [dayEndHour]="20"
   [excludeDays]="excludeDays">
   </mwl-calendar-week-view>
-  <mwl-calendar-day-view
-    *ngSwitchCase="'day'"
-    [viewDate]="viewDate"
-    [events]="events"
-    [hourSegments]='2'
-    [dayStartHour]="8"
-    [dayEndHour]="21">
-  </mwl-calendar-day-view>
+  <mwl-calendar-week-view
+  *ngSwitchCase="'winter'"
+  [viewDate]="viewDate"
+  [events]="winEvents"
+  [hourSegments]="2"
+  [dayStartHour]="8"
+  [dayEndHour]="20"
+  [excludeDays]="excludeDays">
+  </mwl-calendar-week-view>
+
 </div>
 
 
