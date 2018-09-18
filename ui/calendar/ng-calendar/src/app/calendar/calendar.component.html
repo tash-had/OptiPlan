@@ -5,9 +5,9 @@
 </style>
 <div class="btn-group">
   <button (click)="changeSemester('fall')" 
-  [ngClass]="semester == 'fall' ? 'btn btn-secondary btn-lg active' : 'btn btn-lg btn-primary'" >Fall</button>
+  [ngClass]="semester == 'fall' ? 'btn btn-primary btn-lg active' : 'btn btn-lg btn-primary'" >Fall</button>
   <button (click)="changeSemester('winter')" 
-  [ngClass]="semester == 'winter' ? 'btn btn-secondary btn-lg active' : 'btn btn-lg btn-primary'" >Winter</button>
+  [ngClass]="semester == 'winter' ? 'btn btn-primary btn-lg active' : 'btn btn-lg btn-primary'" >Winter</button>
 </div>
 <div [ngSwitch]="semester">
   <mwl-calendar-week-view
